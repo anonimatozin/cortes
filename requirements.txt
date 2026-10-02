@@ -1,0 +1,8 @@
+yt-dlp
+faster-whisper
+av
+numpy
+requests
+google-api-python-client
+google-auth-oauthlib
+google-auth-httplib2

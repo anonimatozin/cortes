@@ -1,0 +1,12 @@
+// hashtags em alta do TikTok — COLE AQUI (o módulo só lê este arquivo, nunca raspa o site)
+// formato aceito, uma por linha:
+//   #minhachhashtag
+//   #minhachhashtag,1200000        (a views é ignorada, serve só de anotação)
+//   sem hashtag também serve: minecraft
+// tire a lista no Creative Center do TikTok (trending hashtags) ou anote as que você
+// já viu subindo no seu nicho. linhas iniciadas com // ou ; são comentário.
+//
+// exemplo (apague os // para usar):
+// #podcastbrasil
+// #cortes
+// #gameplay

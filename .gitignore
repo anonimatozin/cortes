@@ -1,0 +1,23 @@
+# segredos — nunca versionar
+.env
+tokens/
+credentials/
+
+# mídia pesada (GBs)
+source/
+clips/
+models/
+fonts/
+
+# runtime e caches
+logs/
+__pycache__/
+*.pyc
+*.pyo
+*.bak-*
+queue/research_cache.json
+queue/shopee_cache.json
+divulgacao/cache/
+
+# repo aninhado (projeto separado)
+tiktok/

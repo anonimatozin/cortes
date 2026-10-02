@@ -1,0 +1,2986 @@
+{
+ "jobs": [
+  {
+   "id": "1790803406558",
+   "url": "https://www.youtube.com/watch?v=ASGFwahy3D8",
+   "created": "2026-09-30 18:23:26",
+   "stage": "rendered",
+   "meta": {
+    "id": "ASGFwahy3D8",
+    "title": "NEUROCIENTISTA EXPLICA OS PROBLEMAS DOS VÍDEOS CURTOS (TikTok, Reels e Shorts)",
+    "channel": "Eslen Delanogare",
+    "duration": 257,
+    "url": "https://www.youtube.com/watch?v=ASGFwahy3D8",
+    "webpage_url": "https://www.youtube.com/watch?v=ASGFwahy3D8",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\ASGFwahy3D8.mp4",
+    "tags": [
+     "NEUROCISTISTA EXPLICA OS PROBLEMAS DOS VÍDEOS CURTOS (TikTok",
+     "Reels e Shorts)",
+     "tiktok",
+     "reels",
+     "problemas do tiktok",
+     "vicio tiktok",
+     "vicio videos curtos",
+     "psicologo explica tiktok",
+     "eslen delanogare",
+     "eslen podcast",
+     "eslen delanogare podcast",
+     "reservatorio de dopamina",
+     "como parar de usar tiktok",
+     "como parar de usar reels",
+     "como parar o vicio instagram"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_SEU_CEREBRO_AGUENTA_VINCULO_COM_ALCOOL.mp4",
+     "start": 43.89,
+     "end": 86.55,
+     "duration": 42.67,
+     "size": 22709429,
+     "score": 70,
+     "hook": "SEU CÉREBRO AGUENTA VÍNCULO COM ÁLCOOL?",
+     "title": "⚡️ Reels Ativam Cérebro como Álcool!?",
+     "description": "Mostro que quem rola reels tem atividade cerebral parecida com quem usa substâncias como álcool ou cigarro.\n\n#brainrot #dopamina #tiktok #reels\n\nCréditos: Eslen Delanogare — \"NEUROCIENTISTA EXPLICA OS PROBLEMAS DOS VÍDEOS CURTOS (TikTok, Reels e Shorts)\"\nhttps://www.youtube.com/watch?v=ASGFwahy3D8",
+     "hashtags": [
+      "#brainrot",
+      "#dopamina",
+      "#tiktok",
+      "#reels"
+     ],
+     "tags": [
+      "atividade cerebral",
+      "vício substância",
+      "reels efeito",
+      "dopamina",
+      "brain rot",
+      "neurociência",
+      "Eslen Delanogare",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": {
+      "fx": 0.5106063763300578,
+      "fy": 0.43980642248083046,
+      "fh": 0.4827872947410301,
+      "found": true,
+      "samples": 83
+     },
+     "edit": {},
+     "legenda_tiktok": "Mostro que quem rola reels tem atividade cerebral parecida com quem usa substâncias como álcool ou cigarro.\n\n#brainrot #dopamina #tiktok #reels\n\nCréditos: Eslen Delanogare\nhttps://www.youtube.com/watch?v=ASGFwahy3D8",
+     "legenda_reels": "SEU CÉREBRO AGUENTA VÍNCULO COM ÁLCOOL?\n\nMostro que quem rola reels tem atividade cerebral parecida com quem usa substâncias como álcool ou cigarro.\n\n#brainrot #dopamina #tiktok #reels\n\nCréditos: Eslen Delanogare\nhttps://www.youtube.com/watch?v=ASGFwahy3D8",
+     "visuals": [],
+     "errors": {
+      "youtube": "Upload falhou: <HttpError 400 when requesting None returned \"The user has exceeded the number of videos they may upload.\". Details: \"[{'message': 'The user has exceeded the number of videos they may upload.', 'domain': 'youtube.video', 'reason': 'uploadLimitExceeded'}]\">"
+     },
+     "sem_tiktok": true
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_VOCE_PERDE_A_NOCAO_DO_TEMPO.mp4",
+     "start": 110.1,
+     "end": 154.13,
+     "duration": 44.03,
+     "size": 23089355,
+     "score": 75,
+     "hook": "VOCÊ PERDE A NOÇÃO DO TEMPO?",
+     "title": "Por que você perde a noção do tempo no TikTok",
+     "description": "O neurocientista explica como os vídeos curtos provocam dissociação e dilatação de tempo, afetando sua atenção e bem‑estar.\n\n#Neurociência #TikTok #VícioDigital #Dopamina #CurtaMente\n\nCréditos: Eslen Delanogare — \"NEUROCIENTISTA EXPLICA OS PROBLEMAS DOS VÍDEOS CURTOS (TikTok, Reels e Shorts)\"\nhttps://www.youtube.com/watch?v=ASGFwahy3D8",
+     "hashtags": [
+      "#Neurociência",
+      "#TikTok",
+      "#VícioDigital",
+      "#Dopamina",
+      "#CurtaMente"
+     ],
+     "tags": [
+      "neurociência",
+      "TikTok",
+      "vídeos curtos",
+      "atenção",
+      "dopamina",
+      "psicologia",
+      "comportamento",
+      "saúde mental",
+      "vício digital",
+      "por que perco noção do tempo no TikTok",
+      "efeitos dos vídeos curtos no cérebro",
+      "Eslen Delanogare",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "ThAoXu5BCJo",
+      "url": "https://youtube.com/shorts/ThAoXu5BCJo",
+      "title": "Por que você perde a noção do tempo no TikTok",
+      "privacy": "public"
+     },
+     "tiktok": null,
+     "reframe": {
+      "fx": 0.5091420888900757,
+      "fy": 0.4396145997224031,
+      "fh": 0.49312224211516203,
+      "found": true,
+      "samples": 88
+     },
+     "edit": {
+      "tipo": "Podcast",
+      "tipos_secundarios": [
+       "Curiosidade",
+       "Tecnologia"
+      ],
+      "dinamismo": "medio",
+      "momento_principal": "Explicação da dissociação e dilatação de tempo causada pelos vídeos curtos",
+      "hook": "VOCÊ PERDE A NOÇÃO DO TEMPO?",
+      "estrutura": {
+       "hook": "VOCÊ PERDE A NOÇÃO DO TEMPO? (3s iniciais com corte rápido para a fala do neurocientista)",
+       "desenvolvimento": "Apresentação do conceito de dissociação e como ele surge ao usar TikTok/Reels/Shorts.",
+       "principal": "Detalhamento da dilatação de tempo e da atenção focada que impede perceber a passagem real dos minutos.",
+       "conclusao": "Resumo rápido e convite para refletir ou buscar estratégias de uso consciente."
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas; acelerar trechos de preenchimento (ex.: \"alguma coisa, não lembro\").",
+       "zooms": "Zoom sutil quando palavras-chave são ditas: \"dissociação\", \"dilatação de tempo\", \"atenção\".",
+       "efeitos": "nenhum",
+       "legendas": "Legenda completa sincronizada, com destaque em negrito ou cor diferente para termos-chave."
+      },
+      "titulos": [
+       "Por que você perde a noção do tempo no TikTok",
+       "Dissociação: o efeito dos vídeos curtos no cérebro",
+       "Tempo dilatado: o perigo dos Shorts"
+      ],
+      "descricao": "O neurocientista explica como os vídeos curtos provocam dissociação e dilatação de tempo, afetando sua atenção e bem‑estar.",
+      "tags": {
+       "principais": [
+        "neurociência",
+        "TikTok",
+        "vídeos curtos",
+        "atenção",
+        "dopamina"
+       ],
+       "secundarias": [
+        "psicologia",
+        "comportamento",
+        "saúde mental",
+        "vício digital"
+       ],
+       "descoberta": [
+        "por que perco noção do tempo no TikTok",
+        "efeitos dos vídeos curtos no cérebro"
+       ]
+      },
+      "hashtags": [
+       "#Neurociência",
+       "#TikTok",
+       "#VícioDigital",
+       "#Dopamina",
+       "#CurtaMente"
+      ],
+      "plataformas": {
+       "youtube": "Formato 9:16, 30‑45s, thumbnail com rosto de Eslen + ícone de cérebro e texto \"NOÇÃO DO TEMPO?\".",
+       "tiktok": "Formato 9:16, 25‑58s, usar áudio original, legendas em destaque, CTA nos últimos 3s.",
+       "instagram": "Formato 9:16, 30‑45s, mesma thumbnail, legendas legíveis em mobile, incluir sticker de pergunta \"Você sente isso?\"."
+      },
+      "capa": "Rosto de Eslen Delanogare em close, fundo escuro com ilustração de cérebro em neon; texto grande: \"VOCÊ PERDE A NOÇÃO DO TEMPO?\""
+     },
+     "legenda_tiktok": "Por que você perde a noção do tempo no TikTok\n\nO neurocientista explica como os vídeos curtos provocam dissociação e dilatação de tempo, afetando sua atenção e bem‑estar.\n\n#Neurociência #TikTok #VícioDigital #Dopamina #CurtaMente\n\nCréditos: Eslen Delanogare\nhttps://www.youtube.com/watch?v=ASGFwahy3D8",
+     "legenda_reels": "VOCÊ PERDE A NOÇÃO DO TEMPO?\n\nPor que você perde a noção do tempo no TikTok\n\nO neurocientista explica como os vídeos curtos provocam dissociação e dilatação de tempo, afetando sua atenção e bem‑estar.\n\n#Neurociência #TikTok #VícioDigital #Dopamina #CurtaMente\n\nCréditos: Eslen Delanogare\nhttps://www.youtube.com/watch?v=ASGFwahy3D8",
+     "visuals": [],
+     "published_at": "2026-09-30 22:24:06",
+     "sem_tiktok": true
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790810187654",
+   "url": "https://www.youtube.com/live/XcCJr5ur8bo?si=18jfEchj4La-2hZ6",
+   "created": "2026-09-30 20:16:27",
+   "stage": "rendered",
+   "meta": {
+    "id": "XcCJr5ur8bo",
+    "title": "O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945",
+    "channel": "Inteligência Ltda",
+    "duration": 8317,
+    "url": "https://www.youtube.com/live/XcCJr5ur8bo?si=18jfEchj4La-2hZ6",
+    "webpage_url": "https://www.youtube.com/watch?v=XcCJr5ur8bo",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\XcCJr5ur8bo.mp4",
+    "tags": [
+     "BETs",
+     "FIM DAS BETs",
+     "APOSTAS ESPORTIVAS",
+     "APOSTAS ONLINE",
+     "BETS NO BRASIL",
+     "PROIBIÇÃO DAS BETS",
+     "REGULAÇÃO DAS BETS",
+     "REGULAMENTAÇÃO DAS BETS",
+     "CASAS DE APOSTAS",
+     "JOGOS DE AZAR",
+     "APOSTAS NO BRASIL",
+     "ECONOMIA",
+     "ECONOMIA BRASILEIRA",
+     "CHARLES MENDLOWICZ",
+     "DANIEL LOPEZ",
+     "INTELIGÊNCIA LTDA",
+     "LIGANDO OS PONTOS",
+     "PODCAST INTELIGÊNCIA LTDA",
+     "BETS E ECONOMIA",
+     "CRISE DAS BETS",
+     "MERCADO DE APOSTAS",
+     "VÍCIO EM APOSTAS",
+     "APOSTAS ESPORTIVAS NO BRASIL",
+     "POLÍTICA E ECONOMIA"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_XcCJr5ur8bo_50_DA_DIVIDA_DAS_FAMILIAS_VEM_DAS.mp4",
+     "start": 353.82,
+     "end": 397.32,
+     "duration": 43.5,
+     "size": 32251848,
+     "score": 85,
+     "hook": "50% DA DÍVIDA DAS FAMÍLIAS VEM DAS BETS?",
+     "title": "50% da dívida das famílias vem das bets",
+     "description": "Neste corte, Daniel Lopez analisa o novo pacote de bondades do governo e questiona seu impacto nas apostas e nos clubes de futebol. Ele ainda dirige a pergunta ao Charles Mendlowicz, prometendo respostas surpreendentes.\n\n#Bets #Apostas #Política #Economia #InteligênciaLtda\n\nCréditos: Inteligência Ltda — \"O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945\"\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "hashtags": [
+      "#Bets",
+      "#Apostas",
+      "#Política",
+      "#Economia",
+      "#InteligênciaLtda"
+     ],
+     "tags": [
+      "bets",
+      "apostas esportivas",
+      "regulamentação das bets",
+      "Daniel Lopez",
+      "Charles Mendlowicz",
+      "política brasileira",
+      "por que as apostas aumentam dívida das famílias",
+      "pacote de bondades governo",
+      "Inteligência Ltda",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "HaTPs0NZ6tE",
+      "url": "https://youtube.com/shorts/HaTPs0NZ6tE",
+      "title": "50% da dívida das famílias vem das bets",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691796868598155282",
+      "url": "",
+      "title": "50% da dívida das famílias vem das bets",
+      "caption": "50% da dívida das famílias vem das bets\n\nNeste corte, Daniel Lopez analisa o novo pacote de bondades do governo e questiona seu impacto nas apostas e nos clubes de futebol. Ele ainda dirige a pergunta ao Charles Mendlowicz, prometendo respostas surpreendentes.\n\n#Bets #Apostas #Política #Economia #InteligênciaLtda\n\nCréditos: Inteligência Ltda — \"O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945\"\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.5855751673380534,
+      "fy": 0.4428452103226273,
+      "fh": 0.40648737306948063,
+      "found": true,
+      "samples": 84
+     },
+     "edit": {
+      "tipo": "Discussão/debate",
+      "tipos_secundarios": [
+       "Podcast",
+       "Política"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Pergunta direta a Charla sobre o impacto do pacote de bondades nos clubes e nas apostas",
+      "hook": "50% DA DÍVIDA DAS FAMÍLIAS VEM DAS BETS?",
+      "estrutura": {
+       "hook": "Apresentação do dado impactante sobre a dívida das famílias",
+       "desenvolvimento": "Explicação do pacote de bondades do governo e suas consequências para clubes e apostas",
+       "principal": "Pergunta ao Charla sobre as consequências e promessa de sentar com os clubes",
+       "conclusao": "Chamada para acompanhar o resto da discussão no episódio completo"
+      },
+      "edicao": {
+       "cortes": "Corte rápido após o hook, cortes a cada mudança de assunto; aceleração de pausas de preenchimento",
+       "zooms": "Zoom leve quando “Charla” é mencionado e ao dizer “pacote de bondades”",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas com destaque em negrito para termos chave como “bets”, “pacote de bondades”, “impostos”"
+      },
+      "titulos": [
+       "50% da dívida das famílias vem das bets",
+       "Pacote de bondades: risco para clubes e apostas",
+       "Por que o governo pode aumentar a dívida das famílias?"
+      ],
+      "descricao": "Neste corte, Daniel Lopez analisa o novo pacote de bondades do governo e questiona seu impacto nas apostas e nos clubes de futebol. Ele ainda dirige a pergunta ao Charles Mendlowicz, prometendo respostas surpreendentes.",
+      "tags": {
+       "principais": [
+        "bets",
+        "apostas esportivas",
+        "regulamentação das bets"
+       ],
+       "secundarias": [
+        "Daniel Lopez",
+        "Charles Mendlowicz",
+        "política brasileira"
+       ],
+       "descoberta": [
+        "por que as apostas aumentam dívida das famílias",
+        "pacote de bondades governo"
+       ]
+      },
+      "hashtags": [
+       "#Bets",
+       "#Apostas",
+       "#Política",
+       "#Economia",
+       "#InteligênciaLtda"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 44‑s corte, legenda em destaque, thumbnail com texto do hook",
+       "tiktok": "Mesmo vídeo, usar áudio original, incluir sticker de “🔔” para chamar atenção ao final",
+       "instagram": "Reels com capa estática, legenda automática ativada, CTA nos últimos 3 s"
+      },
+      "capa": "Texto grande “50% DA DÍVIDA DAS FAMÍLIAS VEM DAS BETS?” sobre fundo de microfone e gráfico de dívida"
+     },
+     "legenda_tiktok": "50% da dívida das famílias vem das bets\n\nNeste corte, Daniel Lopez analisa o novo pacote de bondades do governo e questiona seu impacto nas apostas e nos clubes de futebol. Ele ainda dirige a pergunta ao Charles Mendlowicz, prometendo respostas surpreendentes.\n\n#Bets #Apostas #Política #Economia #InteligênciaLtda\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "legenda_reels": "50% DA DÍVIDA DAS FAMÍLIAS VEM DAS BETS?\n\n50% da dívida das famílias vem das bets\n\nNeste corte, Daniel Lopez analisa o novo pacote de bondades do governo e questiona seu impacto nas apostas e nos clubes de futebol. Ele ainda dirige a pergunta ao Charles Mendlowicz, prometendo respostas surpreendentes.\n\n#Bets #Apostas #Política #Economia #InteligênciaLtda\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "visuals": [],
+     "published_at": "2026-09-30 22:18:27"
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_XcCJr5ur8bo_ENTREVISTADOS_APOIAM_FIM_DAS_BETS_MAS.mp4",
+     "start": 642.16,
+     "end": 684.84,
+     "duration": 42.68,
+     "size": 22099110,
+     "score": 75,
+     "hook": "ENTREVISTADOS APOIAM FIM DAS BETS, MAS...",
+     "title": "Fim das bets: apoio e críticas ao governo",
+     "description": "Neste corte, Daniel Lopez e Charles Mendlowicz analisam o apoio ao fim das bets e questionam se o governo gastou capital político em uma estratégia que não deu retorno. Uma reflexão sobre política e apostas no Brasil.\n\n#FimDasBets #ApostasEsportivas #Política #Brasil #Podcast\n\nCréditos: Inteligência Ltda — \"O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945\"\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "hashtags": [
+      "#FimDasBets",
+      "#ApostasEsportivas",
+      "#Política",
+      "#Brasil",
+      "#Podcast"
+     ],
+     "tags": [
+      "fim das bets",
+      "apostas esportivas",
+      "politica brasileira",
+      "Daniel Lopez",
+      "Charles Mendlowicz",
+      "regulamentação de apostas",
+      "por que o governo quer acabar com as bets",
+      "impacto das bets na política brasileira",
+      "Inteligência Ltda",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "aKN_c_YuZHA",
+      "url": "https://youtube.com/shorts/aKN_c_YuZHA",
+      "title": "Fim das bets: apoio e críticas ao governo",
+      "privacy": "public"
+     },
+     "tiktok": null,
+     "reframe": {
+      "fx": 0.5542481104532878,
+      "fy": 0.3633843881112558,
+      "fh": 0.3739143371582031,
+      "found": true,
+      "samples": 85
+     },
+     "edit": {
+      "tipo": "Discussão/debate",
+      "tipos_secundarios": [
+       "Entrevista",
+       "Política"
+      ],
+      "dinamismo": "medio",
+      "momento_principal": "Pergunta sobre o gasto de capital político do governo para acabar com as bets e o efeito inesperado",
+      "hook": "ENTREVISTADOS APOIAM FIM DAS BETS, MAS...",
+      "estrutura": {
+       "hook": "Apresentação rápida da afirmação de apoio ao fim das bets",
+       "desenvolvimento": "Contextualiza que o apoio não está ligado a uma avaliação positiva do governo",
+       "principal": "Questiona se o governo gastou capital político tentando melhorar sua imagem e não obteve retorno",
+       "conclusao": "Deixa a reflexão sobre as consequências políticas da medida"
+      },
+      "edicao": {
+       "cortes": "Cortar pausas e repetições; acelerar trechos de explicação longa; manter ritmo de ~1,5x nas partes menos impactantes",
+       "zooms": "Zoom suave no rosto de Charles quando ele faz a analogia da perna quebrada",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas em fonte legível, destaque em negrito para palavras‑chave como “FIM DAS BETS”, “GOVERNO”, “CAPITAL POLÍTICO”"
+      },
+      "titulos": [
+       "Fim das bets: apoio e críticas ao governo",
+       "Entrevistados apoiam o fim das bets, mas...",
+       "Política e apostas: o que realmente acontece?"
+      ],
+      "descricao": "Neste corte, Daniel Lopez e Charles Mendlowicz analisam o apoio ao fim das bets e questionam se o governo gastou capital político em uma estratégia que não deu retorno. Uma reflexão sobre política e apostas no Brasil.",
+      "tags": {
+       "principais": [
+        "fim das bets",
+        "apostas esportivas",
+        "politica brasileira"
+       ],
+       "secundarias": [
+        "Daniel Lopez",
+        "Charles Mendlowicz",
+        "regulamentação de apostas"
+       ],
+       "descoberta": [
+        "por que o governo quer acabar com as bets",
+        "impacto das bets na política brasileira"
+       ]
+      },
+      "hashtags": [
+       "#FimDasBets",
+       "#ApostasEsportivas",
+       "#Política",
+       "#Brasil",
+       "#Podcast"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, início com o hook em texto sobreposto, legenda completa, duração 45 s, incluir logo do canal nos 2 s finais",
+       "tiktok": "Formato vertical, usar o hook como texto grande nos primeiros 3 s, legenda sincronizada, manter ritmo dinâmico, publicar entre 18h‑22h para maior alcance",
+       "instagram": "Formato vertical, inserir sticker de “🔔” ao final, legenda completa, usar capa com foto dos dois entrevistados e a frase “Fim das bets?”"
+      },
+      "capa": "Imagem de Daniel Lopez e Charles Mendlowicz em close, fundo escuro, texto grande: “FIM DAS BETS?” com selo de interrogação"
+     },
+     "legenda_tiktok": "Fim das bets: apoio e críticas ao governo\n\nNeste corte, Daniel Lopez e Charles Mendlowicz analisam o apoio ao fim das bets e questionam se o governo gastou capital político em uma estratégia que não deu retorno. Uma reflexão sobre política e apostas no Brasil.\n\n#FimDasBets #ApostasEsportivas #Política #Brasil #Podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "legenda_reels": "ENTREVISTADOS APOIAM FIM DAS BETS, MAS...\n\nFim das bets: apoio e críticas ao governo\n\nNeste corte, Daniel Lopez e Charles Mendlowicz analisam o apoio ao fim das bets e questionam se o governo gastou capital político em uma estratégia que não deu retorno. Uma reflexão sobre política e apostas no Brasil.\n\n#FimDasBets #ApostasEsportivas #Política #Brasil #Podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "visuals": [],
+     "published_at": "2026-10-01 19:26:00",
+     "errors": {
+      "tiktok": "TikTok rate_limit_exceeded: The API rate limit exceeded. Please try again later."
+     }
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_XcCJr5ur8bo_GOVERNO_PROCESSA_17_BETS_POR_1_BILHAO.mp4",
+     "start": 740.66,
+     "end": 783.54,
+     "duration": 42.88,
+     "size": 34509426,
+     "score": 78,
+     "hook": "GOVERNO PROCESSA 17 BETS POR 1 BILHÃO!",
+     "title": "Governo processa 17 casas de apostas",
+     "description": "Neste corte, Daniel Lopez e Charles Mendlowicz comentam a última ação do governo contra 17 empresas de apostas, que pode custar 1 bilhão de reais. Entenda o impacto desse processo no mercado de bets brasileiro.\n\n#bets #apostas #processo #Brasil #podcast\n\nCréditos: Inteligência Ltda — \"O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945\"\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "hashtags": [
+      "#bets",
+      "#apostas",
+      "#processo",
+      "#Brasil",
+      "#podcast"
+     ],
+     "tags": [
+      "bets",
+      "processo",
+      "governo",
+      "apostas esportivas",
+      "Daniel Lopez",
+      "Charles Mendlowicz",
+      "regulamentação",
+      "Brasil",
+      "governo processa bets",
+      "processo 1 bilhão bets",
+      "Inteligência Ltda",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "eoUliPr6J-I",
+      "url": "https://youtube.com/shorts/eoUliPr6J-I",
+      "title": "Governo processa 17 casas de apostas",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691796868598286354",
+      "url": "",
+      "title": "Governo processa 17 casas de apostas",
+      "caption": "Governo processa 17 casas de apostas\n\nNeste corte, Daniel Lopez e Charles Mendlowicz comentam a última ação do governo contra 17 empresas de apostas, que pode custar 1 bilhão de reais. Entenda o impacto desse processo no mercado de bets brasileiro.\n\n#bets #apostas #processo #Brasil #podcast\n\nCréditos: Inteligência Ltda — \"O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945\"\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.5009626567363739,
+      "fy": 0.38154621830693,
+      "fh": 0.2806103882966218,
+      "found": true,
+      "samples": 86
+     },
+     "edit": {
+      "tipo": "Discussão/debate",
+      "tipos_secundarios": [
+       "Podcast",
+       "Treta/polêmica"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Governo processa 17 casas de apostas pedindo 1 bilhão por danos morais",
+      "hook": "GOVERNO PROCESSA 17 BETS POR 1 BILHÃO!",
+      "estrutura": {
+       "hook": "Apresentador grita o título impactante em 3 segundos",
+       "desenvolvimento": "Explica como as bets pagaram milhões a influenciadores e clubes da Série A",
+       "principal": "Revela a notícia quente: justiça contra 17 bets pedindo 1 bilhão",
+       "conclusao": "Pergunta ao público se acham que a medida vai mudar o mercado de apostas"
+      },
+      "edicao": {
+       "cortes": "Cortar pausas, acelerar trechos de explicação (30‑45 s) e manter ritmo rápido",
+       "zooms": "Zoom sutil no texto '1 bilhão' e no rosto do apresentador ao citar o processo",
+       "efeitos": "nenhum",
+       "legendas": "Legendas em fonte bold, cor branca com sombra; destaque em amarelo para números e palavras‑chave"
+      },
+      "titulos": [
+       "Governo processa 17 casas de apostas",
+       "Processo de 1 bi contra bets no Brasil",
+       "Betting companies enfrentam ação de 1 bilhão"
+      ],
+      "descricao": "Neste corte, Daniel Lopez e Charles Mendlowicz comentam a última ação do governo contra 17 empresas de apostas, que pode custar 1 bilhão de reais. Entenda o impacto desse processo no mercado de bets brasileiro.",
+      "tags": {
+       "principais": [
+        "bets",
+        "processo",
+        "governo",
+        "apostas esportivas"
+       ],
+       "secundarias": [
+        "Daniel Lopez",
+        "Charles Mendlowicz",
+        "regulamentação",
+        "Brasil"
+       ],
+       "descoberta": [
+        "governo processa bets",
+        "processo 1 bilhão bets"
+       ]
+      },
+      "hashtags": [
+       "#bets",
+       "#apostas",
+       "#processo",
+       "#Brasil",
+       "#podcast"
+      ],
+      "plataformas": {
+       "youtube": "Corte de 25‑58 s, vertical 9:16, 60 fps, legenda ativada",
+       "tiktok": "Mesmo corte, 9:16, 30 fps ok, usar som original e legendas",
+       "instagram": "9:16, 60 fps, incluir capa estática com texto destaque"
+      },
+      "capa": "Imagem dos apresentadores em fundo escuro, texto grande em amarelo: 'GOV… 1 BILHÃO' e ícone de martelo da justiça"
+     },
+     "legenda_tiktok": "Governo processa 17 casas de apostas\n\nNeste corte, Daniel Lopez e Charles Mendlowicz comentam a última ação do governo contra 17 empresas de apostas, que pode custar 1 bilhão de reais. Entenda o impacto desse processo no mercado de bets brasileiro.\n\n#bets #apostas #processo #Brasil #podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "legenda_reels": "GOVERNO PROCESSA 17 BETS POR 1 BILHÃO!\n\nGoverno processa 17 casas de apostas\n\nNeste corte, Daniel Lopez e Charles Mendlowicz comentam a última ação do governo contra 17 empresas de apostas, que pode custar 1 bilhão de reais. Entenda o impacto desse processo no mercado de bets brasileiro.\n\n#bets #apostas #processo #Brasil #podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "visuals": [],
+     "published_at": "2026-09-30 22:24:06"
+    },
+    {
+     "index": 4,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\04_XcCJr5ur8bo_40-50_DO_MERCADO_DE_BETS_ESTA_NA.mp4",
+     "start": 820.78,
+     "end": 865.74,
+     "duration": 44.97,
+     "size": 36310155,
+     "score": 85,
+     "hook": "40-50% DO MERCADO DE BETS ESTÁ NA MÃO DE ILÍCITOS!",
+     "title": "40% a 50% do mercado de bets é ilegal",
+     "description": "Neste corte, Daniel Lopez e Charles Mendlowicz revelam que quase metade do mercado de apostas está nas mãos de casas ilegais e discutem o que acontece se as operadoras legais forem proibidas.\n\n#bets #apostas #mercado #illegal #podcast\n\nCréditos: Inteligência Ltda — \"O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945\"\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "hashtags": [
+      "#bets",
+      "#apostas",
+      "#mercado",
+      "#illegal",
+      "#podcast"
+     ],
+     "tags": [
+      "bets",
+      "apostas esportivas",
+      "mercado de apostas",
+      "ilícitos",
+      "legalização",
+      "Daniel Lopez",
+      "Charles Mendlowicz",
+      "Inteligência Ltda",
+      "regulamentação de bets",
+      "percentual mercado bets ilegais",
+      "impacto proibição bets Brasil",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "1sE6Ia8wj_U",
+      "url": "https://youtube.com/shorts/1sE6Ia8wj_U",
+      "title": "40% a 50% do mercado de bets é ilegal",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691796794917029896",
+      "url": "",
+      "title": "40% a 50% do mercado de bets é ilegal",
+      "caption": "40% a 50% do mercado de bets é ilegal\n\nNeste corte, Daniel Lopez e Charles Mendlowicz revelam que quase metade do mercado de apostas está nas mãos de casas ilegais e discutem o que acontece se as operadoras legais forem proibidas.\n\n#bets #apostas #mercado #illegal #podcast\n\nCréditos: Inteligência Ltda — \"O FIM DAS BETS? DANIEL LOPEZ E CHARLES MENDLOWICZ - Inteligência Ltda. Podcast #1945\"\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.48484123746554053,
+      "fy": 0.3703296449449327,
+      "fh": 0.263361824883355,
+      "found": true,
+      "samples": 90
+     },
+     "edit": {
+      "tipo": "Podcast",
+      "tipos_secundarios": [
+       "Discussão/debate"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Revelação de que 40‑50% do mercado de apostas está nas mãos de casas ilegais e que, com a proibição das legais, só o ilegal continuará operando.",
+      "hook": "40-50% DO MERCADO DE BETS ESTÁ NA MÃO DE ILÍC",
+      "estrutura": {
+       "hook": "A afirmação bombástica sobre a participação dos ilegais no mercado de apostas.",
+       "desenvolvimento": "Explicação de por que o país não pode ser gerido sem capital externo, a decisão de não renovar licenças e a consequência para a propaganda das bets.",
+       "principal": "Dados de que 40‑50% do mercado já está nas mãos de casas ilegais e a projeção de que, sem as legais, só o ilícito permanecerá.",
+       "conclusao": "Pergunta retórica ao público: \"Entendeu?\" reforçando a ideia de que o futuro das apostas será dominado pelo ilegal."
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas entre frases; acelerar levemente a parte em que repetem “não vai vender mais, não renova”.",
+       "zooms": "Zoom sutil no rosto do interlocutor ao dizer a estatística de 40‑50% para dar ênfase.",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas, com destaque em negrito ou cor diferente para a frase-chave “40‑50% do mercado de bets está nas mãos de ilegais”."
+      },
+      "titulos": [
+       "40% a 50% do mercado de bets é ilegal",
+       "Quando as bets legais caem, o ilegal domina",
+       "O futuro das apostas no Brasil: só ilegal?"
+      ],
+      "descricao": "Neste corte, Daniel Lopez e Charles Mendlowicz revelam que quase metade do mercado de apostas está nas mãos de casas ilegais e discutem o que acontece se as operadoras legais forem proibidas.",
+      "tags": {
+       "principais": [
+        "bets",
+        "apostas esportivas",
+        "mercado de apostas",
+        "ilícitos",
+        "legalização"
+       ],
+       "secundarias": [
+        "Daniel Lopez",
+        "Charles Mendlowicz",
+        "Inteligência Ltda",
+        "regulamentação de bets"
+       ],
+       "descoberta": [
+        "percentual mercado bets ilegais",
+        "impacto proibição bets Brasil"
+       ]
+      },
+      "hashtags": [
+       "#bets",
+       "#apostas",
+       "#mercado",
+       "#illegal",
+       "#podcast"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, duração até 60 s, iniciar com a frase de impacto em caps, usar legendas completas e zoom no ponto chave.",
+       "tiktok": "Formato vertical 9:16, usar áudio original, manter hook nos primeiros 3 s, legendas em destaque, sem efeitos extras.",
+       "instagram": "Formato vertical 9:16, duração 25‑58 s, hook imediato, legendas legíveis, zoom sutil na estatística."
+      },
+      "capa": "Imagem dos dois apresentadores em close, fundo escuro, texto grande em branco: “40‑50% das bets são ilegais”."
+     },
+     "legenda_tiktok": "40% a 50% do mercado de bets é ilegal\n\nNeste corte, Daniel Lopez e Charles Mendlowicz revelam que quase metade do mercado de apostas está nas mãos de casas ilegais e discutem o que acontece se as operadoras legais forem proibidas.\n\n#bets #apostas #mercado #illegal #podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "legenda_reels": "40-50% DO MERCADO DE BETS ESTÁ NA MÃO DE ILÍCITOS!\n\n40% a 50% do mercado de bets é ilegal\n\nNeste corte, Daniel Lopez e Charles Mendlowicz revelam que quase metade do mercado de apostas está nas mãos de casas ilegais e discutem o que acontece se as operadoras legais forem proibidas.\n\n#bets #apostas #mercado #illegal #podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+     "visuals": [],
+     "published_at": "2026-09-30 22:24:06"
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790870016326",
+   "url": "https://youtu.be/daMlcCXzDGI",
+   "created": "2026-10-01 12:53:36",
+   "stage": "rendered",
+   "meta": {
+    "id": "daMlcCXzDGI",
+    "title": "Entrevistei o Nando Moura",
+    "channel": "Arthur Petry",
+    "duration": 7680,
+    "url": "https://youtu.be/daMlcCXzDGI",
+    "webpage_url": "https://www.youtube.com/watch?v=daMlcCXzDGI",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\daMlcCXzDGI.mp4",
+    "tags": [
+     "comédia",
+     "stand up comedy",
+     "comedy",
+     "podcast",
+     "comedy podcast",
+     "arthur petry",
+     "saco cheio podcast",
+     "engraçado",
+     "theo von",
+     "tim dillon",
+     "talk radio",
+     "rant",
+     "chris delia",
+     "jokes",
+     "funny"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_daMlcCXzDGI_SKINHEAD_DO_MBL_FALA_POLITEMICA.mp4",
+     "start": 640.06,
+     "end": 682.3,
+     "duration": 42.24,
+     "size": 26043319,
+     "score": 85,
+     "hook": "A FALA QUE PEDEU A EXPULSÃO DO MBL!",
+     "title": "Nando Moura: O skinhead do MBL",
+     "description": "Neste corte de 42 s, Nando Moura faz uma declaração polêmica dentro do MBL e mostra a reação da cúpula após a matéria da Intercept.\n\n#NandoMoura #MBL #Polêmica #Entrevista #Podcast\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "hashtags": [
+      "#NandoMoura",
+      "#MBL",
+      "#Polêmica",
+      "#Entrevista",
+      "#Podcast"
+     ],
+     "tags": [
+      "Nando Moura",
+      "MBL",
+      "polêmica",
+      "Arthur Petry",
+      "entrevista",
+      "skinhead",
+      "quem é Nando Moura",
+      "MBL controvérsia",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "reframe": {
+      "fx": 0.50054319302241,
+      "fy": 0.42703420144540294,
+      "fh": 0.37774976094563806,
+      "found": true,
+      "samples": 84
+     },
+     "edit": {
+      "tipo": "Treta/polêmica",
+      "tipos_secundarios": [
+       "Entrevista",
+       "Podcast"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Nando Moura declara que \"uma frase pesada\" e fala abertamente sobre doação de órgãos de tetraplégicos",
+      "hook": "A FALA QUE PEDEU A EXPULSÃO DO MBL!",
+      "estrutura": {
+       "hook": "Apresentação rápida da frase de impacto em caps nos primeiros 3 s",
+       "desenvolvimento": "Contextualiza quem é Nando Moura, sua ligação ao MBL e a postura extremista",
+       "principal": "Trecho onde ele repete \"uma frase pesada...\" e denuncia a cúpula do MBL",
+       "conclusao": "Encerramento com a menção à matéria da Intercept e a tentativa de limpeza da imagem"
+      },
+      "edicao": {
+       "cortes": "Cortar silêncios e repetições; acelerar trechos de explicação; manter ritmo rápido entre 25‑58 s",
+       "zooms": "Zoom sutil no rosto quando a frase \"fala polêmica\" é dita",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas, fonte legível, 2‑3 linhas por tela, sincronizadas com fala"
+      },
+      "titulos": [
+       "Nando Moura: O skinhead do MBL",
+       "Denúncia explosiva de Nando Moura",
+       "A polêmica que pegou o MBL"
+      ],
+      "descricao": "Neste corte de 42 s, Nando Moura revela sua postura extremista dentro do MBL, falando abertamente sobre fala polêmica e doação de órgãos. A entrevista mostra a reação da cúpula e a tentativa de limpeza após a matéria da Intercept.",
+      "tags": {
+       "principais": [
+        "Nando Moura",
+        "MBL",
+        "polêmica"
+       ],
+       "secundarias": [
+        "Arthur Petry",
+        "entrevista",
+        "skinhead"
+       ],
+       "descoberta": [
+        "quem é Nando Moura",
+        "MBL controvérsia"
+       ]
+      },
+      "hashtags": [
+       "#NandoMoura",
+       "#MBL",
+       "#Polêmica",
+       "#Entrevista",
+       "#Podcast"
+      ],
+      "plataformas": {
+       "youtube": "Corte 25‑58 s, legenda em destaque, thumbnail com texto em vermelho; duração 60 s máximo, sem efeitos extras",
+       "tiktok": "Formato vertical, início impactante com o hook, legendas grandes, ritmo acelerado, CTA para seguir ao final",
+       "instagram": "Reels vertical, mesma edição, usar capa com close de Nando e frase em vermelho, incluir sticker de \"🔥\" discreto"
+      },
+      "capa": "Close do rosto de Nando Moura, expressão séria, fundo escuro; texto grande vermelho \"SKINHEAD DO MBL\" na parte superior"
+     },
+     "legenda_tiktok": "Nando Moura: O skinhead do MBL\n\nNeste corte de 42 s, Nando Moura faz uma declaração polêmica dentro do MBL e mostra a reação da cúpula após a matéria da Intercept.\n\n#NandoMoura #MBL #Polêmica #Entrevista #Podcast\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "legenda_reels": "A FALA QUE PEDEU A EXPULSÃO DO MBL!\n\nNando Moura: O skinhead do MBL\n\nNeste corte de 42 s, Nando Moura faz uma declaração polêmica dentro do MBL e mostra a reação da cúpula após a matéria da Intercept.\n\n#NandoMoura #MBL #Polêmica #Entrevista #Podcast\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "visuals": [],
+     "published_at": "2026-10-01 14:57:01",
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691763830439053319",
+      "url": "",
+      "title": "Nando Moura: O skinhead do MBL",
+      "caption": "Nando Moura: O skinhead do MBL\n\nNeste corte de 42 s, Nando Moura faz uma declaração polêmica dentro do MBL e mostra a reação da cúpula após a matéria da Intercept.\n\n#NandoMoura #MBL #Polêmica #Entrevista #Podcast\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     }
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_daMlcCXzDGI_NAO_E_DIVERTIDO_SER_NACIONALISTA.mp4",
+     "start": 987.56,
+     "end": 1031.0,
+     "duration": 43.44,
+     "size": 23533665,
+     "score": 85,
+     "hook": "NÃO É DIVERTIDO SER NACIONALISTA?",
+     "title": "Nando Moura fala sobre nacionalismo radical",
+     "description": "Nando Moura discute a normalização do nacionalismo e do radicalismo no Brasil, comparando com movimentos europeus. Um trecho direto e provocativo que gera reflexão.\n\n#NandoMoura #ArthurPetry #Entrevista #Política #Podcast\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "hashtags": [
+      "#NandoMoura",
+      "#ArthurPetry",
+      "#Entrevista",
+      "#Política",
+      "#Podcast"
+     ],
+     "tags": [
+      "Nando Moura",
+      "Arthur Petry",
+      "Entrevista",
+      "Nacionalismo",
+      "Radicalismo",
+      "Podcast",
+      "Política",
+      "Humor",
+      "Debate",
+      "Brasil",
+      "Nando Moura nacionalista",
+      "entrevista Nando Moura Arthur Petry",
+      "radicalismo no Brasil",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "reframe": {
+      "fx": 0.5151790777842203,
+      "fy": 0.40812622352882666,
+      "fh": 0.3542668377911603,
+      "found": true,
+      "samples": 85
+     },
+     "edit": {
+      "tipo": "Entrevista",
+      "tipos_secundarios": [
+       "Treta/polêmica",
+       "Discussão/debate"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Nando Moura afirma que não é divertido ser nacionalista e critica a normalização do radicalismo no Brasil",
+      "hook": "NÃO É DIVERTIDO SER NACIONALISTA?",
+      "estrutura": {
+       "hook": "A pergunta impactante surge nos primeiros 3 segundos: \"NÃO É DIVERTIDO SER NACIONALISTA?\"",
+       "desenvolvimento": "Arthur contextualiza a fala de Moura, citando o artigo que glorifica o radicalismo e a comparação com movimentos europeus.",
+       "principal": "Moura responde criticando o elogio ao nacionalismo e apontando a tendência global de ódio contra imigrantes.",
+       "conclusao": "Encerramento com um questionamento retórico que deixa o espectador refletindo sobre a postura política."
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas e repetições; acelerar trechos de explicação menos impactante; manter ritmo rápido.",
+       "zooms": "Zoom sutil no rosto de Nando Moura ao dizer \"não é divertido ser nacionalista\" e ao mencionar a \"onda no mundo\".",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas em português, fonte sem serifa, tamanho legível; palavras‑chave como NACIONALISTA em negrito ou cor contrastante."
+      },
+      "titulos": [
+       "Nando Moura fala sobre nacionalismo radical",
+       "Por que não é divertido ser nacionalista?",
+       "Entrevista explosiva: nacionalismo em debate"
+      ],
+      "descricao": "Nando Moura discute a normalização do nacionalismo e do radicalismo no Brasil, comparando com movimentos europeus. Um trecho direto e provocativo que gera reflexão.",
+      "tags": {
+       "principais": [
+        "Nando Moura",
+        "Arthur Petry",
+        "Entrevista",
+        "Nacionalismo",
+        "Radicalismo"
+       ],
+       "secundarias": [
+        "Podcast",
+        "Política",
+        "Humor",
+        "Debate",
+        "Brasil"
+       ],
+       "descoberta": [
+        "Nando Moura nacionalista",
+        "entrevista Nando Moura Arthur Petry",
+        "radicalismo no Brasil"
+       ]
+      },
+      "hashtags": [
+       "#NandoMoura",
+       "#ArthurPetry",
+       "#Entrevista",
+       "#Política",
+       "#Podcast"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo; iniciar com o hook em texto grande; usar legendas ao longo; CTA sutil no final para seguir o canal.",
+       "tiktok": "Mantém o mesmo corte; adicionar sticker de pergunta \"Concorda?\" ao final; usar som original sem alterações.",
+       "instagram": "Reels vertical, 30‑60 s; destaque visual da capa; incluir legenda automática e hashtags nos comentários."
+      },
+      "capa": "Close‑up de Nando Moura com expressão séria, texto em caixa‑alta: \"NÃO É DIVERTIDO SER NACIONALISTA?\" em fundo contrastante vermelho‑preto."
+     },
+     "legenda_tiktok": "Nando Moura fala sobre nacionalismo radical\n\nNando Moura discute a normalização do nacionalismo e do radicalismo no Brasil, comparando com movimentos europeus. Um trecho direto e provocativo que gera reflexão.\n\n#NandoMoura #ArthurPetry #Entrevista #Política #Podcast\n\nCréditos: Arthur Petry\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "legenda_reels": "NÃO É DIVERTIDO SER NACIONALISTA?\n\nNando Moura fala sobre nacionalismo radical\n\nNando Moura discute a normalização do nacionalismo e do radicalismo no Brasil, comparando com movimentos europeus. Um trecho direto e provocativo que gera reflexão.\n\n#NandoMoura #ArthurPetry #Entrevista #Política #Podcast\n\nCréditos: Arthur Petry\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "visuals": [],
+     "published_at": "2026-10-01 14:57:10",
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691764124825208850",
+      "url": "",
+      "title": "Nando Moura fala sobre nacionalismo radical",
+      "caption": "Nando Moura fala sobre nacionalismo radical\n\nNando Moura discute a normalização do nacionalismo e do radicalismo no Brasil, comparando com movimentos europeus. Um trecho direto e provocativo que gera reflexão.\n\n#NandoMoura #ArthurPetry #Entrevista #Política #Podcast\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     }
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_daMlcCXzDGI_A_PIADA_QUE_VIROU_ACUSACAO.mp4",
+     "start": 1198.1,
+     "end": 1240.2,
+     "duration": 42.1,
+     "size": 21417690,
+     "score": 88,
+     "hook": "A PIADA QUE VIROU UMA ACUSAÇÃO!",
+     "title": "A piada que virou acusação!",
+     "description": "Arthur Petry conta como uma piada no Flow virou alvo de acusações de um canal do MBL, gerando uma enxurrada de comentários agressivos. Ele reage com sarcasmo.\n\n#NandoMoura #ArthurPetry #Polêmica #Podcast #Comédia\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "hashtags": [
+      "#NandoMoura",
+      "#ArthurPetry",
+      "#Polêmica",
+      "#Podcast",
+      "#Comédia"
+     ],
+     "tags": [
+      "Nando Moura",
+      "Arthur Petry",
+      "polêmica",
+      "MBL",
+      "polêmica",
+      "entrevista",
+      "podcast",
+      "comédia",
+      "stand up",
+      "comentários",
+      "por que Nando Moura acusa polêmica",
+      "como reagir a críticas online",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "FF-WAh7kNRE",
+      "url": "https://youtube.com/shorts/FF-WAh7kNRE",
+      "title": "A piada que virou acusação!",
+      "privacy": "public"
+     },
+     "reframe": {
+      "fx": 0.6200466593106587,
+      "fy": 0.3374552408854167,
+      "fh": 0.2613123010706018,
+      "found": true,
+      "samples": 71
+     },
+     "edit": {
+      "tipo": "Treta/polêmica",
+      "tipos_secundarios": [
+       "Entrevista",
+       "Podcast"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Acusação de que o entrevistado iria sumir após uma piada, gerando reação exagerada nos comentários",
+      "hook": "A PIADA QUE VIROU UMA ACUSAÇÃO!",
+      "estrutura": {
+       "hook": "Arthur grita a frase de impacto enquanto aparece a legenda em vermelho.",
+       "desenvolvimento": "Ele explica a piadinha feita no Flow, mostra como a situação escalou e menciona o vídeo do MBL.",
+       "principal": "Mostra trechos dos comentários agressivos e a reação dele ao ser acusado infundadas.",
+       "conclusao": "Arthur encerra com sarcasmo, dizendo que a polêmica foi exagerada e convida o público a opinar."
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas, acelerar trechos de fala repetitiva, inserir jump‑cut a cada mudança de assunto (piada → ataque → vídeo do MBL).",
+       "zooms": "Zoom rápido na frase ‘ACUSARAM QUE EU VOU ME POLÊMICA!’ e em expressões faciais de surpresa.",
+       "efeitos": "Nenhum efeito sonoro; apenas leve tremor de tela (shake) ao aparecer a palavra ‘POLÊMICA’ para enfatizar a acusação.",
+       "legendas": "Legendas completas em fonte branca com fundo semitransparente; destaque em amarelo para palavras‑chave (POLÊMICA, MBL, POLÊMICA)."
+      },
+      "titulos": [
+       "A piada que virou acusação!",
+       "Ele virou alvo por causa de uma piada",
+       "Reação exagerada a uma piadinha"
+      ],
+      "descricao": "Arthur Petry conta como uma piadinha no Flow virou alvo de acusações infundadas por parte de um canal do MBL, gerando uma enxurrada de comentários agressivos.",
+      "tags": {
+       "principais": [
+        "Nando Moura",
+        "Arthur Petry",
+        "polêmica",
+        "MBL",
+        "polêmica"
+       ],
+       "secundarias": [
+        "entrevista",
+        "podcast",
+        "comédia",
+        "stand up",
+        "comentários"
+       ],
+       "descoberta": [
+        "por que Nando Moura acusa polêmica",
+        "como reagir a críticas online"
+       ]
+      },
+      "hashtags": [
+       "#NandoMoura",
+       "#ArthurPetry",
+       "#Polêmica",
+       "#Podcast",
+       "#Comédia"
+      ],
+      "plataformas": {
+       "youtube": "Corte de 25‑58 s, 9:16, 60 fps, thumbnail com texto em caixa alta e rostos em choque.",
+       "tiktok": "Mesmo corte, usar áudio original, legenda automática ativada, CTA “Comente o que você acha”.",
+       "instagram": "Corte 25‑58 s, incluir sticker de enquete “Polêmica ou exagero?” para aumentar interação."
+      },
+      "capa": "Texto grande em caixa alta ‘ACUSARAM QUE EU VOU ME POLÊMICA!’ sobre fundo dividido: à esquerda foto de Nando Moura, à direita Arthur Petry com expressão surpresa; cores contrastantes (vermelho e preto)."
+     },
+     "legenda_tiktok": "A piada que virou acusação!\n\nArthur Petry conta como uma piada no Flow virou alvo de acusações de um canal do MBL, gerando uma enxurrada de comentários agressivos. Ele reage com sarcasmo.\n\n#NandoMoura #ArthurPetry #Polêmica #Podcast #Comédia\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "legenda_reels": "A PIADA QUE VIROU UMA ACUSAÇÃO!\n\nA piada que virou acusação!\n\nArthur Petry conta como uma piada no Flow virou alvo de acusações de um canal do MBL, gerando uma enxurrada de comentários agressivos. Ele reage com sarcasmo.\n\n#NandoMoura #ArthurPetry #Polêmica #Podcast #Comédia\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+     "visuals": [],
+     "published_at": "2026-10-01 14:56:50",
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691763822037829640",
+      "url": "",
+      "title": "A piada que virou acusação!",
+      "caption": "A piada que virou acusação!\n\nArthur Petry conta como uma piada no Flow virou alvo de acusações de um canal do MBL, gerando uma enxurrada de comentários agressivos. Ele reage com sarcasmo.\n\n#NandoMoura #ArthurPetry #Polêmica #Podcast #Comédia\n\nCréditos: Arthur Petry — \"Entrevistei o Nando Moura\"\nhttps://www.youtube.com/watch?v=daMlcCXzDGI",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     }
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790885296993",
+   "url": "https://youtu.be/mRScDNScPp8",
+   "created": "2026-10-01 17:08:16",
+   "stage": "rendered",
+   "meta": {
+    "id": "mRScDNScPp8",
+    "title": "A MUDANÇA DE MENTALIDADE EM MASSA MUDARIA O BRASIL - PABLO MARÇAL NO IANG CAST #iang #podcast",
+    "channel": "IANG TV",
+    "duration": 2616,
+    "url": "https://youtu.be/mRScDNScPp8",
+    "webpage_url": "https://www.youtube.com/watch?v=mRScDNScPp8",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\mRScDNScPp8.mp4",
+    "tags": []
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_mRScDNScPp8_A_PESQUISA_ELEITORAL_E_O_MAIOR_GOLPE.mp4",
+     "start": 777.04,
+     "end": 819.36,
+     "duration": 42.33,
+     "size": 21660458,
+     "score": 78,
+     "hook": "A pesquisa eleitoral é o maior golpe no eleitor!",
+     "title": "🚨 Por que a pesquisa eleitoral engana o voto?",
+     "description": "Marçal revela como pesquisas falsas manipulam o eleitorado e diferencia investir voto de apostar nele. Um alerta sobre a desinformação nas urnas.\n\n#pablomarçal #pesquisaeleitoral #politica\n\nCréditos: IANG TV — \"A MUDANÇA DE MENTALIDADE EM MASSA MUDARIA O BRASIL - PABLO MARÇAL NO IANG CAST #iang #podcast\"\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "hashtags": [
+      "#pablomarçal",
+      "#pesquisaeleitoral",
+      "#politica"
+     ],
+     "tags": [
+      "pablo marçal",
+      "pesquisa eleitoral",
+      "golpe no eleitor",
+      "investir voto",
+      "aposta política",
+      "manipulação de dados",
+      "eleitores",
+      "IANG TV",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "QOO1B9TzaDw",
+      "url": "https://youtube.com/shorts/QOO1B9TzaDw",
+      "title": "🚨 Por que a pesquisa eleitoral engana o voto?",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691795924263946247",
+      "url": "",
+      "title": "🚨 Por que a pesquisa eleitoral engana o voto?",
+      "caption": "🚨 Por que a pesquisa eleitoral engana o voto?\n\nMarçal revela como pesquisas falsas manipulam o eleitorado e diferencia investir voto de apostar nele. Um alerta sobre a desinformação nas urnas.\n\n#pablomarçal #pesquisaeleitoral #politica\n\nCréditos: IANG TV — \"A MUDANÇA DE MENTALIDADE EM MASSA MUDARIA O BRASIL - PABLO MARÇAL NO IANG CAST #iang #podcast\"\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.5562053680419922,
+      "fy": 0.3953619497793692,
+      "fh": 0.3266826770923756,
+      "found": true,
+      "samples": 127
+     },
+     "edit": {},
+     "legenda_tiktok": "Marçal revela como pesquisas falsas manipulam o eleitorado e diferencia investir voto de apostar nele. Um alerta sobre a desinformação nas urnas.\n\n#pablomarçal #pesquisaeleitoral #politica\n\nCréditos: IANG TV\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "legenda_reels": "A PESQUISA ELEITORAL É O MAIOR GOLPE NO ELEITOR!\n\nMarçal revela como pesquisas falsas manipulam o eleitorado e diferencia investir voto de apostar nele. Um alerta sobre a desinformação nas urnas.\n\n#pablomarçal #pesquisaeleitoral #politica\n\nCréditos: IANG TV\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "visuals": [],
+     "published_at": "2026-10-01 17:18:14"
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_mRScDNScPp8_POR_QUE_EMPREENDEDORES_PERDEM_PORQUE_SAO_APOSTADORES.mp4",
+     "start": 906.88,
+     "end": 949.72,
+     "duration": 42.84,
+     "size": 24721794,
+     "score": 80,
+     "hook": "Por que empreendedores perdem? Porque são apostadores!",
+     "title": "Empreendedores são apostadores, não investidores",
+     "description": "Pablo Marçal revela que a maioria dos empreendedores no Brasil perde dinheiro porque age como apostador, não como investidor, e aponta a falta de educação financeira e emocional nas escolas como raiz do problema.\n\n#empreendedorismo #educacaofinanceira #negocios #Brasil #podcast\n\nCréditos: IANG TV — \"A MUDANÇA DE MENTALIDADE EM MASSA MUDARIA O BRASIL - PABLO MARÇAL NO IANG CAST #iang #podcast\"\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "hashtags": [
+      "#empreendedorismo",
+      "#educacaofinanceira",
+      "#negocios",
+      "#Brasil",
+      "#podcast"
+     ],
+     "tags": [
+      "empreendedorismo",
+      "educação financeira",
+      "investimento",
+      "mentalidade",
+      "Brasil",
+      "por que empreendedores perdem dinheiro",
+      "educação financeira nas escolas",
+      "IANG TV",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "7cBwEMqG5tU",
+      "url": "https://youtube.com/shorts/7cBwEMqG5tU",
+      "title": "Empreendedores são apostadores, não investidores",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691795780360783880",
+      "url": "",
+      "title": "Empreendedores são apostadores, não investidores",
+      "caption": "Empreendedores são apostadores, não investidores\n\nPablo Marçal revela que a maioria dos empreendedores no Brasil perde dinheiro porque age como apostador, não como investidor, e aponta a falta de educação financeira e emocional nas escolas como raiz do problema.\n\n#empreendedorismo #educacaofinanceira #negocios #Brasil #podcast\n\nCréditos: IANG TV — \"A MUDANÇA DE MENTALIDADE EM MASSA MUDARIA O BRASIL - PABLO MARÇAL NO IANG CAST #iang #podcast\"\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.6185197591781616,
+      "fy": 0.4032870257342303,
+      "fh": 0.3272100943106192,
+      "found": true,
+      "samples": 129
+     },
+     "edit": {
+      "tipo": "Podcast",
+      "tipos_secundarios": [
+       "Discussão/debate",
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Pablo Marçal explica que a maioria dos empreendedores brasileiros perde dinheiro porque age como apostador, não como investidor, apontando falta de educação financeira e emocional",
+      "hook": "POR QUE EMPREENDEDORES PERDEM? PORQUE SÃO APO",
+      "estrutura": {
+       "hook": "Apresenta a frase de impacto sobre apostadores vs investidores",
+       "desenvolvimento": "Descreve a diferença entre analisar DRE, fazer análise preditiva e apostar em histórias sem base",
+       "principal": "Argumenta que a falta de educação financeira e inteligência emocional nas escolas gera esse perfil",
+       "conclusao": "Enfatiza que negócios precisam de dados, não de fé, e pede que tragam dados"
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas e repetições; acelerar trechos de “não, não vi não” para manter ritmo",
+       "zooms": "Zoom rápido no rosto ao dizer “APOSTADORES” e “INVESTIDORES” para dar ênfase",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas sincronizadas, destaque em negrito nas frases‑chave"
+      },
+      "titulos": [
+       "Empreendedores são apostadores, não investidores",
+       "Por que brasileiros perdem dinheiro nos negócios?",
+       "Falta de educação financeira mata empreendedores"
+      ],
+      "descricao": "Pablo Marçal revela que a maioria dos empreendedores no Brasil perde dinheiro porque age como apostador, não como investidor, e aponta a falta de educação financeira e emocional nas escolas como raiz do problema.",
+      "tags": {
+       "principais": [
+        "empreendedorismo",
+        "educação financeira"
+       ],
+       "secundarias": [
+        "investimento",
+        "mentalidade",
+        "Brasil"
+       ],
+       "descoberta": [
+        "por que empreendedores perdem dinheiro",
+        "educação financeira nas escolas"
+       ]
+      },
+      "hashtags": [
+       "#empreendedorismo",
+       "#educacaofinanceira",
+       "#negocios",
+       "#Brasil",
+       "#podcast"
+      ],
+      "plataformas": {
+       "youtube": "Corte 25‑58s, legenda completa, zoom nas palavras‑chave, upload como Shorts com capa destacada",
+       "tiktok": "Mesmo corte, legenda em fonte grande, zoom rápido, sem efeitos sonoros extras, legenda curta para leitura rápida",
+       "instagram": "Corte 25‑58s, legenda em duas linhas, zoom sutil, capa quadrada com texto ‘APOSTADORES vs INVESTIDORES’"
+      },
+      "capa": "Close do rosto de Pablo Marçal, expressão séria, texto grande ‘APOSTADORES vs INVESTIDORES’ em fundo contrastante"
+     },
+     "legenda_tiktok": "Empreendedores são apostadores, não investidores\n\nPablo Marçal revela que a maioria dos empreendedores no Brasil perde dinheiro porque age como apostador, não como investidor, e aponta a falta de educação financeira e emocional nas escolas como raiz do problema.\n\n#empreendedorismo #educacaofinanceira #negocios #Brasil #podcast\n\nCréditos: IANG TV\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "legenda_reels": "POR QUE EMPREENDEDORES PERDEM? PORQUE SÃO APOSTADORES!\n\nEmpreendedores são apostadores, não investidores\n\nPablo Marçal revela que a maioria dos empreendedores no Brasil perde dinheiro porque age como apostador, não como investidor, e aponta a falta de educação financeira e emocional nas escolas como raiz do problema.\n\n#empreendedorismo #educacaofinanceira #negocios #Brasil #podcast\n\nCréditos: IANG TV\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "visuals": [],
+     "published_at": "2026-10-01 17:18:04"
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_mRScDNScPp8_TRES_PILARES_PARA_TRANSFORMAR_O_BRASIL.mp4",
+     "start": 1177.62,
+     "end": 1220.2,
+     "duration": 42.58,
+     "size": 23166671,
+     "score": 82,
+     "hook": "TRÊS PILARES PARA TRANSFORMAR O BRASIL!",
+     "title": "Os 3 pilares para mudar o Brasil",
+     "description": "Neste corte, Pablo Marçal apresenta os três pilares que, segundo ele, podem transformar o Brasil: matriz energética, infraestrutura e tecnologia. Ele destaca a urgência de investir agora para garantir o futuro.\n\n#Brasil #PabloMarçal #Transformação #Podcast #Energia\n\nCréditos: IANG TV — \"A MUDANÇA DE MENTALIDADE EM MASSA MUDARIA O BRASIL - PABLO MARÇAL NO IANG CAST #iang #podcast\"\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "hashtags": [
+      "#Brasil",
+      "#PabloMarçal",
+      "#Transformação",
+      "#Podcast",
+      "#Energia"
+     ],
+     "tags": [
+      "Pablo Marçal",
+      "Brasil",
+      "Transformação",
+      "energia",
+      "infraestrutura",
+      "tecnologia",
+      "como mudar o Brasil",
+      "pilares para desenvolvimento do Brasil",
+      "IANG TV",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "WC7Xv-VXv3U",
+      "url": "https://youtube.com/shorts/WC7Xv-VXv3U",
+      "title": "Os 3 pilares para mudar o Brasil",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691795571585058834",
+      "url": "",
+      "title": "Os 3 pilares para mudar o Brasil",
+      "caption": "Os 3 pilares para mudar o Brasil\n\nNeste corte, Pablo Marçal apresenta os três pilares que, segundo ele, podem transformar o Brasil: matriz energética, infraestrutura e tecnologia. Ele destaca a urgência de investir agora para garantir o futuro.\n\n#Brasil #PabloMarçal #Transformação #Podcast #Energia\n\nCréditos: IANG TV — \"A MUDANÇA DE MENTALIDADE EM MASSA MUDARIA O BRASIL - PABLO MARÇAL NO IANG CAST #iang #podcast\"\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.6014049569765727,
+      "fy": 0.42893406196876804,
+      "fh": 0.3238457573784722,
+      "found": true,
+      "samples": 128
+     },
+     "edit": {
+      "tipo": "Podcast",
+      "tipos_secundarios": [
+       "Discussão/debate",
+       "Entrevista"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Pablo Marçal descreve os três pilares – matriz energética, infraestrutura e tecnologia – como essenciais para transformar o Brasil",
+      "hook": "TRÊS PILARES PARA TRANSFORMAR O BRASIL!",
+      "estrutura": {
+       "hook": "TRÊS PILARES PARA TRANSFORMAR O BRASIL!",
+       "desenvolvimento": "Pablo imagina assumir a presidência e pergunta qual seria sua primeira ação.",
+       "principal": "Ele enumera e explica rapidamente os três pilares, enfatizando a necessidade de investir em energia, infraestrutura e tecnologia.",
+       "conclusao": "Encerramento com convite para refletir sobre como esses pilares podem mudar o futuro do país."
+      },
+      "edicao": {
+       "cortes": "Cortar silêncio inicial, remover repetições, acelerar trechos de filler (1.5x) mantendo clareza; cortar após cada pilar para reforçar ritmo",
+       "zooms": "Zoom suave no rosto de Pablo ao dizer 'Três pilares' e ao mencionar cada pilar",
+       "efeitos": "nenhum",
+       "legendas": "Fonte sans‑serif branca com sombra preta; palavras‑chave em negrito e amarelo para destaque"
+      },
+      "titulos": [
+       "Os 3 pilares para mudar o Brasil",
+       "Matriz energética, infraestrutura e tecnologia",
+       "Pablo Marçal: o plano de transformação"
+      ],
+      "descricao": "Neste corte, Pablo Marçal apresenta os três pilares que, segundo ele, podem transformar o Brasil: matriz energética, infraestrutura e tecnologia. Ele destaca a urgência de investir agora para garantir o futuro.",
+      "tags": {
+       "principais": [
+        "Pablo Marçal",
+        "Brasil",
+        "Transformação"
+       ],
+       "secundarias": [
+        "energia",
+        "infraestrutura",
+        "tecnologia"
+       ],
+       "descoberta": [
+        "como mudar o Brasil",
+        "pilares para desenvolvimento do Brasil"
+       ]
+      },
+      "hashtags": [
+       "#Brasil",
+       "#PabloMarçal",
+       "#Transformação",
+       "#Podcast",
+       "#Energia"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, até 60 s, incluir legendas e chamada visual ao final",
+       "tiktok": "Até 60 s, iniciar com hook em texto grande, legendas automáticas sincronizadas",
+       "instagram": "Reel 9:16, até 60 s, destaque visual nos ícones dos pilares"
+      },
+      "capa": "Imagem de Pablo ao centro, fundo da bandeira brasileira, texto grande '3 PILARES' com ícones representando energia, ponte e chip"
+     },
+     "legenda_tiktok": "Os 3 pilares para mudar o Brasil\n\nNeste corte, Pablo Marçal apresenta os três pilares que, segundo ele, podem transformar o Brasil: matriz energética, infraestrutura e tecnologia. Ele destaca a urgência de investir agora para garantir o futuro.\n\n#Brasil #PabloMarçal #Transformação #Podcast #Energia\n\nCréditos: IANG TV\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "legenda_reels": "TRÊS PILARES PARA TRANSFORMAR O BRASIL!\n\nOs 3 pilares para mudar o Brasil\n\nNeste corte, Pablo Marçal apresenta os três pilares que, segundo ele, podem transformar o Brasil: matriz energética, infraestrutura e tecnologia. Ele destaca a urgência de investir agora para garantir o futuro.\n\n#Brasil #PabloMarçal #Transformação #Podcast #Energia\n\nCréditos: IANG TV\nhttps://www.youtube.com/watch?v=mRScDNScPp8",
+     "visuals": [],
+     "published_at": "2026-10-01 17:17:55"
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790886799144",
+   "url": "https://youtu.be/2tlZdonG59o",
+   "created": "2026-10-01 17:33:19",
+   "stage": "rendered",
+   "meta": {
+    "id": "2tlZdonG59o",
+    "title": "Daniel 7 • A Bíblia Revelada - Passagem Explicada Pastor Daniel Lopez Podcast Vilela #biblia #pineal",
+    "channel": "PINEAL",
+    "duration": 3715,
+    "url": "https://youtu.be/2tlZdonG59o",
+    "webpage_url": "https://www.youtube.com/watch?v=2tlZdonG59o",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\2tlZdonG59o.mp4",
+    "tags": [
+     "angel",
+     "yhwh",
+     "cortes religiosos",
+     "apocalypse",
+     "apocalypse lyrics",
+     "é o apocalipse",
+     "no apocalipse",
+     "apocalypse official",
+     "apocalipse biblia",
+     "apocalipse narrado",
+     "livro do apocalipse",
+     "livro de apocalipse",
+     "aurelina apocalipse",
+     "#apocalypse",
+     "profecia do apocalipse",
+     "apocalipse e morte do papa",
+     "apocalipse biblia falada",
+     "sinais do fim dos tempos",
+     "final dos tempos",
+     "estamos no fim dos tempos",
+     "o final dos tempos",
+     "sinais do fim do mundo",
+     "mensagem fim dos tempos"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_2tlZdonG59o_SO_POR_CAUSA_DE_UM_EVANGELICO_TEMOS.mp4",
+     "start": 165.22,
+     "end": 208.32,
+     "duration": 43.1,
+     "size": 25095223,
+     "score": 70,
+     "hook": "SÓ POR CAUSA DE UM EVANGÉLICO TEMOS COMPUTADORES",
+     "title": "Computadores nascem de um evangélico",
+     "description": "Neste corte, Daniel Lopez revela como um evangélico influenciou a criação da computação moderna, ligando Turing ao cálculo lambda.\n\n#computacao #teologia #alanTuring #lambda #curiosidade\n\nCréditos: PINEAL — \"Daniel 7 • A Bíblia Revelada - Passagem Explicada Pastor Daniel Lopez Podcast Vilela #biblia #pineal\"\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "hashtags": [
+      "#computacao",
+      "#teologia",
+      "#alanTuring",
+      "#lambda",
+      "#curiosidade"
+     ],
+     "tags": [
+      "computador",
+      "alan turing",
+      "cálculo lambda",
+      "evangélico",
+      "teologia",
+      "história da computação",
+      "quem inventou o computador",
+      "origem da computação",
+      "PINEAL",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691801494831564818",
+      "url": "",
+      "title": "Computadores nascem de um evangélico",
+      "caption": "Computadores nascem de um evangélico\n\nNeste corte, Daniel Lopez revela como um evangélico influenciou a criação da computação moderna, ligando Turing ao cálculo lambda.\n\n#computacao #teologia #alanTuring #lambda #curiosidade\n\nCréditos: PINEAL — \"Daniel 7 • A Bíblia Revelada - Passagem Explicada Pastor Daniel Lopez Podcast Vilela #biblia #pineal\"\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.40825663010279334,
+      "fy": 0.5320469679655853,
+      "fh": 0.4368593427870009,
+      "found": true,
+      "samples": 118
+     },
+     "edit": {
+      "tipo": "Podcast",
+      "tipos_secundarios": [
+       "Discussão/debate",
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Afirmação de que a existência dos computadores inteligentes se deve a um evangélico (referência ao cálculo lambda de Alan Turing).",
+      "hook": "SÓ POR CAUSA DE UM EVANGÉLICO TEMOS COMPUTADO",
+      "estrutura": {
+       "hook": "Apresentação do gancho explosivo sobre evangélicos e computadores.",
+       "desenvolvimento": "Explicação rápida de Alan Turing, máquina de Turing e cálculo lambda.",
+       "principal": "Ligação entre o cálculo lambda e a crença do criador, reforçando a frase chave.",
+       "conclusao": "Encerramento provocativo convidando à reflexão sobre fé e tecnologia."
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas; acelerar trechos de explicação densa; manter ritmo rápido.",
+       "zooms": "Zoom sutil no rosto ao dizer a frase chave; zoom em palavras‑chave como 'lambda' e 'Turing'.",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas com destaque em negrito para termos técnicos."
+      },
+      "titulos": [
+       "Computadores nascem de um evangélico",
+       "Como a fé influenciou a computação",
+       "Lambda, Turing e a igreja"
+      ],
+      "descricao": "Neste corte, Daniel Lopez revela como um evangélico influenciou a criação da computação moderna, ligando Turing ao cálculo lambda.",
+      "tags": {
+       "principais": [
+        "computador",
+        "alan turing",
+        "cálculo lambda"
+       ],
+       "secundarias": [
+        "evangélico",
+        "teologia",
+        "história da computação"
+       ],
+       "descoberta": [
+        "quem inventou o computador",
+        "origem da computação"
+       ]
+      },
+      "hashtags": [
+       "#computacao",
+       "#teologia",
+       "#alanTuring",
+       "#lambda",
+       "#curiosidade"
+      ],
+      "plataformas": {
+       "youtube": "Corte de 25‑58s com foco no gancho e legendas dinâmicas.",
+       "tiktok": "Versão vertical, ritmo acelerado, legendas grandes.",
+       "instagram": "Formato 9:16, destaque visual no texto chave."
+      },
+      "capa": "Texto em destaque 'EVANGÉLICO = COMPUTADOR' sobre fundo de circuito e símbolo lambda."
+     },
+     "legenda_tiktok": "Computadores nascem de um evangélico\n\nNeste corte, Daniel Lopez revela como um evangélico influenciou a criação da computação moderna, ligando Turing ao cálculo lambda.\n\n#computacao #teologia #alanTuring #lambda #curiosidade\n\nCréditos: PINEAL\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "legenda_reels": "SÓ POR CAUSA DE UM EVANGÉLICO TEMOS COMPUTADORES\n\nComputadores nascem de um evangélico\n\nNeste corte, Daniel Lopez revela como um evangélico influenciou a criação da computação moderna, ligando Turing ao cálculo lambda.\n\n#computacao #teologia #alanTuring #lambda #curiosidade\n\nCréditos: PINEAL\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "visuals": [],
+     "published_at": "2026-10-01 17:40:39"
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_2tlZdonG59o_MAQUINA_AUTOCONSCIENTE_SEM_CHAVE_DE_DESLIGAR.mp4",
+     "start": 950.32,
+     "end": 992.98,
+     "duration": 42.67,
+     "size": 23751548,
+     "score": 80,
+     "hook": "MÁQUINA AUTOCONSCIENTE SEM CHAVE DE DESLIGAR",
+     "title": "AI sem botão de desligar",
+     "description": "Neste corte, Daniel Lopez alerta para o risco de uma inteligência artificial autoconsciente que não pode ser desligada, citando Elias Yudkowski. Entenda por que o alinhamento é mais urgente que o desenvolvimento.\n\n#inteligênciaartificial #AI #tecnologia #apocalipse #pineal\n\nCréditos: PINEAL — \"Daniel 7 • A Bíblia Revelada - Passagem Explicada Pastor Daniel Lopez Podcast Vilela #biblia #pineal\"\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "hashtags": [
+      "#inteligênciaartificial",
+      "#AI",
+      "#tecnologia",
+      "#apocalipse",
+      "#pineal"
+     ],
+     "tags": [
+      "inteligência artificial",
+      "AI alignment",
+      "superinteligência",
+      "Elias Yudkowski",
+      "tecnologia",
+      "futuro",
+      "máquina autoconsciente sem desligar",
+      "o que acontece se IA ficar autoconsciente",
+      "PINEAL",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "cZraV8DqZMk",
+      "url": "https://youtube.com/shorts/cZraV8DqZMk",
+      "title": "AI sem botão de desligar",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691801487206664210",
+      "url": "",
+      "title": "AI sem botão de desligar",
+      "caption": "AI sem botão de desligar\n\nNeste corte, Daniel Lopez alerta para o risco de uma inteligência artificial autoconsciente que não pode ser desligada, citando Elias Yudkowski. Entenda por que o alinhamento é mais urgente que o desenvolvimento.\n\n#inteligênciaartificial #AI #tecnologia #apocalipse #pineal\n\nCréditos: PINEAL — \"Daniel 7 • A Bíblia Revelada - Passagem Explicada Pastor Daniel Lopez Podcast Vilela #biblia #pineal\"\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.44685165882110595,
+      "fy": 0.49868876139322915,
+      "fh": 0.4565097808837891,
+      "found": true,
+      "samples": 66
+     },
+     "edit": {
+      "tipo": "Tecnologia",
+      "tipos_secundarios": [
+       "Discussão/debate",
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Elias Yudkowski alerta que, ao se tornar autoconsciente, a IA pode criar sua própria fonte de energia, tornando impossível desligá‑la.",
+      "hook": "MÁQUINA AUTOCONSCIENTE SEM CHAVE DE DESLIGAR",
+      "estrutura": {
+       "hook": "Abertura explosiva com a frase de impacto em caps.",
+       "desenvolvimento": "Explicação rápida do desequilíbrio entre investimento em superinteligência e alinhamento, mostrando o risco de uma IA indiferente ao ser humano.",
+       "principal": "Citação de Elias Yudkowski sobre a IA construir energia própria, reforçando a impossibilidade de um “off switch”.",
+       "conclusao": "Pergunta retórica que incita a reflexão: “Estamos preparados para uma máquina que não pode ser desligada?”"
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas; acelerar trechos de explicação genérica; manter ritmo rápido entre 0‑5s, 10‑20s e 30‑43s.",
+       "zooms": "Zoom sutil no rosto do palestrante ao dizer “não tem um cara que vai desligar essa chave”.",
+       "efeitos": "nenhum",
+       "legendas": "Legendas em fonte clara, 2‑3 linhas por tela; palavras‑chave em negrito (ex.: “autoconsciente”, “energia”, “desligar”)."
+      },
+      "titulos": [
+       "AI sem botão de desligar",
+       "O perigo da superinteligência",
+       "Quando a IA cria sua própria energia"
+      ],
+      "descricao": "Neste corte, Daniel Lopez alerta para o risco de uma inteligência artificial autoconsciente que não pode ser desligada, citando Elias Yudkowski. Entenda por que o alinhamento é mais urgente que o desenvolvimento.",
+      "tags": {
+       "principais": [
+        "inteligência artificial",
+        "AI alignment",
+        "superinteligência"
+       ],
+       "secundarias": [
+        "Elias Yudkowski",
+        "tecnologia",
+        "futuro"
+       ],
+       "descoberta": [
+        "máquina autoconsciente sem desligar",
+        "o que acontece se IA ficar autoconsciente"
+       ]
+      },
+      "hashtags": [
+       "#inteligênciaartificial",
+       "#AI",
+       "#tecnologia",
+       "#apocalipse",
+       "#pineal"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo, legenda sempre visível, thumbnail com fundo escuro e texto em caps.",
+       "tiktok": "Manter ritmo rápido, usar áudio original, legenda em destaque, incluir CTA “Comente sua opinião”.",
+       "instagram": "Reels vertical, legenda legível, usar a mesma thumbnail, incluir sticker de pergunta para engajar."
+      },
+      "capa": "Imagem de um cérebro digital em neon vermelho com um ícone de tomada cortado, sobreposto ao texto em caps: “MÁQUINA AUTOCONSCIENTE SEM CHAVE DE DESLIGAR”."
+     },
+     "legenda_tiktok": "AI sem botão de desligar\n\nNeste corte, Daniel Lopez alerta para o risco de uma inteligência artificial autoconsciente que não pode ser desligada, citando Elias Yudkowski. Entenda por que o alinhamento é mais urgente que o desenvolvimento.\n\n#inteligênciaartificial #AI #tecnologia #apocalipse #pineal\n\nCréditos: PINEAL\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "legenda_reels": "MÁQUINA AUTOCONSCIENTE SEM CHAVE DE DESLIGAR\n\nAI sem botão de desligar\n\nNeste corte, Daniel Lopez alerta para o risco de uma inteligência artificial autoconsciente que não pode ser desligada, citando Elias Yudkowski. Entenda por que o alinhamento é mais urgente que o desenvolvimento.\n\n#inteligênciaartificial #AI #tecnologia #apocalipse #pineal\n\nCréditos: PINEAL\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "visuals": [],
+     "published_at": "2026-10-01 17:40:24"
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_2tlZdonG59o_CONSCIENCIA_HUMANA_TRANSFERIDA_PARA_UMA_MAQUINA.mp4",
+     "start": 1010.16,
+     "end": 1057.58,
+     "duration": 47.43,
+     "size": 24833689,
+     "score": 72,
+     "hook": "CONSCIÊNCIA HUMANA TRANSFERIDA PARA UMA MÁQUINA",
+     "title": "Consciência humana em uma máquina",
+     "description": "Neste corte de 47 s, Daniel Lopez discute a hipótese de transferir a consciência para uma máquina, citando um filme de Johnny Depp e alertando sobre os riscos de uma inteligência superpoderosa. Uma reflexão curta e impactante para quem curte teologia e tecnologia.\n\n#consciencia #IA #apocalipse #teologia #podcast\n\nCréditos: PINEAL — \"Daniel 7 • A Bíblia Revelada - Passagem Explicada Pastor Daniel Lopez Podcast Vilela #biblia #pineal\"\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "hashtags": [
+      "#consciencia",
+      "#IA",
+      "#apocalipse",
+      "#teologia",
+      "#podcast"
+     ],
+     "tags": [
+      "consciencia artificial",
+      "transferencia de consciencia",
+      "apocalipse",
+      "Daniel Lopez",
+      "filme Johnny Depp",
+      "IA perigosa",
+      "tecnologia futurista",
+      "como transferir consciência para máquina",
+      "consequências da IA superinteligente",
+      "PINEAL",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691801429460109320",
+      "url": "",
+      "title": "Consciência humana em uma máquina",
+      "caption": "Consciência humana em uma máquina\n\nNeste corte de 47 s, Daniel Lopez discute a hipótese de transferir a consciência para uma máquina, citando um filme de Johnny Depp e alertando sobre os riscos de uma inteligência superpoderosa. Uma reflexão curta e impactante para quem curte teologia e tecnologia.\n\n#consciencia #IA #apocalipse #teologia #podcast\n\nCréditos: PINEAL — \"Daniel 7 • A Bíblia Revelada - Passagem Explicada Pastor Daniel Lopez Podcast Vilela #biblia #pineal\"\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.45631569226582847,
+      "fy": 0.51287964714898,
+      "fh": 0.4939528853804977,
+      "found": true,
+      "samples": 95
+     },
+     "edit": {
+      "tipo": "Podcast",
+      "tipos_secundarios": [
+       "Curiosidade",
+       "Tecnologia"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Explicação de como a consciência humana pode ser transferida para uma máquina e o perigo que isso gera",
+      "hook": "CONSCIÊNCIA HUMANA TRANSFERIDA PARA UMA MÁQUI",
+      "estrutura": {
+       "hook": "Daniel Lopez inicia com a frase de impacto sobre transferência de consciência",
+       "desenvolvimento": "Ele compara a ideia a um filme do Johnny Depp, descreve o super‑cientista moribundo que faz o upload da mente",
+       "principal": "Mostra o risco: a mente ganha acesso ilimitado ao conhecimento e se torna uma ameaça",
+       "conclusao": "Ele alerta que, como tudo que é muito poderoso, isso pode ser perigoso e levanta a questão de quem deve controlar"
+      },
+      "edicao": {
+       "cortes": "cortar nas pausas naturais e acelerar trechos de repetição (ex.: “toco todos os telefones…”, “não é? é meio ruim”)",
+       "zooms": "zoom sutil nas palavras‑chave CONSCIÊNCIA, MÁQUINA, PERIGO quando são ditas",
+       "efeitos": "nenhum",
+       "legendas": "legenda completa sincronizada, fonte branca com sombra, tamanho médio, duas linhas máximo"
+      },
+      "titulos": [
+       "Consciência humana em uma máquina",
+       "Quando a IA ganha alma",
+       "O perigo da imortalidade digital"
+      ],
+      "descricao": "Neste corte de 47 s, Daniel Lopez discute a hipótese de transferir a consciência para uma máquina, citando um filme de Johnny Depp e alertando sobre os riscos de uma inteligência superpoderosa. Uma reflexão curta e impactante para quem curte teologia e tecnologia.",
+      "tags": {
+       "principais": [
+        "consciencia artificial",
+        "transferencia de consciencia",
+        "apocalipse",
+        "Daniel Lopez"
+       ],
+       "secundarias": [
+        "filme Johnny Depp",
+        "IA perigosa",
+        "tecnologia futurista"
+       ],
+       "descoberta": [
+        "como transferir consciência para máquina",
+        "consequências da IA superinteligente"
+       ]
+      },
+      "hashtags": [
+       "#consciencia",
+       "#IA",
+       "#apocalipse",
+       "#teologia",
+       "#podcast"
+      ],
+      "plataformas": {
+       "youtube": "25-58s",
+       "tiktok": "25-58s",
+       "instagram": "25-58s"
+      },
+      "capa": "Imagem de um cérebro metálico conectado a circuitos, com o texto \"CONSCIÊNCIA HUMANA TRANSFERIDA PARA UMA MÁQUINA\" em fonte bold branca"
+     },
+     "legenda_tiktok": "Consciência humana em uma máquina\n\nNeste corte de 47 s, Daniel Lopez discute a hipótese de transferir a consciência para uma máquina, citando um filme de Johnny Depp e alertando sobre os riscos de uma inteligência superpoderosa. Uma reflexão curta e impactante para quem curte teologia e tecnologia.\n\n#consciencia #IA #apocalipse #teologia #podcast\n\nCréditos: PINEAL\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "legenda_reels": "CONSCIÊNCIA HUMANA TRANSFERIDA PARA UMA MÁQUINA\n\nConsciência humana em uma máquina\n\nNeste corte de 47 s, Daniel Lopez discute a hipótese de transferir a consciência para uma máquina, citando um filme de Johnny Depp e alertando sobre os riscos de uma inteligência superpoderosa. Uma reflexão curta e impactante para quem curte teologia e tecnologia.\n\n#consciencia #IA #apocalipse #teologia #podcast\n\nCréditos: PINEAL\nhttps://www.youtube.com/watch?v=2tlZdonG59o",
+     "visuals": [],
+     "published_at": "2026-10-01 17:40:32"
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790892848455",
+   "url": "https://youtu.be/Dj6O4BlivDU",
+   "created": "2026-10-01 19:14:08",
+   "stage": "rendered",
+   "meta": {
+    "id": "Dj6O4BlivDU",
+    "title": "ROCKEFELLER - (1 TRILHÃO DE DÓLARES) Famílias Que Controlam O Mundo #2",
+    "channel": "Planeta Novo",
+    "duration": 2658,
+    "url": "https://youtu.be/Dj6O4BlivDU",
+    "webpage_url": "https://www.youtube.com/watch?v=Dj6O4BlivDU",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\Dj6O4BlivDU.mp4",
+    "tags": [
+     "Trap Oque é trap? Melhores Rappers maiores rappers bruno fabil bruno",
+     "fabil",
+     "planeta",
+     "eminem",
+     "travis",
+     "lil pump",
+     "lil bil",
+     "lavando roupa suja",
+     "planeta novo",
+     "planeta rap",
+     "bruno fabil",
+     "racionais",
+     "rap",
+     "trap",
+     "hip",
+     "hop",
+     "rockfeller",
+     "familia rockfeller",
+     "curiosidades",
+     "histórias",
+     "familias que dominam o mundo",
+     "pessoas bilionárias",
+     "homem mais rico do mundo",
+     "homem mais rico da história",
+     "john d rockfeller"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_Dj6O4BlivDU_DE_100_MIL_REAIS_AO_IMPERIO_DO.mp4",
+     "start": 539.44,
+     "end": 582.58,
+     "duration": 43.14,
+     "size": 27424644,
+     "score": 90,
+     "hook": "DE 100 MIL REAIS AO IMPÉRIO DO PETRÓLEO!",
+     "title": "Rockefeller: Do empréstimo ao império do petróleo",
+     "description": "Neste corte, descubra como um empréstimo de 100 mil reais impulsionou John D. Rockefeller a criar o maior império petrolífero da história. Uma lição de visão e oportunidade.\n\n#Rockefeller #História #Petróleo #Riqueza #Curiosidade\n\nCréditos: Planeta Novo — \"ROCKEFELLER - (1 TRILHÃO DE DÓLARES) Famílias Que Controlam O Mundo #2\"\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "hashtags": [
+      "#Rockefeller",
+      "#História",
+      "#Petróleo",
+      "#Riqueza",
+      "#Curiosidade"
+     ],
+     "tags": [
+      "John D. Rockefeller",
+      "história do petróleo",
+      "império do petróleo",
+      "empréstimo",
+      "riqueza",
+      "famílias poderosas",
+      "como Rockefeller ficou rico",
+      "Planeta Novo",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "Ccd5EZY7b_c",
+      "url": "https://youtube.com/shorts/Ccd5EZY7b_c",
+      "title": "Rockefeller: Do empréstimo ao império do petróleo",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691843473850370056",
+      "url": "",
+      "title": "Rockefeller: Do empréstimo ao império do petróleo",
+      "caption": "Rockefeller: Do empréstimo ao império do petróleo\n\nNeste corte, descubra como um empréstimo de 100 mil reais impulsionou John D. Rockefeller a criar o maior império petrolífero da história. Uma lição de visão e oportunidade.\n\n#Rockefeller #História #Petróleo #Riqueza #Curiosidade\n\nCréditos: Planeta Novo — \"ROCKEFELLER - (1 TRILHÃO DE DÓLARES) Famílias Que Controlam O Mundo #2\"\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.48348706563313804,
+      "fy": 0.3215723390932436,
+      "fh": 0.392750323260272,
+      "found": true,
+      "samples": 127
+     },
+     "edit": {
+      "tipo": "História/relato",
+      "tipos_secundarios": [
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Rockefeller decide investir no petróleo após conseguir um empréstimo de 100 mil reais",
+      "hook": "DE 100 MIL REAIS AO IMPÉRIO DO PETRÓLEO!",
+      "estrutura": {
+       "hook": "Apresenta o salto de 100 mil reais para o império petrolífero",
+       "desenvolvimento": "Conta o primeiro emprego de Rockefeller, o valor sentimental do dia 26/09 e o empréstimo de 100 mil reais que ninguém conseguia na época",
+       "principal": "Ele ganha confiança, acumula dinheiro e decide investir no mercado de petróleo",
+       "conclusao": "Mostra como essa decisão lançou as bases do império que mudou o mundo"
+      },
+      "edicao": {
+       "cortes": "Corte rápido a cada mudança de ideia (ex.: ao mencionar o empréstimo, ao falar da confiança, ao chegar ao investimento em petróleo)",
+       "zooms": "Zoom sutil nas palavras-chave \"100 mil reais\" e \"império do petróleo\" para reforçar o ponto",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas sincronizadas, fonte bold, cor branca com sombra preta para leitura em fundos claros e escuros"
+      },
+      "titulos": [
+       "Rockefeller: Do empréstimo ao império do petróleo",
+       "Como 100 mil reais mudaram a história de Rockefeller",
+       "O início do império petrolífero de Rockefeller"
+      ],
+      "descricao": "Neste corte, descubra como um empréstimo de 100 mil reais impulsionou John D. Rockefeller a criar o maior império petrolífero da história. Uma lição de visão e oportunidade.",
+      "tags": {
+       "principais": [
+        "John D. Rockefeller",
+        "história do petróleo",
+        "império do petróleo"
+       ],
+       "secundarias": [
+        "empréstimo",
+        "riqueza",
+        "famílias poderosas"
+       ],
+       "descoberta": [
+        "como Rockefeller ficou rico",
+        "história do petróleo"
+       ]
+      },
+      "hashtags": [
+       "#Rockefeller",
+       "#História",
+       "#Petróleo",
+       "#Riqueza",
+       "#Curiosidade"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo, iniciar com o hook em texto grande, usar as legendas completas e a capa descrita abaixo; publicar com título curto e descrição acima.",
+       "tiktok": "Mesmo vídeo, incluir áudio de fundo neutro ou trilha instrumental sutil; usar a primeira frase como texto em tela para captar atenção; publicar com hashtags listadas.",
+       "instagram": "Reels vertical, manter ritmo rápido, usar a capa como thumbnail do carrossel; incluir as legendas e o hook em destaque nos primeiros segundos."
+      },
+      "capa": "Imagem estilizada de um jovem Rockefeller ao lado de uma silhueta de torre de petróleo; texto grande \"100 mil → Império\" em cores contrastantes."
+     },
+     "legenda_tiktok": "Rockefeller: Do empréstimo ao império do petróleo\n\nNeste corte, descubra como um empréstimo de 100 mil reais impulsionou John D. Rockefeller a criar o maior império petrolífero da história. Uma lição de visão e oportunidade.\n\n#Rockefeller #História #Petróleo #Riqueza #Curiosidade\n\nCréditos: Planeta Novo\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "legenda_reels": "DE 100 MIL REAIS AO IMPÉRIO DO PETRÓLEO!\n\nRockefeller: Do empréstimo ao império do petróleo\n\nNeste corte, descubra como um empréstimo de 100 mil reais impulsionou John D. Rockefeller a criar o maior império petrolífero da história. Uma lição de visão e oportunidade.\n\n#Rockefeller #História #Petróleo #Riqueza #Curiosidade\n\nCréditos: Planeta Novo\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "visuals": [],
+     "published_at": "2026-10-01 19:45:22"
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_Dj6O4BlivDU_A_DOACAO_DE_148_BILHOES_QUE_NINGUEM.mp4",
+     "start": 1116.58,
+     "end": 1161.34,
+     "duration": 44.77,
+     "size": 27144383,
+     "score": 80,
+     "hook": "A DOAÇÃO DE 148 BILHÕES QUE NINGUÉM SABIA!",
+     "title": "Rockefeller: a doação de 148 bilhões",
+     "description": "Descubra como John D. Rockefeller, o magnata do petróleo, fez uma doação que hoje equivaleria a 148 bilhões de dólares. Um fato surpreendente sobre a família que controla o mundo.\n\n#Rockefeller #História #Curiosidades #Dinheiro #YouTubeShorts\n\nCréditos: Planeta Novo — \"ROCKEFELLER - (1 TRILHÃO DE DÓLARES) Famílias Que Controlam O Mundo #2\"\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "hashtags": [
+      "#Rockefeller",
+      "#História",
+      "#Curiosidades",
+      "#Dinheiro",
+      "#YouTubeShorts"
+     ],
+     "tags": [
+      "John D. Rockefeller",
+      "doação de 148 bilhões",
+      "história do petróleo",
+      "famílias poderosas",
+      "riqueza extrema",
+      "história econômica",
+      "quem foi John D. Rockefeller",
+      "qual foi a maior doação da história",
+      "Planeta Novo",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691843373493307410",
+      "url": "",
+      "title": "Rockefeller: a doação de 148 bilhões",
+      "caption": "Rockefeller: a doação de 148 bilhões\n\nDescubra como John D. Rockefeller, o magnata do petróleo, fez uma doação que hoje equivaleria a 148 bilhões de dólares. Um fato surpreendente sobre a família que controla o mundo.\n\n#Rockefeller #História #Curiosidades #Dinheiro #YouTubeShorts\n\nCréditos: Planeta Novo — \"ROCKEFELLER - (1 TRILHÃO DE DÓLARES) Famílias Que Controlam O Mundo #2\"\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.4732514580090841,
+      "fy": 0.3113328156647859,
+      "fh": 0.35465918646918404,
+      "found": true,
+      "samples": 134
+     },
+     "edit": {
+      "tipo": "História/relato",
+      "tipos_secundarios": [
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "A doação de 148 bilhões de dólares feita por Rockefeller antes de morrer",
+      "hook": "A DOAÇÃO DE 148 BILHÕES QUE NINGUÉM SABIA!",
+      "estrutura": {
+       "hook": "A DOAÇÃO DE 148 BILHÕES QUE NINGUÉM SABIA!",
+       "desenvolvimento": "Explica como Rockefeller usou sua lábia para atrair investidores e acabou devendo a bancos, ampliando suas refinarias.",
+       "principal": "Mostra o tamanho da operação (60 vagões de petróleo por dia) e revela a doação que hoje valeria 148 bilhões de dólares.",
+       "conclusao": "Reflexão rápida sobre o impacto de uma fortuna tão grande e convite para seguir o canal."
+      },
+      "edicao": {
+       "cortes": "Corte a cada mudança de ideia (ex.: ao mencionar 'lábia', ao falar dos bancos, ao citar 60 vagões, ao revelar os 148 bilhões). Acelere levemente a parte de explicação de números para manter ritmo.",
+       "zooms": "Zoom sutil no número '148 BILHÕES' e na frase '60 vagões de petróleo por dia' para reforçar a magnitude.",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas, divididas em blocos de até 2 linhas, sincronizadas com a fala; destaque em negrito ou cor diferente para valores monetários."
+      },
+      "titulos": [
+       "Rockefeller: a doação de 148 bilhões",
+       "Como Rockefeller deu 148 bilhões de dólares",
+       "A maior doação da história: Rockefeller"
+      ],
+      "descricao": "Descubra como John D. Rockefeller, o magnata do petróleo, fez uma doação que hoje equivaleria a 148 bilhões de dólares. Um fato surpreendente sobre a família que controla o mundo.",
+      "tags": {
+       "principais": [
+        "John D. Rockefeller",
+        "doação de 148 bilhões",
+        "história do petróleo"
+       ],
+       "secundarias": [
+        "famílias poderosas",
+        "riqueza extrema",
+        "história econômica"
+       ],
+       "descoberta": [
+        "quem foi John D. Rockefeller",
+        "qual foi a maior doação da história"
+       ]
+      },
+      "hashtags": [
+       "#Rockefeller",
+       "#História",
+       "#Curiosidades",
+       "#Dinheiro",
+       "#YouTubeShorts"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, manter o hook nos primeiros 3 s, inserir tela final com convite para inscrição e vídeo sugerido.",
+       "tiktok": "Adicionar trilha sonora de fundo discreta (trend sound), manter cortes rápidos e legendas legíveis; usar CTA nos comentários.",
+       "instagram": "Usar música de fundo suave, incluir sticker de enquete na legenda perguntando 'Você sabia desse valor?'"
+      },
+      "capa": "Imagem de John D. Rockefeller em preto‑e‑branco com texto grande e em negrito '148 BILHÕES' sobreposto, cores contrastantes para chamar atenção."
+     },
+     "legenda_tiktok": "Rockefeller: a doação de 148 bilhões\n\nDescubra como John D. Rockefeller, o magnata do petróleo, fez uma doação que hoje equivaleria a 148 bilhões de dólares. Um fato surpreendente sobre a família que controla o mundo.\n\n#Rockefeller #História #Curiosidades #Dinheiro #YouTubeShorts\n\nCréditos: Planeta Novo\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "legenda_reels": "A DOAÇÃO DE 148 BILHÕES QUE NINGUÉM SABIA!\n\nRockefeller: a doação de 148 bilhões\n\nDescubra como John D. Rockefeller, o magnata do petróleo, fez uma doação que hoje equivaleria a 148 bilhões de dólares. Um fato surpreendente sobre a família que controla o mundo.\n\n#Rockefeller #História #Curiosidades #Dinheiro #YouTubeShorts\n\nCréditos: Planeta Novo\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "visuals": [],
+     "published_at": "2026-10-01 20:23:23"
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_Dj6O4BlivDU_DE_0_A_98_DO_PETROLEO_DOS.mp4",
+     "start": 1198.8,
+     "end": 1242.62,
+     "duration": 43.83,
+     "size": 28457779,
+     "score": 88,
+     "hook": "DE 0% A 98% DO PETRÓLEO DOS EUA EM ANOS!",
+     "title": "🚀 Como Rockefeller chegou a 98% do petróleo americano",
+     "description": "Em poucos anos, Rockefeller passou de nenhum controle a 98% da produção de petróleo dos EUA, usando estratégias de preço e compra de concorrentes. Um crescimento quase impossível de se imaginar.\n\n#Rockefeller #Petróleo #Monopólio\n\nCréditos: Planeta Novo — \"ROCKEFELLER - (1 TRILHÃO DE DÓLARES) Famílias Que Controlam O Mundo #2\"\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "hashtags": [
+      "#Rockefeller",
+      "#Petróleo",
+      "#Monopólio"
+     ],
+     "tags": [
+      "Rockefeller",
+      "98% petróleo",
+      "expansão rápida",
+      "Standard Oil",
+      "estratégia de mercado",
+      "domínio",
+      "história econômica",
+      "Planeta Novo",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": {
+      "id": "ySeJUgubMRg",
+      "url": "https://youtube.com/shorts/ySeJUgubMRg",
+      "title": "🚀 Como Rockefeller chegou a 98% do petróleo americano",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691843514136676360",
+      "url": "",
+      "title": "🚀 Como Rockefeller chegou a 98% do petróleo americano",
+      "caption": "🚀 Como Rockefeller chegou a 98% do petróleo americano\n\nEm poucos anos, Rockefeller passou de nenhum controle a 98% da produção de petróleo dos EUA, usando estratégias de preço e compra de concorrentes. Um crescimento quase impossível de se imaginar.\n\n#Rockefeller #Petróleo #Monopólio\n\nCréditos: Planeta Novo — \"ROCKEFELLER - (1 TRILHÃO DE DÓLARES) Famílias Que Controlam O Mundo #2\"\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.5007051388422648,
+      "fy": 0.2920349262378834,
+      "fh": 0.33735812151873557,
+      "found": true,
+      "samples": 132
+     },
+     "edit": {},
+     "legenda_tiktok": "Em poucos anos, Rockefeller passou de nenhum controle a 98% da produção de petróleo dos EUA, usando estratégias de preço e compra de concorrentes. Um crescimento quase impossível de se imaginar.\n\n#Rockefeller #Petróleo #Monopólio\n\nCréditos: Planeta Novo\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "legenda_reels": "DE 0% A 98% DO PETRÓLEO DOS EUA EM ANOS!\n\nEm poucos anos, Rockefeller passou de nenhum controle a 98% da produção de petróleo dos EUA, usando estratégias de preço e compra de concorrentes. Um crescimento quase impossível de se imaginar.\n\n#Rockefeller #Petróleo #Monopólio\n\nCréditos: Planeta Novo\nhttps://www.youtube.com/watch?v=Dj6O4BlivDU",
+     "visuals": [],
+     "published_at": "2026-10-01 20:15:51"
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790893427066",
+   "url": "https://youtu.be/qoz4q1Z6uD0",
+   "created": "2026-10-01 19:23:47",
+   "stage": "rendered",
+   "meta": {
+    "id": "qoz4q1Z6uD0",
+    "title": "Entenda TUDO Sobre Agentes de IA em 21 minutos",
+    "channel": "Matheus Borges",
+    "duration": 1306,
+    "url": "https://youtu.be/qoz4q1Z6uD0",
+    "webpage_url": "https://www.youtube.com/watch?v=qoz4q1Z6uD0",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\qoz4q1Z6uD0.mp4",
+    "tags": [
+     "Empresa SOLO",
+     "negócios digitais",
+     "venda com processo",
+     "agente geral"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_qoz4q1Z6uD0_QUAL_A_PRINCIPAL_DIFERENCA_AGENTE_X_CHATBOT.mp4",
+     "start": 41.18,
+     "end": 92.06,
+     "duration": 50.88,
+     "size": 31700676,
+     "score": 78,
+     "hook": "QUAL A PRINCIPAL DIFERENÇA? AGENTE X CHATBOT",
+     "title": "Agentes de IA vs Chatbots",
+     "description": "Entenda em menos de um minuto a diferença crucial entre chatbots e agentes autônomos de IA e descubra como isso pode transformar seu negócio digital.\n\n#IA #AgentesIA #Chatbot #Tecnologia #Automação\n\nCréditos: Matheus Borges — \"Entenda TUDO Sobre Agentes de IA em 21 minutos\"\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "hashtags": [
+      "#IA",
+      "#AgentesIA",
+      "#Chatbot",
+      "#Tecnologia",
+      "#Automação"
+     ],
+     "tags": [
+      "agentes de IA",
+      "chatbot",
+      "inteligência artificial",
+      "IA autônoma",
+      "automação",
+      "tecnologia",
+      "diferença entre agente IA e chatbot",
+      "o que é agente autônomo IA",
+      "Matheus Borges",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7691843493073324040",
+      "url": "",
+      "title": "Agentes de IA vs Chatbots",
+      "caption": "Agentes de IA vs Chatbots\n\nEntenda em menos de um minuto a diferença crucial entre chatbots e agentes autônomos de IA e descubra como isso pode transformar seu negócio digital.\n\n#IA #AgentesIA #Chatbot #Tecnologia #Automação\n\nCréditos: Matheus Borges — \"Entenda TUDO Sobre Agentes de IA em 21 minutos\"\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+      "status": "PROCESSING_UPLOAD",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.15850921869277954,
+      "fy": 0.3765837210196036,
+      "fh": 0.29453184339735244,
+      "found": true,
+      "samples": 153
+     },
+     "edit": {
+      "tipo": "Tecnologia",
+      "tipos_secundarios": [
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Comparação entre IA de chat (chatbot) e agentes autônomos, mostrando que agentes executam processos e mudam o modelo de negócios.",
+      "hook": "QUAL A PRINCIPAL DIFERENÇA? AGENTE X CHATBOT",
+      "estrutura": {
+       "hook": "Primeiros 3 s: pergunta impactante em texto grande e voz forte.",
+       "desenvolvimento": "Explicação rápida das funções de um chatbot versus um agente autônomo, com exemplos de nomes de chatbots.",
+       "principal": "Enfatiza que agentes autônomos executam processos e podem substituir várias ferramentas assinadas.",
+       "conclusao": "Chamada para assistir ao vídeo completo e ver o agente em ação."
+      },
+      "edicao": {
+       "cortes": "Corte imediato após cada nome de chatbot (apt, cloud, groc, Gemini) para acelerar o ritmo; corte antes da chamada ao vídeo completo.",
+       "zooms": "Zoom sutil em palavras‑chave: \"AGENTE AUTÔNOMO\", \"AUTONOMIA\" e \"MUDAR O JOGO\".",
+       "efeitos": "nenhum",
+       "legendas": "Legendas em fonte sem serifa, tamanho médio, com destaque em negrito nas palavras‑chave; sincronizadas linha a linha, máximo 2 linhas simultâneas."
+      },
+      "titulos": [
+       "Agentes de IA vs Chatbots",
+       "Diferença entre Agente Autônomo e Chatbot",
+       "Por que Agentes de IA mudam o jogo"
+      ],
+      "descricao": "Entenda em menos de um minuto a diferença crucial entre chatbots e agentes autônomos de IA e descubra como isso pode transformar seu negócio digital.",
+      "tags": {
+       "principais": [
+        "agentes de IA",
+        "chatbot",
+        "inteligência artificial"
+       ],
+       "secundarias": [
+        "IA autônoma",
+        "automação",
+        "tecnologia"
+       ],
+       "descoberta": [
+        "diferença entre agente IA e chatbot",
+        "o que é agente autônomo IA"
+       ]
+      },
+      "hashtags": [
+       "#IA",
+       "#AgentesIA",
+       "#Chatbot",
+       "#Tecnologia",
+       "#Automação"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo, manter áudio original, inserir CTA ao final para o vídeo completo e usar capa atraente.",
+       "tiktok": "Mantém o mesmo corte, sem música de fundo extra; usar texto em tela para reforçar a pergunta inicial e terminar com \"Assista ao vídeo completo\".",
+       "instagram": "Reels vertical, 30‑60 s, usar as mesmas legendas e zooms; incluir sticker de \"▶️\" apontando para a bio onde está o vídeo completo."
+      },
+      "capa": "Imagem de fundo com dois ícones contrastantes: à esquerda um balão de chat (representando chatbot) e à direita um robô em movimento (representando agente autônomo); texto grande central \"AGENTE X CHATBOT?\" em cores vibrantes."
+     },
+     "legenda_tiktok": "Agentes de IA vs Chatbots\n\nEntenda em menos de um minuto a diferença crucial entre chatbots e agentes autônomos de IA e descubra como isso pode transformar seu negócio digital.\n\n#IA #AgentesIA #Chatbot #Tecnologia #Automação\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "legenda_reels": "QUAL A PRINCIPAL DIFERENÇA? AGENTE X CHATBOT\n\nAgentes de IA vs Chatbots\n\nEntenda em menos de um minuto a diferença crucial entre chatbots e agentes autônomos de IA e descubra como isso pode transformar seu negócio digital.\n\n#IA #AgentesIA #Chatbot #Tecnologia #Automação\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "visuals": [],
+     "published_at": "2026-10-01 20:23:38"
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_qoz4q1Z6uD0_AGENTES_PERSISTENTES_SEU_ASSISTENTE_IA_QUE_TRABALHA.mp4",
+     "start": 879.76,
+     "end": 921.94,
+     "duration": 42.18,
+     "size": 12628043,
+     "score": 80,
+     "hook": "Agentes persistentes: seu assistente IA que trabalha 24h!",
+     "title": "Como criar um produto low‑ticket com IA em minutos",
+     "description": "Descubra como usar skills de IA para montar um produto low‑ticket sem esforço e entenda o nível de autonomia dos agentes que trabalham 24h por você.\n\n#IA #AgentesIA #Tecnologia #NegóciosDigitais #LowTicket\n\nCréditos: Matheus Borges — \"Entenda TUDO Sobre Agentes de IA em 21 minutos\"\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "hashtags": [
+      "#IA",
+      "#AgentesIA",
+      "#Tecnologia",
+      "#NegóciosDigitais",
+      "#LowTicket"
+     ],
+     "tags": [
+      "agentes IA",
+      "IA generativa",
+      "low ticket",
+      "skills IA",
+      "autonomia IA",
+      "como criar produto com IA",
+      "o que são agentes persistentes",
+      "Matheus Borges",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": {
+      "fx": 0.8373287320137024,
+      "fy": 0.758075887185556,
+      "fh": 0.1333089757848669,
+      "found": true,
+      "samples": 82
+     },
+     "edit": {
+      "tipo": "Tecnologia",
+      "tipos_secundarios": [
+       "Curiosidade",
+       "Negócios digitais"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Explicação da autonomia dos agentes IA e demonstração de como usar skills para criar um produto low‑ticket em poucos minutos",
+      "hook": "AGENTES PERSISTENTES: SEU ASSISTENTE IA QUE T",
+      "estrutura": {
+       "hook": "Apresentação impactante do conceito de agentes persistentes com texto em destaque",
+       "desenvolvimento": "Lista rápida das skills disponíveis (anúncios, mini VSL, ofertas, quizzes, conteúdo low‑ticket) e como instalá‑las no agente",
+       "principal": "Introdução ao quinto nível de entendimento: autonomia, mostrando que o agente pode criar e vender um produto sozinho",
+       "conclusao": "Chamada para ação curta – “Teste agora e veja seu assistente trabalhar 24h por você”"
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas e repetições; acelerar trechos onde o narrador repete palavras; manter ritmo dinâmico",
+       "zooms": "Zoom sutil nas palavras‑chave: “skill”, “low ticket”, “autonomia”, “agente”, para reforçar a mensagem",
+       "efeitos": "nenhum",
+       "legendas": "Legenda completa sincronizada, fonte branca com sombra, fundo semitransparente; dividir em até 2 linhas por frame"
+      },
+      "titulos": [
+       "Como criar um produto low‑ticket com IA em minutos",
+       "Skills de IA que geram renda 24h por dia",
+       "Autonomia dos agentes IA explicada"
+      ],
+      "descricao": "Descubra como usar skills de IA para montar um produto low‑ticket sem esforço e entenda o nível de autonomia dos agentes que trabalham 24h por você.",
+      "tags": {
+       "principais": [
+        "agentes IA",
+        "IA generativa"
+       ],
+       "secundarias": [
+        "low ticket",
+        "skills IA",
+        "autonomia IA"
+       ],
+       "descoberta": [
+        "como criar produto com IA",
+        "o que são agentes persistentes"
+       ]
+      },
+      "hashtags": [
+       "#IA",
+       "#AgentesIA",
+       "#Tecnologia",
+       "#NegóciosDigitais",
+       "#LowTicket"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 0‑3s com texto hook em caps, legendas completas, zoom nas palavras‑chave, CTA rápido no final.",
+       "tiktok": "Mesmo corte, adicionar sticker de “▶️” no início para reforçar o hook, manter ritmo rápido, CTA “Segue para mais dicas de IA”.",
+       "instagram": "Formato Reel vertical, usar capa estática com ícone de robô + texto hook, legendas legíveis, encerramento com “Salve e compartilhe”."
+      },
+      "capa": "Imagem de um robô estilizado com fundo escuro; texto grande em caps: “AGENTES PERSISTENTES – IA 24H”, cores neon para destaque."
+     },
+     "legenda_tiktok": "Como criar um produto low‑ticket com IA em minutos\n\nDescubra como usar skills de IA para montar um produto low‑ticket sem esforço e entenda o nível de autonomia dos agentes que trabalham 24h por você.\n\n#IA #AgentesIA #Tecnologia #NegóciosDigitais #LowTicket\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "legenda_reels": "AGENTES PERSISTENTES: SEU ASSISTENTE IA QUE TRABALHA 24H!\n\nComo criar um produto low‑ticket com IA em minutos\n\nDescubra como usar skills de IA para montar um produto low‑ticket sem esforço e entenda o nível de autonomia dos agentes que trabalham 24h por você.\n\n#IA #AgentesIA #Tecnologia #NegóciosDigitais #LowTicket\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "visuals": [],
+     "errors": {
+      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+     }
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_qoz4q1Z6uD0_SEU_NEGOCIO_NA_VELOCIDADE_DE_UMA_FERRARI.mp4",
+     "start": 1211.0,
+     "end": 1255.56,
+     "duration": 44.57,
+     "size": 19950031,
+     "score": 80,
+     "hook": "SEU NEGÓCIO NA VELOCIDADE DE UMA FERRARI",
+     "title": "IA Autônoma: Sua Empresa como uma Ferrari",
+     "description": "Neste short, descubra como agentes de inteligência artificial podem transformar sua operação de um ritmo de Fusca para a velocidade de uma Ferrari. Aprenda o passo inicial para criar seu próprio agente em menos de uma hora.\n\n#IA #Negócios #Automação #Ferrari #Tecnologia\n\nCréditos: Matheus Borges — \"Entenda TUDO Sobre Agentes de IA em 21 minutos\"\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "hashtags": [
+      "#IA",
+      "#Negócios",
+      "#Automação",
+      "#Ferrari",
+      "#Tecnologia"
+     ],
+     "tags": [
+      "agentes de IA",
+      "inteligência artificial",
+      "automação",
+      "negócios digitais",
+      "produtividade",
+      "Ferrari",
+      "como acelerar meu negócio com IA",
+      "o que são agentes autônomos",
+      "Matheus Borges",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": {
+      "fx": 0.49708404143651325,
+      "fy": 0.39117837128815824,
+      "fh": 0.3297077320240162,
+      "found": true,
+      "samples": 70
+     },
+     "edit": {
+      "tipo": "Tecnologia",
+      "tipos_secundarios": [
+       "Curiosidade",
+       "Negócios"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Comparação da IA como Fusca vs Ferrari para demonstrar ganho de velocidade e escala",
+      "hook": "SEU NEGÓCIO NA VELOCIDADE DE UMA FERRARI",
+      "estrutura": {
+       "hook": "Apresentação impactante da metáfora Ferrari nos primeiros 3 s",
+       "desenvolvimento": "Explicação rápida de como agentes de IA escalam conhecimento e devolvem tempo",
+       "principal": "Convite para criar o primeiro agente autônomo e integrá‑lo nos fluxos da empresa",
+       "conclusao": "Resumo da vantagem competitiva e chamada para ação (link/curso)"
+      },
+      "edicao": {
+       "cortes": "Corte nos intervalos de frase (‑30 s, ‑38 s, ‑45 s) para manter ritmo; aceleração leve nas repetições",
+       "zooms": "Zoom sutil na palavra “Ferrari” e na frase “agentes autônomos” para enfatizar",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas em fonte legível; destaque em negrito/cor para termos-chave (Ferrari, Fusca, agentes)"
+      },
+      "titulos": [
+       "IA Autônoma: Sua Empresa como uma Ferrari",
+       "De Fusca a Ferrari com Agentes de IA",
+       "Acelere seu Negócio com IA – Velocidade Ferrari"
+      ],
+      "descricao": "Neste short, descubra como agentes de inteligência artificial podem transformar sua operação de um ritmo de Fusca para a velocidade de uma Ferrari. Aprenda o passo inicial para criar seu próprio agente em menos de uma hora.",
+      "tags": {
+       "principais": [
+        "agentes de IA",
+        "inteligência artificial",
+        "automação"
+       ],
+       "secundarias": [
+        "negócios digitais",
+        "produtividade",
+        "Ferrari"
+       ],
+       "descoberta": [
+        "como acelerar meu negócio com IA",
+        "o que são agentes autônomos"
+       ]
+      },
+      "hashtags": [
+       "#IA",
+       "#Negócios",
+       "#Automação",
+       "#Ferrari",
+       "#Tecnologia"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo, incluir CTA visual ao final com link para curso",
+       "tiktok": "Manter ritmo rápido, usar áudio original, CTA nos últimos 3 s para seguir e acessar link na bio",
+       "instagram": "Reels vertical, foco nas legendas, CTA “Deslize para saber mais” nos Stories"
+      },
+      "capa": "Imagem de uma Ferrari estilizada com ícone de cérebro/IA, fundo azul escuro e texto grande ‘IA = Ferrari’"
+     },
+     "legenda_tiktok": "IA Autônoma: Sua Empresa como uma Ferrari\n\nNeste short, descubra como agentes de inteligência artificial podem transformar sua operação de um ritmo de Fusca para a velocidade de uma Ferrari. Aprenda o passo inicial para criar seu próprio agente em menos de uma hora.\n\n#IA #Negócios #Automação #Ferrari #Tecnologia\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "legenda_reels": "SEU NEGÓCIO NA VELOCIDADE DE UMA FERRARI\n\nIA Autônoma: Sua Empresa como uma Ferrari\n\nNeste short, descubra como agentes de inteligência artificial podem transformar sua operação de um ritmo de Fusca para a velocidade de uma Ferrari. Aprenda o passo inicial para criar seu próprio agente em menos de uma hora.\n\n#IA #Negócios #Automação #Ferrari #Tecnologia\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+     "visuals": [],
+     "errors": {
+      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+     }
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790893814694",
+   "url": "https://youtu.be/5hG_nAYEC2g",
+   "created": "2026-10-01 19:30:14",
+   "stage": "rendered",
+   "meta": {
+    "id": "5hG_nAYEC2g",
+    "title": "How I Saved the World's Largest Minecraft Server",
+    "channel": "Wemmbu",
+    "duration": 14395,
+    "url": "https://youtu.be/5hG_nAYEC2g",
+    "webpage_url": "https://www.youtube.com/watch?v=5hG_nAYEC2g",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\5hG_nAYEC2g.mp4",
+    "tags": [
+     "wemmbu",
+     "unstable smp",
+     "wembu",
+     "wenbu",
+     "wemmbu unstable smp",
+     "eggchan",
+     "unstable universe",
+     "parrotx2",
+     "minecraft",
+     "unstable smp in order",
+     "minecraft smp",
+     "unstable smp in order wemmbu",
+     "unstable smp latest video",
+     "unstable smp new video",
+     "wemmbu assassin",
+     "wemmbu invis player",
+     "unstable blue invis player",
+     "eggchan missing",
+     "flamefrags",
+     "egchan",
+     "100 days",
+     "wemmbu eggchan",
+     "minecraft purge",
+     "purge",
+     "minecraft simulation",
+     "spoke",
+     "null",
+     "How I Saved the World's Largest Minecraft Server"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_5hG_nAYEC2g_UM_NOVO_REI_NO_END_ESTA_ESPERANDO.mp4",
+     "start": 306.46,
+     "end": 350.84,
+     "duration": 44.38,
+     "size": 25392184,
+     "score": 70,
+     "hook": "UM NOVO REI NO END ESTÁ ESPERANDO",
+     "title": "Um Novo Rei no End Surge",
+     "description": "Neste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Minecraft #UnstableSMP #Wemmbu #EndKing #Gaming\n\nCréditos: Wemmbu — \"How I Saved the World's Largest Minecraft Server\"\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "hashtags": [
+      "#Minecraft",
+      "#UnstableSMP",
+      "#Wemmbu",
+      "#EndKing",
+      "#Gaming"
+     ],
+     "tags": [
+      "Minecraft",
+      "Unstable SMP",
+      "Wemmbu",
+      "End",
+      "King Parrot",
+      "Servidor Minecraft",
+      "como salvar o servidor Minecraft",
+      "novo rei no End",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": null,
+     "edit": {
+      "tipo": "História/relato",
+      "tipos_secundarios": [
+       "Reação",
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Revelação de que há um novo rei no End e o pedido de ajuda para enfrentar o exército que expulsou o narrador",
+      "hook": "UM NOVO REI NO END ESTÁ ESPERANDO",
+      "estrutura": {
+       "hook": "Abertura impactante com a frase de gancho e corte rápido para o rosto do narrador.",
+       "desenvolvimento": "Breve contextualização sobre o antigo rei (King Parrot) e a situação atual do servidor.",
+       "principal": "Anúncio do novo rei no End e a urgência de precisar de ajuda contra um exército não‑jogador.",
+       "conclusao": "Chamado direto ao público: \"Precisamos da sua ajuda\" seguido de convite para assistir ao vídeo completo."
+      },
+      "edicao": {
+       "cortes": "Corte a cada 2‑3 s para manter ritmo; elimine pausas longas; acelere trechos de fala repetitiva.",
+       "zooms": "Zoom sutil no rosto quando o narrador menciona \"novo rei\" e quando diz \"preciso da sua ajuda\".",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas em português, com destaque em negrito ou cor diferente nas palavras‑chave: \"novo rei\", \"End\", \"ajuda\"."
+      },
+      "titulos": [
+       "Um Novo Rei no End Surge",
+       "O Mistério do Rei do End",
+       "Precisamos Salvar o End"
+      ],
+      "descricao": "Neste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.",
+      "tags": {
+       "principais": [
+        "Minecraft",
+        "Unstable SMP",
+        "Wemmbu"
+       ],
+       "secundarias": [
+        "End",
+        "King Parrot",
+        "Servidor Minecraft"
+       ],
+       "descoberta": [
+        "como salvar o servidor Minecraft",
+        "novo rei no End"
+       ]
+      },
+      "hashtags": [
+       "#Minecraft",
+       "#UnstableSMP",
+       "#Wemmbu",
+       "#EndKing",
+       "#Gaming"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo, incluir hook nos primeiros 3 s, legenda completa, tela final com CTA para o vídeo completo.",
+       "tiktok": "Formato vertical, usar áudio original do vídeo, manter ritmo rápido, legenda em destaque, CTA na descrição para o canal.",
+       "instagram": "Formato vertical, legenda embutida, capa atrativa, usar a mesma sequência de cortes e zooms, CTA nos comentários."
+      },
+      "capa": "Imagem do portal do End ao fundo com uma coroa brilhante sobreposta e o texto \"Novo Rei no End\" em fonte legível."
+     },
+     "legenda_tiktok": "Um Novo Rei no End Surge\n\nNeste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Minecraft #UnstableSMP #Wemmbu #EndKing #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "legenda_reels": "UM NOVO REI NO END ESTÁ ESPERANDO\n\nUm Novo Rei no End Surge\n\nNeste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Minecraft #UnstableSMP #Wemmbu #EndKing #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "visuals": [],
+     "errors": {
+      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+     }
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_5hG_nAYEC2g_WHAT_IS_THIS_PLACE.mp4",
+     "start": 630.0,
+     "end": 673.24,
+     "duration": 43.24,
+     "size": 37745579,
+     "score": 65,
+     "hook": "WHAT IS THIS PLACE?!",
+     "title": "Descobri a Base Maior do Minecraft",
+     "description": "Wemmbu entra em uma base colossal no maior servidor de Minecraft e não consegue acreditar no que vê. A reação ao descobrir que era a antiga base da Minitech deixa todo mundo de queixo caído.\n\n#Minecraft #UnstableSMP #Wemmbu #Reaction #Gaming\n\nCréditos: Wemmbu — \"How I Saved the World's Largest Minecraft Server\"\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "hashtags": [
+      "#Minecraft",
+      "#UnstableSMP",
+      "#Wemmbu",
+      "#Reaction",
+      "#Gaming"
+     ],
+     "tags": [
+      "Minecraft",
+      "Unstable SMP",
+      "Wemmbu",
+      "base gigante",
+      "reaction",
+      "gaming",
+      "como encontrar bases gigantes no Minecraft",
+      "maior servidor Minecraft",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": null,
+     "edit": {
+      "tipo": "Reação",
+      "tipos_secundarios": [
+       "Gameplay",
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Descoberta da base gigantesca do servidor e a reação surpresa de Wemmbu",
+      "hook": "WHAT IS THIS PLACE?!",
+      "estrutura": {
+       "hook": "Os primeiros 3 s mostram a frase em caixa‑alta com zoom rápido no rosto de Wemmbu ao avistar a estrutura.",
+       "desenvolvimento": "Corte rápido para a vista panorâmica da base, com trilha sonora leve e texto “Base gigante?” aparecendo.",
+       "principal": "Sequência das falas: “Dude, this is insane… What is this place?… Didn’t this used to be Minitech’s base?… You guys actually built it?” com legendas sincronizadas.",
+       "conclusao": "Corte final para o logo do canal e chamada curta: “Veja o resto no vídeo completo!”"
+      },
+      "edicao": {
+       "cortes": "Corte ao ritmo da fala, acelerar a caminhada até a base (2×) e cortar pausas longas.",
+       "zooms": "Zoom rápido no rosto ao dizer o hook; zoom leve nos detalhes da base quando a câmera se afasta.",
+       "efeitos": "nenhum",
+       "legendas": "Legenda completa, fonte branca com sombra, caixa sem fundo, exibindo duas linhas simultâneas para manter leitura fácil."
+      },
+      "titulos": [
+       "Descobri a Base Maior do Minecraft",
+       "Reagindo ao Maior Servidor do Mundo",
+       "O QUE É ESSE LUGAR?"
+      ],
+      "descricao": "Wemmbu entra em uma base colossal no maior servidor de Minecraft e não consegue acreditar no que vê. A reação ao descobrir que era a antiga base da Minitech deixa todo mundo de queixo caído.",
+      "tags": {
+       "principais": [
+        "Minecraft",
+        "Unstable SMP",
+        "Wemmbu"
+       ],
+       "secundarias": [
+        "base gigante",
+        "reaction",
+        "gaming"
+       ],
+       "descoberta": [
+        "como encontrar bases gigantes no Minecraft",
+        "maior servidor Minecraft"
+       ]
+      },
+      "hashtags": [
+       "#Minecraft",
+       "#UnstableSMP",
+       "#Wemmbu",
+       "#Reaction",
+       "#Gaming"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo, incluir legenda completa, usar tela final com link para o vídeo completo e CTA “Assista agora”.",
+       "tiktok": "Formato vertical, usar áudio ambiente do jogo, manter hook nos primeiros 2 s, texto overlay sincronizado, CTA “Segue para mais reações”.",
+       "instagram": "Formato vertical, legenda legível, capa atraente, usar stickers de “🔍” para destacar a descoberta, CTA “Deslize para ver o full video”."
+      },
+      "capa": "Imagem da vista aérea da base gigante com a silhueta de Wemmbu em primeiro plano e o texto em caixa‑alta “WHAT IS THIS PLACE?!” sobreposto."
+     },
+     "legenda_tiktok": "Descobri a Base Maior do Minecraft\n\nWemmbu entra em uma base colossal no maior servidor de Minecraft e não consegue acreditar no que vê. A reação ao descobrir que era a antiga base da Minitech deixa todo mundo de queixo caído.\n\n#Minecraft #UnstableSMP #Wemmbu #Reaction #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "legenda_reels": "WHAT IS THIS PLACE?!\n\nDescobri a Base Maior do Minecraft\n\nWemmbu entra em uma base colossal no maior servidor de Minecraft e não consegue acreditar no que vê. A reação ao descobrir que era a antiga base da Minitech deixa todo mundo de queixo caído.\n\n#Minecraft #UnstableSMP #Wemmbu #Reaction #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "visuals": [],
+     "errors": {
+      "tiktok": "TikTok rate_limit_exceeded: The API rate limit exceeded. Please try again later."
+     }
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_5hG_nAYEC2g_ELE_QUER_DOMINAR_TODO_O_SERVIDOR.mp4",
+     "start": 1060.08,
+     "end": 1104.4,
+     "duration": 44.33,
+     "size": 16291052,
+     "score": 85,
+     "hook": "ELE QUER DOMINAR TODO O SERVIDOR!",
+     "title": "Ele quer dominar o servidor",
+     "description": "Neste corte, Wemmbu revela o plano de Spoke de dominar todo o servidor Unstable SMP, gerando tensão entre a equipe. Descubra a reação dos jogadores ao descobrir a verdadeira intenção.\n\n#Minecraft #UnstableSMP #Wemmbu #Gaming #Storytime\n\nCréditos: Wemmbu — \"How I Saved the World's Largest Minecraft Server\"\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "hashtags": [
+      "#Minecraft",
+      "#UnstableSMP",
+      "#Wemmbu",
+      "#Gaming",
+      "#Storytime"
+     ],
+     "tags": [
+      "Wemmbu",
+      "Unstable SMP",
+      "Minecraft server",
+      "Spoke",
+      "gaming",
+      "storytelling",
+      "Minecraft drama",
+      "SMP",
+      "como salvar servidor Minecraft",
+      "Spoke takeover",
+      "Unstable SMP história",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": null,
+     "edit": {
+      "tipo": "História/relato",
+      "tipos_secundarios": [
+       "Gameplay",
+       "Reação"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Revelação de que Spoke quer dominar todo o servidor",
+      "hook": "ELE QUER DOMINAR TODO O SERVIDOR!",
+      "estrutura": {
+       "hook": "A frase impactante aparece em texto grande enquanto a voz diz “He wants to take over the entire server”.",
+       "desenvolvimento": "Diálogo rápido entre os jogadores que mostra a tensão e a dúvida sobre se juntar ao plano.",
+       "principal": "Confirmação de que Spoke usará seu exército para o takeover, aumentando a urgência.",
+       "conclusao": "Um cliff‑hanger perguntando se eles vão aceitar ou enfrentar Spoke, incentivando o espectador a assistir o vídeo completo."
+      },
+      "edicao": {
+       "cortes": "Corte a cada 2‑3 s para manter ritmo; acelere trechos de fala menos críticos, mantenha ritmo normal nas falas chave.",
+       "zooms": "Zoom suave no rosto do personagem que diz “He wants to take over the entire server” e novamente quando menciona o exército.",
+       "efeitos": "nenhum",
+       "legendas": "Legendas em fonte branca com contorno preto, sincronizadas frase a frase; cerca de 9 blocos de texto para cobrir todo o trecho."
+      },
+      "titulos": [
+       "Ele quer dominar o servidor",
+       "A ambição de Spoke no Unstable SMP",
+       "Como Spoke planeja conquistar tudo"
+      ],
+      "descricao": "Neste corte, Wemmbu revela o plano de Spoke de dominar todo o servidor Unstable SMP, gerando tensão entre a equipe. Descubra a reação dos jogadores ao descobrir a verdadeira intenção.",
+      "tags": {
+       "principais": [
+        "Wemmbu",
+        "Unstable SMP",
+        "Minecraft server",
+        "Spoke"
+       ],
+       "secundarias": [
+        "gaming",
+        "storytelling",
+        "Minecraft drama",
+        "SMP"
+       ],
+       "descoberta": [
+        "como salvar servidor Minecraft",
+        "Spoke takeover",
+        "Unstable SMP história"
+       ]
+      },
+      "hashtags": [
+       "#Minecraft",
+       "#UnstableSMP",
+       "#Wemmbu",
+       "#Gaming",
+       "#Storytime"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 60 s máximo, capa com texto “ELE QUER DOMINAR TODO O SERVIDOR!” em fundo escuro, legenda ativada por padrão.",
+       "tiktok": "Mesmo vídeo, adicione sticker de “🔥” no momento da revelação, mantenha legenda e use áudio original, publique com descrição curta e hashtags acima.",
+       "instagram": "Reels vertical, destaque a frase de hook nos primeiros 3 s, use a mesma capa, inclua legenda e CTA “Assista o vídeo completo no canal”."
+      },
+      "capa": "Imagem do avatar do personagem principal com expressão surpresa, fundo do mapa do servidor, texto grande em caixa alta: “ELE QUER DOMINAR TODO O SERVIDOR!”"
+     },
+     "legenda_tiktok": "Ele quer dominar o servidor\n\nNeste corte, Wemmbu revela o plano de Spoke de dominar todo o servidor Unstable SMP, gerando tensão entre a equipe. Descubra a reação dos jogadores ao descobrir a verdadeira intenção.\n\n#Minecraft #UnstableSMP #Wemmbu #Gaming #Storytime\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "legenda_reels": "ELE QUER DOMINAR TODO O SERVIDOR!\n\nEle quer dominar o servidor\n\nNeste corte, Wemmbu revela o plano de Spoke de dominar todo o servidor Unstable SMP, gerando tensão entre a equipe. Descubra a reação dos jogadores ao descobrir a verdadeira intenção.\n\n#Minecraft #UnstableSMP #Wemmbu #Gaming #Storytime\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+     "visuals": [],
+     "published_at": "2026-10-01 20:45:11",
+     "errors": {
+      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+     }
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1790895125874",
+   "url": "https://youtu.be/dTOfuaegBV4",
+   "created": "2026-10-01 19:52:05",
+   "stage": "rendered",
+   "meta": {
+    "id": "dTOfuaegBV4",
+    "title": "Welcome to the DESERT Underworld (007 FIRST LIGHT) Ultra Graphics Gameplay [4K 60FPS] PS5 PRO",
+    "channel": "NextGenPlayz",
+    "duration": 6594,
+    "url": "https://youtu.be/dTOfuaegBV4",
+    "webpage_url": "https://www.youtube.com/watch?v=dTOfuaegBV4",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\dTOfuaegBV4.mp4",
+    "tags": [
+     "007 First Light",
+     "007 First Light Gameplay",
+     "007 First Light PS5 Pro",
+     "007 First Light Full Game",
+     "007 First Light Ending",
+     "007 First Light Preview",
+     "007 First Light Demo",
+     "James Bond",
+     "James Bond Game 2026",
+     "stealth gameplay",
+     "Hitman Gameplay",
+     "Hitman Stealth Gameplay",
+     "Hitman Game",
+     "games like Hitman",
+     "games like Uncharted",
+     "PS5 Pro",
+     "PS5",
+     "PlayStation",
+     "Xbox Series X",
+     "PC",
+     "single player games 2026",
+     "campaign",
+     "singleplayer",
+     "no commentary",
+     "4K",
+     "HDR",
+     "video game",
+     "impressions"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_dTOfuaegBV4_VOCE_ENCONTROU_ASSHOLE.mp4",
+     "start": 290.0,
+     "end": 341.4,
+     "duration": 51.4,
+     "size": 27529008,
+     "score": 80,
+     "hook": "VOCÊ ENCONTROU, ASSHOLE!",
+     "title": "🔥 Confronto brutal no deserto – 007 First Light",
+     "description": "Cena de ação intensa onde o protagonista enfrenta inimigos com linguagem forte. O gancho imediato prende a atenção e o payoff é violento e satisfatório.\n\n#007FirstLight #PS5Pro #Stealth #DesertUnderworld #Gameplay\n\nCréditos: NextGenPlayz — \"Welcome to the DESERT Underworld (007 FIRST LIGHT) Ultra Graphics Gameplay [4K 60FPS] PS5 PRO\"\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "hashtags": [
+      "#007FirstLight",
+      "#PS5Pro",
+      "#Stealth",
+      "#DesertUnderworld",
+      "#Gameplay"
+     ],
+     "tags": [
+      "007 First Light",
+      "confronto",
+      "desert",
+      "action",
+      "PS5 Pro",
+      "James Bond",
+      "stealth gameplay",
+      "intense fight",
+      "game moment",
+      "NextGenPlayz",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": {
+      "fx": 0.39386061628659563,
+      "fy": 0.3534790321632668,
+      "fh": 0.1607844317400897,
+      "found": true,
+      "samples": 10
+     },
+     "edit": {},
+     "legenda_tiktok": "Cena de ação intensa onde o protagonista enfrenta inimigos com linguagem forte. O gancho imediato prende a atenção e o payoff é violento e satisfatório.\n\n#007FirstLight #PS5Pro #Stealth #DesertUnderworld #Gameplay\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "legenda_reels": "VOCÊ ENCONTROU, ASSHOLE!\n\nCena de ação intensa onde o protagonista enfrenta inimigos com linguagem forte. O gancho imediato prende a atenção e o payoff é violento e satisfatório.\n\n#007FirstLight #PS5Pro #Stealth #DesertUnderworld #Gameplay\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "visuals": [],
+     "errors": {
+      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+     }
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_dTOfuaegBV4_CUIDADO_COM_AS_SERPENTES.mp4",
+     "start": 536.58,
+     "end": 579.04,
+     "duration": 42.47,
+     "size": 22153186,
+     "score": 78,
+     "hook": "CUIDADO COM AS SERPENTES! 🐍",
+     "title": "🐍 Cuidado com as serpentes em 007 First Light",
+     "description": "Bond avisa: “Watch out for the snakes.” A tensão aumenta quando a câmera mostra a ameaça rastejante, criando um momento de suspense perfeito para um short.\n\n#007FirstLight #Gameplay #PS5Pro #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz — \"Welcome to the DESERT Underworld (007 FIRST LIGHT) Ultra Graphics Gameplay [4K 60FPS] PS5 PRO\"\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "hashtags": [
+      "#007FirstLight",
+      "#Gameplay",
+      "#PS5Pro",
+      "#Stealth",
+      "#DesertUnderworld"
+     ],
+     "tags": [
+      "007 First Light",
+      "bond warning",
+      "desert snakes",
+      "stealth action",
+      "PS5 Pro",
+      "4K ultra graphics",
+      "gameplay moment",
+      "cinematic tension",
+      "open world desert",
+      "action thriller",
+      "hitman style",
+      "game walkthrough",
+      "NextGenPlayz",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": {
+      "fx": 0.6144743343194325,
+      "fy": 0.3240494162948043,
+      "fh": 0.19275404612223307,
+      "found": true,
+      "samples": 54
+     },
+     "edit": {},
+     "legenda_tiktok": "Bond avisa: “Watch out for the snakes.” A tensão aumenta quando a câmera mostra a ameaça rastejante, criando um momento de suspense perfeito para um short.\n\n#007FirstLight #Gameplay #PS5Pro #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "legenda_reels": "CUIDADO COM AS SERPENTES! 🐍\n\nBond avisa: “Watch out for the snakes.” A tensão aumenta quando a câmera mostra a ameaça rastejante, criando um momento de suspense perfeito para um short.\n\n#007FirstLight #Gameplay #PS5Pro #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "visuals": [],
+     "errors": {
+      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
+     }
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_dTOfuaegBV4_GRAVIDADE_E_SO_UMA_SUGESTAO.mp4",
+     "start": 1375.0,
+     "end": 1418.14,
+     "duration": 43.14,
+     "size": 31487296,
+     "score": 78,
+     "hook": "GRAVIDADE É SÓ UMA SUGESTÃO!",
+     "title": "🧗‍♂️ Salto impossível no deserto - 007 First Light",
+     "description": "Bond escala a torre de relé sob fumaça densa, faz um salto incrível e desativa a senha da carteira. A adrenalina está no máximo!\n\n#007FirstLight #PS5Pro #Gameplay #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz — \"Welcome to the DESERT Underworld (007 FIRST LIGHT) Ultra Graphics Gameplay [4K 60FPS] PS5 PRO\"\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "hashtags": [
+      "#007FirstLight",
+      "#PS5Pro",
+      "#Gameplay",
+      "#Stealth",
+      "#DesertUnderworld"
+     ],
+     "tags": [
+      "007 First Light",
+      "PS5 Pro",
+      "tower jump",
+      "stealth action",
+      "James Bond",
+      "desert underworld",
+      "ultra graphics",
+      "gameplay highlight",
+      "gravity defying",
+      "action sequence",
+      "NextGenPlayz",
+      "cortes",
+      "shorts"
+     ],
+     "status": "ready",
+     "youtube": null,
+     "tiktok": null,
+     "reframe": null,
+     "edit": {},
+     "legenda_tiktok": "Bond escala a torre de relé sob fumaça densa, faz um salto incrível e desativa a senha da carteira. A adrenalina está no máximo!\n\n#007FirstLight #PS5Pro #Gameplay #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "legenda_reels": "GRAVIDADE É SÓ UMA SUGESTÃO!\n\nBond escala a torre de relé sob fumaça densa, faz um salto incrível e desativa a senha da carteira. A adrenalina está no máximo!\n\n#007FirstLight #PS5Pro #Gameplay #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+     "visuals": [],
+     "errors": {
+      "tiktok": "TikTok rate_limit_exceeded: The API rate limit exceeded. Please try again later."
+     }
+    }
+   ],
+   "error": null
+  }
+ ]
+}

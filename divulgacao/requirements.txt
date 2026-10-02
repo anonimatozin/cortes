@@ -1,0 +1,6 @@
+# dependências do módulo divulgacao (o restante já está no requirements.txt da raiz)
+pyyaml
+requests
+
+# opcional — Google Trends (não oficial, pode quebrar; desligado por padrão)
+# pytrends

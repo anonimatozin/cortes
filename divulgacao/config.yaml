@@ -1,0 +1,48 @@
+# Configuração do módulo divulgacao.
+# Prioridade (o último vence): código -> este arquivo -> .env -> variáveis DIVULGACAO_*.
+
+# Mestre da integração automática com cortes.py. A linha de integração já está
+# colada em cortes.py (depois do write_sidecar) e o publish consome o metadata.
+ativo: true
+
+# Nicho usado nas buscas do YouTube e nas sugestões de grupos do Facebook.
+nicho: podcast
+
+# Liga/desliga cada módulo (o CLI também pode ser chamado direto).
+modulos:
+  hashtags: true
+  grupos: true
+  registro: true
+
+ia:
+  modo: auto          # auto | on | off   (auto = usa a IA só se houver chave)
+  modelo: ""          # vazio = usa GROQ_MODEL do .env da raiz
+  candidatas: 30      # quantas candidatas a hashtag a IA gera por corte
+  temperatura: 0.5
+
+hashtags:
+  min: 3              # mínimo de hashtags por corte
+  max: 5              # máximo de hashtags por corte
+  tags_max_chars: 500 # limite do campo "tags" do YouTube
+  youtube:
+    ativo: true
+    max_videos: 40        # vídeos buscados por nicho (search.list, máx 50)
+    ordem: relevance      # relevance | date | rating | viewCount
+    publicado_dias: 400   # janela de publicação da busca
+    cota_dia: 9000        # unidades da API que este módulo pode gastar por dia
+    cache_dias: 7         # quanto tempo reaproveita a resposta do YouTube
+    autocomplete: true    # sugestões de busca do YouTube (melhor esforço)
+  tiktok:
+    ativo: true           # lê tiktok_trending.txt (lista colada, NUNCA scraping)
+  trends:
+    ativo: false          # Google Trends via pytrends (não oficial, pode quebrar)
+
+grupos:
+  max_por_dia: 2          # quantos grupos por dia no plano
+  dias_entre_posts: 7     # intervalo mínimo entre posts no MESMO grupo
+  dias_plano: 14          # dias de plano gerados por vez
+  tamanho_texto: 400      # tamanho alvo do post (caracteres)
+
+registro:
+  min_amostras: 2         # amostras mínimas para recomendar hashtag/grupo
+  max_linhas: 20          # linhas por tabela no relatório

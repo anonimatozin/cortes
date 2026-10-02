@@ -1,0 +1,2 @@
+# Catalogo de links de afiliado - formato: keyword | link | nome | preco | comissao
+# Gere os links no Portal do Afiliados da Shopee (Oferta de produto / Link personalizado)
