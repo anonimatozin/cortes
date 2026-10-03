@@ -21,3 +21,4 @@ divulgacao/cache/
 
 # repo aninhado (projeto separado)
 tiktok/
+queue/publish.lock 

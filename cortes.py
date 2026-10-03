@@ -1,5 +1,7 @@
 import argparse
+import atexit
 import json
+import os
 import sys
 import time
 from pathlib import Path
@@ -9,7 +11,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
 from core import analyze, art, captions, config, editor, fetch, render, research, select, shopee, store, transcribe
-from core.config import CLIPS_DIR, SOURCE_DIR
+from core.config import CLIPS_DIR, QUEUE_DIR, SOURCE_DIR
 
 
 def _dedupe_tags(tags):
@@ -361,7 +363,36 @@ def cmd_run(args):
     return 0
 
 
+def _lock_publicacao():
+    """Evita que duas tarefas agendadas publiquem ao mesmo tempo."""
+    lock = QUEUE_DIR / "publish.lock"
+    for _ in range(2):
+        try:
+            fd = os.open(lock, os.O_CREAT | os.O_EXCL | os.O_WRONLY)
+        except FileExistsError:
+            try:
+                idade = time.time() - lock.stat().st_mtime
+            except OSError:
+                continue
+            if idade < 45 * 60:
+                log(f"outra publicacao em andamento ({int(idade)}s); esta tentativa foi pulada")
+                return None
+            log(f"lock antigo ({int(idade)}s) da publicacao anterior; assumindo")
+            try:
+                lock.unlink()
+            except OSError:
+                return None
+            continue
+        with os.fdopen(fd, "w") as fh:
+            fh.write(str(os.getpid()))
+        atexit.register(lambda: lock.unlink(missing_ok=True))
+        return lock
+    return None
+
+
 def cmd_publish(args):
+    if _lock_publicacao() is None:
+        return 0
     from core import tiktok, youtube
 
     platform = getattr(args, "platform", None) or "youtube"
@@ -513,14 +544,16 @@ def cmd_publish(args):
 
         if ok_one:
             clip.setdefault("published_at", time.strftime("%Y-%m-%d %H:%M:%S"))
-            if all(clip.get(t) for t in targets):
+            alvo = [t for t in targets if not (t == "tiktok" and clip.get("sem_tiktok"))]
+            if all(clip.get(t) for t in alvo):
                 clip["status"] = "published"
             clip.pop("errors", None)
             store.upsert_job(job)
             done += 1
-            if "tiktok" in clip and clip["tiktok"].get("caption") and clip["tiktok"].get("mode") != "direct":
+            tt = clip.get("tiktok")
+            if tt and tt.get("caption") and tt.get("mode") != "direct":
                 log("  legenda do TikTok (cola no app):")
-                for line in clip["tiktok"]["caption"].splitlines():
+                for line in tt["caption"].splitlines():
                     log(f"    {line}")
     log(f"{done} corte(s) enviado(s)")
     if quota_hit:

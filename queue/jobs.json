@@ -2616,8 +2616,13 @@
       "cortes",
       "shorts"
      ],
-     "status": "ready",
-     "youtube": null,
+     "status": "published",
+     "youtube": {
+      "id": "IHAMbSeEiac",
+      "url": "https://youtube.com/shorts/IHAMbSeEiac",
+      "title": "Descobri a Base Maior do Minecraft",
+      "privacy": "public"
+     },
      "tiktok": null,
      "reframe": null,
      "edit": {
@@ -2680,9 +2685,7 @@
      "legenda_tiktok": "Descobri a Base Maior do Minecraft\n\nWemmbu entra em uma base colossal no maior servidor de Minecraft e não consegue acreditar no que vê. A reação ao descobrir que era a antiga base da Minitech deixa todo mundo de queixo caído.\n\n#Minecraft #UnstableSMP #Wemmbu #Reaction #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "legenda_reels": "WHAT IS THIS PLACE?!\n\nDescobri a Base Maior do Minecraft\n\nWemmbu entra em uma base colossal no maior servidor de Minecraft e não consegue acreditar no que vê. A reação ao descobrir que era a antiga base da Minitech deixa todo mundo de queixo caído.\n\n#Minecraft #UnstableSMP #Wemmbu #Reaction #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "visuals": [],
-     "errors": {
-      "tiktok": "TikTok rate_limit_exceeded: The API rate limit exceeded. Please try again later."
-     }
+     "published_at": "2026-10-03 08:06:58"
     },
     {
      "index": 3,
