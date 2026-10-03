@@ -274,7 +274,13 @@ def cmd_run(args):
     clips = []
     for i, c in enumerate(chosen, start=1):
         ai = c["ai"]
-        edit = editor.plan(c.get("text", ""), c["end"] - c["start"], ctx, hint=ai.get("hook", ""))
+        c_start = c["start"]
+        primeiro = next((w for w in words if w["end"] > c_start), None)
+        if (primeiro and primeiro["start"] - c_start >= 0.6
+                and c["end"] - (primeiro["start"] - 0.15) >= 20):
+            log(f"     [{i}] gancho: cortando {primeiro['start'] - c_start:.1f}s de silencio no inicio")
+            c_start = max(c_start, primeiro["start"] - 0.15)
+        edit = editor.plan(c.get("text", ""), c["end"] - c_start, ctx, hint=ai.get("hook", ""))
         if edit:
             sec = f" (+{', '.join(edit['tipos_secundarios'])})" if edit["tipos_secundarios"] else ""
             log(f"     [{i}] tipo={edit['tipo']}{sec} dinamismo={edit['dinamismo']}")
@@ -289,13 +295,14 @@ def cmd_run(args):
         out = render.clip_filename(i, slug, source.stem)
         reframe = None
         if config.REFRAME and not args.no_reframe:
-            reframe = face.focus_for_clip(source, c["start"], c["end"])
+            reframe = face.focus_for_clip(source, c_start, c["end"])
             if not reframe["found"]:
                 reframe = None
             else:
                 log(f"     [{i}] rosto fx={reframe['fx']:.2f} fy={reframe['fy']:.2f} "
                     f"tamanho={reframe['fh']:.2f} ({reframe['samples']} amostras)")
         if out.exists() and not args.force:
+            c_start = c["start"]
             log(f"     [{i}] ja renderizado {out.name}")
             info = {"path": str(out), "duration": round(c["end"] - c["start"], 2), "size": out.stat().st_size}
             overlays = []
@@ -303,7 +310,7 @@ def cmd_run(args):
             overlays = []
             if config.IMAGES_ENABLED and not args.no_images:
                 visuals = art.plan_visuals(
-                    c.get("text", ""), c["end"] - c["start"], ai.get("hook", "")
+                    c.get("text", ""), c["end"] - c_start, ai.get("hook", "")
                 )
                 if visuals:
                     log(f"     [{i}] {len(visuals)} imagem(ns) de IA planejada(s)")
@@ -312,21 +319,26 @@ def cmd_run(args):
             lang = str(transcript.get("language") or "").lower()
             if lang and not lang.startswith(("pt", "portug")):
                 words_cap = captions.traduzir_words(
-                    words, c["start"], c["end"],
-                    f"{source.stem}_{int(c['start'] * 10)}", on_log=log,
+                    words, c_start, c["end"],
+                    f"{source.stem}_{int(c_start * 10)}", on_log=log,
                 )
             info = render.render_clip(
-                source, c["start"], c["end"], out, words_cap,
+                source, c_start, c["end"], out, words_cap,
                 hook=ai.get("hook", ""), crop_focus=args.focus,
                 reframe=reframe, overlays=overlays,
                 zoom=zoom, push=push, caption_size=cap_size,
             )
             log(f"     [{i}] {out.name}  {info['duration']}s  {info['size'] // 1024}KB")
+        verif = _verificar_render(out, on_log=log)
+        if verif["falhas"]:
+            log(f"     [{i}] verificacao REPROVOU: {' | '.join(verif['falhas'])[:220]}")
+        elif verif["avisos"]:
+            log(f"     [{i}] verificacao: {len(verif['avisos'])} aviso(s)")
         title, description, hashtags, tags = _youtube_meta(edit, ai, ctx, meta, c.get("text", ""))
         clip = {
             "index": i,
             "path": info["path"],
-            "start": round(c["start"], 3),
+            "start": round(c_start, 3),
             "end": round(c["end"], 3),
             "duration": info["duration"],
             "size": info["size"],
@@ -347,7 +359,11 @@ def cmd_run(args):
                 {"start": o["start"], "end": o["end"], "pos": o["pos"], "prompt": o["prompt"]}
                 for o in overlays
             ],
+            "verify": verif,
         }
+        if not verif["passed"]:
+            clip["bloqueado"] = True
+            log(f"     [{i}] clipe bloqueado (nao publica; re-renderize com --force)")
         render.write_sidecar(info["path"], clip)
         _gerar_divulgacao(clip, job)
         clips.append(clip)
@@ -361,6 +377,44 @@ def cmd_run(args):
         return cmd_publish(argparse.Namespace(limit=None, job=job["id"], privacy=args.privacy, platform="youtube"))
     log("use: python cortes.py publish")
     return 0
+
+
+VERIFY_SKILL = Path(__file__).resolve().parent / ".claude" / "skills" / "render-and-verify" / "scripts" / "verify_render.py"
+
+
+def _parse_verify(stdout, returncode):
+    falhas, avisos = [], []
+    for raw in (stdout or "").splitlines():
+        line = raw.strip()
+        if line.startswith("[FALHA]"):
+            falhas.append(line[len("[FALHA]"):].strip())
+        elif line.startswith("[AVISO]"):
+            avisos.append(line[len("[AVISO]"):].strip())
+    return {"passed": returncode == 0, "falhas": falhas, "avisos": avisos}
+
+
+def _verificar_render(out, on_log=log):
+    """Skill render-and-verify: checagem tecnica do clipe (resolucao, duracao, audio, loudness, preto/congelado)."""
+    if not VERIFY_SKILL.exists():
+        return {"passed": True, "falhas": [], "avisos": []}
+    import subprocess
+
+    cmd = [
+        sys.executable, str(VERIFY_SKILL), str(out),
+        "--width", str(config.VIDEO_WIDTH), "--height", str(config.VIDEO_HEIGHT),
+        "--fps", "30", "--min-dur", "15", "--max-dur", "65",
+    ]
+    try:
+        proc = subprocess.run(cmd, capture_output=True, text=True,
+                              encoding="utf-8", errors="replace", timeout=180)
+    except Exception as exc:
+        on_log(f"     verificacao nao rodou: {exc}")
+        return {"passed": True, "falhas": [], "avisos": []}
+    verif = _parse_verify(proc.stdout, proc.returncode)
+    if proc.returncode and not verif["falhas"]:
+        ultima = ((proc.stderr or proc.stdout or "").strip().splitlines() or [""])[-1]
+        verif["falhas"].append(f"verify rc={proc.returncode} {ultima}".strip())
+    return verif
 
 
 def _lock_publicacao():
@@ -407,6 +461,8 @@ def cmd_publish(args):
     for j in jobs:
         for c in j.get("clips", []):
             if not Path(c["path"]).exists():
+                continue
+            if c.get("bloqueado"):
                 continue
             if getattr(args, "from_youtube", False) and not c.get("youtube"):
                 continue

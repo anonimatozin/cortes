@@ -8,7 +8,7 @@ from unittest.mock import Mock, patch
 import numpy as np
 
 from core import analyze, art, config, editor, research, select, store, tiktok
-from cortes import compose_tiktok_caption
+from cortes import _parse_verify, compose_tiktok_caption
 
 
 class RegressionTests(unittest.TestCase):
@@ -153,6 +153,22 @@ class RegressionTests(unittest.TestCase):
         self.assertIn("privacy_level", post_info)
         self.assertIn("brand_content_toggle", post_info)
         self.assertIn("is_aigc", post_info)
+
+    def test_verify_parse_reprova_com_falha_e_ignora_aviso(self):
+        stdout = (
+            "[OK   ] resolucao                   1080x1920 (esperado 1080x1920)\n"
+            "[FALHA] duracao                     10.00s (faixa 15-65s)\n"
+            "[AVISO] fps                         29.97 (esperado 30.00)\n"
+            "Resultado: REPROVADO | 1 falha(s), 1 aviso(s)\n"
+        )
+        verif = _parse_verify(stdout, 1)
+        self.assertFalse(verif["passed"])
+        self.assertEqual(len(verif["falhas"]), 1)
+        self.assertIn("duracao", verif["falhas"][0])
+        self.assertEqual(len(verif["avisos"]), 1)
+        ok = _parse_verify("Resultado: APROVADO | 0 falha(s), 2 aviso(s)\n", 0)
+        self.assertTrue(ok["passed"])
+        self.assertFalse(ok["falhas"])
 
 
 if __name__ == "__main__":

@@ -9,7 +9,7 @@ Comece SEMPRE por `video-router`. Ordem do pipeline:
 `video-router` -> `transcribe-and-cut` -> `clip-picker` -> `hook-engine` -> `reframe-layouts` -> `animated-captions` -> `motion-and-broll` -> `audio-polish` -> `render-and-verify` -> `publish-metadata`
 Pule as etapas que o pedido nao exige (ex.: so "tirar silencio" = `transcribe-and-cut` + `render-and-verify`).
 
-Para o fluxo automatico do bot (`cortes.py run`), as skills uteis sao: `hook-engine` e `motion-and-broll` (regras de gancho/zoom que o render pode aplicar), `render-and-verify` (checar um corte antes de entregar) e `publish-metadata` (titulos/hashtags — o bot ja tem `divulgacao/`).
+Para o fluxo automatico do bot (`cortes.py run`), as skills ja estao ligadas no pipeline: `hook-engine` (corta silencio inicial >=0.6s antes do render), `render-and-verify` (todo clipe passa por `verify_render.py` apos o render; falha grave = `clip["bloqueado"] = true` e o `publish` nao o envia — re-renderize com `--force`), `motion-and-broll`/`audio-polish`/`publish-metadata` (o bot ja aplica zoom/push, loudnorm -14 LUFS e `divulgacao/`).
 
 ## Reps de referencia (em `skills/repos/`, clonadas, fora do git)
 | Repo | Use quando |
