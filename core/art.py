@@ -139,7 +139,7 @@ def _gemini(prompt, out_path, size):
                         "model": model,
                         "input": prompt,
                         "response_format": {
-                            "type": "image", "mime_type": "image/png",
+                            "type": "image", "mime_type": "image/jpeg",
                             "aspect_ratio": "1:1", "image_size": "1K",
                         },
                     }

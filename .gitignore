@@ -22,3 +22,11 @@ divulgacao/cache/
 # repo aninhado (projeto separado)
 tiktok/
 queue/publish.lock 
+
+# skills de video — repos de terceiros clonados (licencas proprias)
+skills/repos/
+
+# pastas de trabalho das skills (video-router etc.)
+footage/
+work/
+renders/

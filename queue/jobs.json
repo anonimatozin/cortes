@@ -391,7 +391,14 @@
       "title": "Fim das bets: apoio e críticas ao governo",
       "privacy": "public"
      },
-     "tiktok": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409799530825736",
+      "url": "",
+      "title": "Fim das bets: apoio e críticas ao governo",
+      "caption": "Fim das bets: apoio e críticas ao governo\n\nNeste corte, Daniel Lopez e Charles Mendlowicz analisam o apoio ao fim das bets e questionam se o governo gastou capital político em uma estratégia que não deu retorno. Uma reflexão sobre política e apostas no Brasil.\n\n#Podcast #CortePodcast #FimDasBets #DanielLopez #ApostasEsportivas\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": {
       "fx": 0.5542481104532878,
       "fy": 0.3633843881112558,
@@ -459,10 +466,7 @@
      "legenda_tiktok": "Fim das bets: apoio e críticas ao governo\n\nNeste corte, Daniel Lopez e Charles Mendlowicz analisam o apoio ao fim das bets e questionam se o governo gastou capital político em uma estratégia que não deu retorno. Uma reflexão sobre política e apostas no Brasil.\n\n#FimDasBets #ApostasEsportivas #Política #Brasil #Podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
      "legenda_reels": "ENTREVISTADOS APOIAM FIM DAS BETS, MAS...\n\nFim das bets: apoio e críticas ao governo\n\nNeste corte, Daniel Lopez e Charles Mendlowicz analisam o apoio ao fim das bets e questionam se o governo gastou capital político em uma estratégia que não deu retorno. Uma reflexão sobre política e apostas no Brasil.\n\n#FimDasBets #ApostasEsportivas #Política #Brasil #Podcast\n\nCréditos: Inteligência Ltda\nhttps://www.youtube.com/watch?v=XcCJr5ur8bo",
      "visuals": [],
-     "published_at": "2026-10-01 19:26:00",
-     "errors": {
-      "tiktok": "TikTok rate_limit_exceeded: The API rate limit exceeded. Please try again later."
-     }
+     "published_at": "2026-10-01 19:26:00"
     },
     {
      "index": 3,
@@ -1960,7 +1964,12 @@
       "shorts"
      ],
      "status": "published",
-     "youtube": null,
+     "youtube": {
+      "id": "aZVHuWj2dAE",
+      "url": "https://youtube.com/shorts/aZVHuWj2dAE",
+      "title": "Rockefeller: a doação de 148 bilhões",
+      "privacy": "public"
+     },
      "tiktok": {
       "id": "v_pub_file~v2-1.7691843373493307410",
       "url": "",
@@ -2149,7 +2158,12 @@
       "shorts"
      ],
      "status": "published",
-     "youtube": null,
+     "youtube": {
+      "id": "XNk2YyoCODg",
+      "url": "https://youtube.com/shorts/XNk2YyoCODg",
+      "title": "Agentes de IA vs Chatbots",
+      "privacy": "public"
+     },
      "tiktok": {
       "id": "v_pub_file~v2-1.7691843493073324040",
       "url": "",
@@ -2256,9 +2270,21 @@
       "cortes",
       "shorts"
      ],
-     "status": "ready",
-     "youtube": null,
-     "tiktok": null,
+     "status": "published",
+     "youtube": {
+      "id": "0QMj3BbYxSs",
+      "url": "https://youtube.com/shorts/0QMj3BbYxSs",
+      "title": "Como criar um produto low‑ticket com IA em minutos",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692408973308430354",
+      "url": "",
+      "title": "Como criar um produto low‑ticket com IA em minutos",
+      "caption": "Como criar um produto low‑ticket com IA em minutos\n\nDescubra como usar skills de IA para montar um produto low‑ticket sem esforço e entenda o nível de autonomia dos agentes que trabalham 24h por você.\n\n#IA #AgentesIA #SkillsIA #CriarProdutoLowTicket #AutonomiaIA\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": {
       "fx": 0.8373287320137024,
       "fy": 0.758075887185556,
@@ -2325,9 +2351,7 @@
      "legenda_tiktok": "Como criar um produto low‑ticket com IA em minutos\n\nDescubra como usar skills de IA para montar um produto low‑ticket sem esforço e entenda o nível de autonomia dos agentes que trabalham 24h por você.\n\n#IA #AgentesIA #Tecnologia #NegóciosDigitais #LowTicket\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
      "legenda_reels": "AGENTES PERSISTENTES: SEU ASSISTENTE IA QUE TRABALHA 24H!\n\nComo criar um produto low‑ticket com IA em minutos\n\nDescubra como usar skills de IA para montar um produto low‑ticket sem esforço e entenda o nível de autonomia dos agentes que trabalham 24h por você.\n\n#IA #AgentesIA #Tecnologia #NegóciosDigitais #LowTicket\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
      "visuals": [],
-     "errors": {
-      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
-     }
+     "published_at": "2026-10-03 08:09:07"
     },
     {
      "index": 3,
@@ -2360,9 +2384,21 @@
       "cortes",
       "shorts"
      ],
-     "status": "ready",
-     "youtube": null,
-     "tiktok": null,
+     "status": "published",
+     "youtube": {
+      "id": "KFUGsOmOiQ0",
+      "url": "https://youtube.com/shorts/KFUGsOmOiQ0",
+      "title": "IA Autônoma: Sua Empresa como uma Ferrari",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409277144696850",
+      "url": "",
+      "title": "IA Autônoma: Sua Empresa como uma Ferrari",
+      "caption": "IA Autônoma: Sua Empresa como uma Ferrari\n\nNeste short, descubra como agentes de inteligência artificial podem transformar sua operação de um ritmo de Fusca para a velocidade de uma Ferrari. Aprenda o passo inicial para criar seu próprio agente em menos de uma hora.\n\n#InteligênciaArtificial #IAAutônoma #AgentesDeIA #AgenteAutônomo #IAnoWorkflow\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": {
       "fx": 0.49708404143651325,
       "fy": 0.39117837128815824,
@@ -2430,9 +2466,7 @@
      "legenda_tiktok": "IA Autônoma: Sua Empresa como uma Ferrari\n\nNeste short, descubra como agentes de inteligência artificial podem transformar sua operação de um ritmo de Fusca para a velocidade de uma Ferrari. Aprenda o passo inicial para criar seu próprio agente em menos de uma hora.\n\n#IA #Negócios #Automação #Ferrari #Tecnologia\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
      "legenda_reels": "SEU NEGÓCIO NA VELOCIDADE DE UMA FERRARI\n\nIA Autônoma: Sua Empresa como uma Ferrari\n\nNeste short, descubra como agentes de inteligência artificial podem transformar sua operação de um ritmo de Fusca para a velocidade de uma Ferrari. Aprenda o passo inicial para criar seu próprio agente em menos de uma hora.\n\n#IA #Negócios #Automação #Ferrari #Tecnologia\n\nCréditos: Matheus Borges\nhttps://www.youtube.com/watch?v=qoz4q1Z6uD0",
      "visuals": [],
-     "errors": {
-      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
-     }
+     "published_at": "2026-10-03 08:15:46"
     }
    ],
    "error": null
@@ -2519,7 +2553,14 @@
       "title": "Um Novo Rei no End Surge",
       "privacy": "public"
      },
-     "tiktok": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409335951853586",
+      "url": "",
+      "title": "Um Novo Rei no End Surge",
+      "caption": "Um Novo Rei no End Surge\n\nNeste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Podcast #MinecraftPodcast #MinecraftEnd #GuardiãoDoEnd #UnstableSMP\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": null,
      "edit": {
       "tipo": "História/relato",
@@ -2581,10 +2622,7 @@
      "legenda_tiktok": "Um Novo Rei no End Surge\n\nNeste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Minecraft #UnstableSMP #Wemmbu #EndKing #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "legenda_reels": "UM NOVO REI NO END ESTÁ ESPERANDO\n\nUm Novo Rei no End Surge\n\nNeste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Minecraft #UnstableSMP #Wemmbu #EndKing #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "visuals": [],
-     "published_at": "2026-10-02 20:45:14",
-     "errors": {
-      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
-     }
+     "published_at": "2026-10-02 20:45:14"
     },
     {
      "index": 2,
@@ -2623,7 +2661,14 @@
       "title": "Descobri a Base Maior do Minecraft",
       "privacy": "public"
      },
-     "tiktok": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409635084519431",
+      "url": "",
+      "title": "Descobri a Base Maior do Minecraft",
+      "caption": "Descobri a Base Maior do Minecraft\n\nWemmbu entra em uma base colossal no maior servidor de Minecraft e não consegue acreditar no que vê. A reação ao descobrir que era a antiga base da Minitech deixa todo mundo de queixo caído.\n\n#Minecraft #UnstableSMP #Wemmbu #MinitechBase #BaseGigante\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": null,
      "edit": {
       "tipo": "Reação",
@@ -2727,7 +2772,14 @@
       "title": "Ele quer dominar o servidor",
       "privacy": "public"
      },
-     "tiktok": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692408973308332050",
+      "url": "",
+      "title": "Ele quer dominar o servidor",
+      "caption": "Ele quer dominar o servidor\n\nNeste corte, Wemmbu revela o plano de Spoke de dominar todo o servidor Unstable SMP, gerando tensão entre a equipe. Descubra a reação dos jogadores ao descobrir a verdadeira intenção.\n\n#Minecraft #Wemmbu #podcast #DominarServidor #podcastflow\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": null,
      "edit": {
       "tipo": "História/relato",
@@ -2792,10 +2844,7 @@
      "legenda_tiktok": "Ele quer dominar o servidor\n\nNeste corte, Wemmbu revela o plano de Spoke de dominar todo o servidor Unstable SMP, gerando tensão entre a equipe. Descubra a reação dos jogadores ao descobrir a verdadeira intenção.\n\n#Minecraft #UnstableSMP #Wemmbu #Gaming #Storytime\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "legenda_reels": "ELE QUER DOMINAR TODO O SERVIDOR!\n\nEle quer dominar o servidor\n\nNeste corte, Wemmbu revela o plano de Spoke de dominar todo o servidor Unstable SMP, gerando tensão entre a equipe. Descubra a reação dos jogadores ao descobrir a verdadeira intenção.\n\n#Minecraft #UnstableSMP #Wemmbu #Gaming #Storytime\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "visuals": [],
-     "published_at": "2026-10-01 20:45:11",
-     "errors": {
-      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
-     }
+     "published_at": "2026-10-01 20:45:11"
     }
    ],
    "error": null
@@ -2877,9 +2926,21 @@
       "cortes",
       "shorts"
      ],
-     "status": "ready",
-     "youtube": null,
-     "tiktok": null,
+     "status": "published",
+     "youtube": {
+      "id": "fUdNQXEh-V8",
+      "url": "https://youtube.com/shorts/fUdNQXEh-V8",
+      "title": "🔥 Confronto brutal no deserto – 007 First Light",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409018098649106",
+      "url": "",
+      "title": "🔥 Confronto brutal no deserto – 007 First Light",
+      "caption": "Cena de ação intensa onde o protagonista enfrenta inimigos com linguagem forte. O gancho imediato prende a atenção e o payoff é violento e satisfatório.\n\n#playstation5 #GamingPodcast #007FirstLight #DialogoIntenso #FirstLightGameplay\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": {
       "fx": 0.39386061628659563,
       "fy": 0.3534790321632668,
@@ -2891,9 +2952,7 @@
      "legenda_tiktok": "Cena de ação intensa onde o protagonista enfrenta inimigos com linguagem forte. O gancho imediato prende a atenção e o payoff é violento e satisfatório.\n\n#007FirstLight #PS5Pro #Stealth #DesertUnderworld #Gameplay\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
      "legenda_reels": "VOCÊ ENCONTROU, ASSHOLE!\n\nCena de ação intensa onde o protagonista enfrenta inimigos com linguagem forte. O gancho imediato prende a atenção e o payoff é violento e satisfatório.\n\n#007FirstLight #PS5Pro #Stealth #DesertUnderworld #Gameplay\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
      "visuals": [],
-     "errors": {
-      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
-     }
+     "published_at": "2026-10-03 08:11:20"
     },
     {
      "index": 2,
@@ -2930,9 +2989,21 @@
       "cortes",
       "shorts"
      ],
-     "status": "ready",
-     "youtube": null,
-     "tiktok": null,
+     "status": "published",
+     "youtube": {
+      "id": "eBAsPDP3pkM",
+      "url": "https://youtube.com/shorts/eBAsPDP3pkM",
+      "title": "🐍 Cuidado com as serpentes em 007 First Light",
+      "privacy": "public"
+     },
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409523885115410",
+      "url": "",
+      "title": "🐍 Cuidado com as serpentes em 007 First Light",
+      "caption": "Bond avisa: “Watch out for the snakes.” A tensão aumenta quando a câmera mostra a ameaça rastejante, criando um momento de suspense perfeito para um short.\n\n#GameplayShort #PodcastDeSuspense #PodcastDeGames #007FirstLight #PodcastGamingBR\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": {
       "fx": 0.6144743343194325,
       "fy": 0.3240494162948043,
@@ -2944,9 +3015,7 @@
      "legenda_tiktok": "Bond avisa: “Watch out for the snakes.” A tensão aumenta quando a câmera mostra a ameaça rastejante, criando um momento de suspense perfeito para um short.\n\n#007FirstLight #Gameplay #PS5Pro #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
      "legenda_reels": "CUIDADO COM AS SERPENTES! 🐍\n\nBond avisa: “Watch out for the snakes.” A tensão aumenta quando a câmera mostra a ameaça rastejante, criando um momento de suspense perfeito para um short.\n\n#007FirstLight #Gameplay #PS5Pro #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
      "visuals": [],
-     "errors": {
-      "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
-     }
+     "published_at": "2026-10-03 08:17:58"
     },
     {
      "index": 3,
@@ -2981,17 +3050,396 @@
       "cortes",
       "shorts"
      ],
-     "status": "ready",
+     "status": "published",
      "youtube": null,
-     "tiktok": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409693809330194",
+      "url": "",
+      "title": "🧗‍♂️ Salto impossível no deserto - 007 First Light",
+      "caption": "Bond escala a torre de relé sob fumaça densa, faz um salto incrível e desativa a senha da carteira. A adrenalina está no máximo!\n\n#GamePlay #007FirstLight #JamesBondGame #JustJump #PS5Pro\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
      "reframe": null,
      "edit": {},
      "legenda_tiktok": "Bond escala a torre de relé sob fumaça densa, faz um salto incrível e desativa a senha da carteira. A adrenalina está no máximo!\n\n#007FirstLight #PS5Pro #Gameplay #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
      "legenda_reels": "GRAVIDADE É SÓ UMA SUGESTÃO!\n\nBond escala a torre de relé sob fumaça densa, faz um salto incrível e desativa a senha da carteira. A adrenalina está no máximo!\n\n#007FirstLight #PS5Pro #Gameplay #Stealth #DesertUnderworld\n\nCréditos: NextGenPlayz\nhttps://www.youtube.com/watch?v=dTOfuaegBV4",
      "visuals": [],
-     "errors": {
-      "tiktok": "TikTok rate_limit_exceeded: The API rate limit exceeded. Please try again later."
-     }
+     "published_at": "2026-10-03 08:59:39"
+    }
+   ],
+   "error": null
+  },
+  {
+   "id": "1791027085845",
+   "url": "https://www.youtube.com/watch?v=D3PqA61LxRk",
+   "created": "2026-10-03 08:31:25",
+   "stage": "rendered",
+   "meta": {
+    "id": "D3PqA61LxRk",
+    "title": "DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO",
+    "channel": "RedCast [Oficial]",
+    "duration": 10004,
+    "url": "https://www.youtube.com/watch?v=D3PqA61LxRk",
+    "webpage_url": "https://www.youtube.com/watch?v=D3PqA61LxRk",
+    "path": "C:\\Users\\Administrator\\Documents\\cortes\\source\\D3PqA61LxRk.mp4",
+    "tags": [
+     "podcast",
+     "ao vivo",
+     "redcast",
+     "noticias",
+     "serjão",
+     "sérgio sacani",
+     "sacani",
+     "space today",
+     "ciência sem fim",
+     "terremoto",
+     "ciência",
+     "pirâmides",
+     "pirâmides de egito",
+     "egito",
+     "debate",
+     "daniel lopez",
+     "serjão dos foguetes",
+     "elon musk",
+     "felipe neto"
+    ]
+   },
+   "clips": [
+    {
+     "index": 1,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\01_D3PqA61LxRk_CLEOPATRA_MAIS_PROXIMA_DO_IPHONE_QUE_DA.mp4",
+     "start": 257.06,
+     "end": 305.68,
+     "duration": 48.63,
+     "size": 33617246,
+     "score": 80,
+     "hook": "CLEÓPATRA MAIS PRÓXIMA DO IPHONE QUE DA PIRÂMIDE!",
+     "title": "Pirâmides: O iPhone da Antiguidade?",
+     "description": "Neste corte de 49 s, Daniel Lopez e Sérgio Sacani debatem o mistério das pirâmides egípcias e lançam uma analogia divertida: as pirâmides seriam o iPhone ou arranha‑céu da Antiguidade? Descubra a visão deles e fique por dentro da história.\n\n#pirâmides #egito #debate #ciência #curiosidade\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "hashtags": [
+      "#pirâmides",
+      "#egito",
+      "#debate",
+      "#ciência",
+      "#curiosidade"
+     ],
+     "tags": [
+      "pirâmides do egito",
+      "debate ciência",
+      "sérgio sacani",
+      "daniel lopez",
+      "história do egito",
+      "curiosidades históricas",
+      "podcast brasileiro",
+      "RedCast [Oficial]",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692410210170537991",
+      "url": "",
+      "title": "Pirâmides: O iPhone da Antiguidade?",
+      "caption": "Pirâmides: O iPhone da Antiguidade?\n\nNeste corte de 49 s, Daniel Lopez e Sérgio Sacani debatem o mistério das pirâmides egípcias e lançam uma analogia divertida: as pirâmides seriam o iPhone ou arranha‑céu da Antiguidade? Descubra a visão deles e fique por dentro da história.\n\n#podcastbrasil #históriadoegito #pirâmides #podcastredcast #piramidesdoegito\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.48620041211446124,
+      "fy": 0.4228295220269097,
+      "fh": 0.39097388938621236,
+      "found": true,
+      "samples": 125
+     },
+     "edit": {
+      "tipo": "Discussão/debate",
+      "tipos_secundarios": [
+       "História/relato",
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Comparação humorística das pirâmides com um iPhone/arranha‑céu, reforçada pelo gancho \"CLEÓPATRA MAIS PRÓXIMA DO IPHONE QUE DÁ PIRÂMIDE!\"",
+      "hook": "CLEÓPATRA MAIS PRÓXIMA DO IPHONE QUE DÁ PIRÂM",
+      "estrutura": {
+       "hook": "Apresentação rápida e o gancho sobre Cleópatra e iPhone.",
+       "desenvolvimento": "Breve contextualização das pirâmides e do interesse do público.",
+       "principal": "Piada sobre as pirâmides serem como um arranha‑céu para observar a paisagem, gerando curiosidade.",
+       "conclusao": "Encerramento convidando a seguir o canal para mais debates sobre mistérios históricos."
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas e repetições; acelerar trechos de “tem falado bastante sobre as pirâmides” até a piada.",
+       "zooms": "Zoom sutil no rosto de Daniel Lopez quando ele faz a analogia da pirâmide/ iPhone.",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas, fonte legível, destaque em negrito para nomes dos participantes nas falas iniciais."
+      },
+      "titulos": [
+       "Pirâmides: O iPhone da Antiguidade?",
+       "Cleópatra vs iPhone: Por que as Pirâmides são tão modernas",
+       "Por que as Pirâmides lembram arranha‑céus?"
+      ],
+      "descricao": "Neste corte de 49 s, Daniel Lopez e Sérgio Sacani debatem o mistério das pirâmides egípcias e lançam uma analogia divertida: as pirâmides seriam o iPhone ou arranha‑céu da Antiguidade? Descubra a visão deles e fique por dentro da história.",
+      "tags": {
+       "principais": [
+        "pirâmides do egito",
+        "debate ciência",
+        "sérgio sacani",
+        "daniel lopez"
+       ],
+       "secundarias": [
+        "história do egito",
+        "curiosidades históricas",
+        "podcast brasileiro"
+       ],
+       "descoberta": [
+        "por que as pirâmides foram construídas",
+        "como as pirâmides se comparam a edifícios modernos"
+       ]
+      },
+      "hashtags": [
+       "#pirâmides",
+       "#egito",
+       "#debate",
+       "#ciência",
+       "#curiosidade"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 0‑59 s, início com o hook em caps, legendas ativadas, thumbnail descrita abaixo.",
+       "tiktok": "Mesmo corte, incluir sticker de “🤔” no momento da piada, manter legendas, usar áudio original sem música de fundo.",
+       "instagram": "Reels 9:16, manter o mesmo ritmo, adicionar CTA “Deslize para mais debates” na última tela."
+      },
+      "capa": "Ilustração de uma pirâmide ao lado de um iPhone, fundo de areia egípcia, texto em negrito: \"Pirâmides = iPhone?\""
+     },
+     "legenda_tiktok": "Pirâmides: O iPhone da Antiguidade?\n\nNeste corte de 49 s, Daniel Lopez e Sérgio Sacani debatem o mistério das pirâmides egípcias e lançam uma analogia divertida: as pirâmides seriam o iPhone ou arranha‑céu da Antiguidade? Descubra a visão deles e fique por dentro da história.\n\n#pirâmides #egito #debate #ciência #curiosidade\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "legenda_reels": "CLEÓPATRA MAIS PRÓXIMA DO IPHONE QUE DA PIRÂMIDE!\n\nPirâmides: O iPhone da Antiguidade?\n\nNeste corte de 49 s, Daniel Lopez e Sérgio Sacani debatem o mistério das pirâmides egípcias e lançam uma analogia divertida: as pirâmides seriam o iPhone ou arranha‑céu da Antiguidade? Descubra a visão deles e fique por dentro da história.\n\n#pirâmides #egito #debate #ciência #curiosidade\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "visuals": [],
+     "published_at": "2026-10-03 09:00:43"
+    },
+    {
+     "index": 2,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\02_D3PqA61LxRk_MUONS_DESCOBRIRAM_CAMARAS_ESCONDIDAS_EM_KHEOPS.mp4",
+     "start": 536.3,
+     "end": 578.68,
+     "duration": 42.38,
+     "size": 28846851,
+     "score": 85,
+     "hook": "MUONS DESCOBRIRAM CÂMARAS ESCONDIDAS EM KHÉOPS!",
+     "title": "Muons revelam câmaras secretas na Pirâmide de Khéops",
+     "description": "Neste corte de 42 s, o debate destaca como muons foram usados para encontrar câmaras nunca antes detectadas na Pirâmide de Khéops, citando o estudo de 2022 e questionando a revisão científica.\n\n#muons #pirâmides #arqueologia #ciência #RedCast\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "hashtags": [
+      "#muons",
+      "#pirâmides",
+      "#arqueologia",
+      "#ciência",
+      "#RedCast"
+     ],
+     "tags": [
+      "muons",
+      "pirâmides do egito",
+      "muografia",
+      "ciência",
+      "arqueologia",
+      "debate",
+      "estudo muografia 2022",
+      "RedCast [Oficial]",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692410140032501778",
+      "url": "",
+      "title": "Muons revelam câmaras secretas na Pirâmide de Khéops",
+      "caption": "Muons revelam câmaras secretas na Pirâmide de Khéops\n\nNeste corte de 42 s, o debate destaca como muons foram usados para encontrar câmaras nunca antes detectadas na Pirâmide de Khéops, citando o estudo de 2022 e questionando a revisão científica.\n\n#arqueologia #muografia #muons #DanielLopez #arqueologiaegípcia\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.5040893157323202,
+      "fy": 0.42710407398365163,
+      "fh": 0.3860035366482205,
+      "found": true,
+      "samples": 127
+     },
+     "edit": {
+      "tipo": "Discussão/debate",
+      "tipos_secundarios": [
+       "História/relato",
+       "Curiosidade"
+      ],
+      "dinamismo": "alto",
+      "momento_principal": "Descoberta de câmaras ocultas na Pirâmide de Khéops usando muografia",
+      "hook": "MUONS DESCOBRIRAM CÂMARAS ESCONDIDAS EM KHÉOP",
+      "estrutura": {
+       "hook": "Apresentação explosiva da descoberta das câmaras ocultas",
+       "desenvolvimento": "Explicação breve sobre muons, muografia e como eles revelam estruturas internas",
+       "principal": "Referência ao estudo de 2022 publicado na revista Remote Sensing e crítica ao processo de revisão",
+       "conclusao": "Pergunta ao público se leram os comentários dos revisores, incentivando engajamento"
+      },
+      "edicao": {
+       "cortes": "Corte rápido a cada frase-chave; aceleração leve nas partes de explicação repetitiva",
+       "zooms": "Zoom sutil nas palavras MUONS, CÂMARAS ESCONDIDAS e KHÉOPS ao serem mencionadas",
+       "efeitos": "Nenhum efeito chamativo; apenas realce de texto em amarelo para termos críticos",
+       "legendas": "Legenda completa sincronizada, fonte legível, cor branca com sombra, dividida em 8 blocos"
+      },
+      "titulos": [
+       "Muons revelam câmaras secretas na Pirâmide de Khéops",
+       "Descoberta científica: câmaras ocultas em Khéops",
+       "Muografia descobre o que ninguém viu na Pirâmide"
+      ],
+      "descricao": "Neste corte de 42 s, o debate destaca como muons foram usados para encontrar câmaras nunca antes detectadas na Pirâmide de Khéops, citando o estudo de 2022 e questionando a revisão científica.",
+      "tags": {
+       "principais": [
+        "muons",
+        "pirâmides do egito",
+        "muografia"
+       ],
+       "secundarias": [
+        "ciência",
+        "arqueologia",
+        "debate"
+       ],
+       "descoberta": [
+        "câmaras escondidas pirâmide de Khéops",
+        "estudo muografia 2022"
+       ]
+      },
+      "hashtags": [
+       "#muons",
+       "#pirâmides",
+       "#arqueologia",
+       "#ciência",
+       "#RedCast"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 42 s, legenda completa, capa com silhueta da pirâmide e traços de muons",
+       "tiktok": "Mesmo corte, incluir chamada para ação nos primeiros 3 s, usar áudio original, legenda em destaque",
+       "instagram": "Reels com mesma edição, capa idêntica, usar stickers de pergunta para incentivar comentários"
+      },
+      "capa": "Silhueta da Pirâmide de Khéops em fundo escuro, linhas de trajetória de muons em azul neon atravessando, texto em caixa alta: \"CÂMARAS ESCONDIDAS?\""
+     },
+     "legenda_tiktok": "Muons revelam câmaras secretas na Pirâmide de Khéops\n\nNeste corte de 42 s, o debate destaca como muons foram usados para encontrar câmaras nunca antes detectadas na Pirâmide de Khéops, citando o estudo de 2022 e questionando a revisão científica.\n\n#muons #pirâmides #arqueologia #ciência #RedCast\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "legenda_reels": "MUONS DESCOBRIRAM CÂMARAS ESCONDIDAS EM KHÉOPS!\n\nMuons revelam câmaras secretas na Pirâmide de Khéops\n\nNeste corte de 42 s, o debate destaca como muons foram usados para encontrar câmaras nunca antes detectadas na Pirâmide de Khéops, citando o estudo de 2022 e questionando a revisão científica.\n\n#muons #pirâmides #arqueologia #ciência #RedCast\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "visuals": [],
+     "published_at": "2026-10-03 09:00:28"
+    },
+    {
+     "index": 3,
+     "path": "C:\\Users\\Administrator\\Documents\\cortes\\clips\\03_D3PqA61LxRk_EU_FUI_O_PRIMEIRO_BRASILEIRO_A_USAR.mp4",
+     "start": 593.86,
+     "end": 637.74,
+     "duration": 43.88,
+     "size": 31582009,
+     "score": 88,
+     "hook": "EU FUI O PRIMEIRO BRASILEIRO A USAR GPR!",
+     "title": "Como o SAR revelou vazios nas pirâmides egípcias",
+     "description": "Neste corte, Daniel Lopez e Sérgio Sacani explicam como o Radar de Abertura Sintética de satélites europeus está mapeando o interior das pirâmides do Egito. Entenda a tecnologia por trás da descoberta e por que ela é tão importante.\n\n#Pirâmides #SAR #Ciência #Arqueologia #RedCast\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "hashtags": [
+      "#Pirâmides",
+      "#SAR",
+      "#Ciência",
+      "#Arqueologia",
+      "#RedCast"
+     ],
+     "tags": [
+      "pirâmides egito",
+      "SAR",
+      "radar de abertura sintética",
+      "Daniel Lopez",
+      "Sérgio Sacani",
+      "ciência",
+      "arqueologia",
+      "tecnologia espacial",
+      "peer review",
+      "open source",
+      "RedCast [Oficial]",
+      "cortes",
+      "shorts"
+     ],
+     "status": "published",
+     "youtube": null,
+     "tiktok": {
+      "id": "v_pub_file~v2-1.7692409799530711048",
+      "url": "",
+      "title": "Como o SAR revelou vazios nas pirâmides egípcias",
+      "caption": "Como o SAR revelou vazios nas pirâmides egípcias\n\nNeste corte, Daniel Lopez e Sérgio Sacani explicam como o Radar de Abertura Sintética de satélites europeus está mapeando o interior das pirâmides do Egito. Entenda a tecnologia por trás da descoberta e por que ela é tão importante.\n\n#Podcast #SAR #PirâmidesDoEgito #DanielLopez #RadarSintético\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+      "status": "PUBLISH_COMPLETE",
+      "mode": "direct"
+     },
+     "reframe": {
+      "fx": 0.510961119333903,
+      "fy": 0.4243940847891348,
+      "fh": 0.38909344143337676,
+      "found": true,
+      "samples": 131
+     },
+     "edit": {
+      "tipo": "Discussão/debate",
+      "tipos_secundarios": [
+       "Curiosidade",
+       "História/relato"
+      ],
+      "dinamismo": "medio",
+      "momento_principal": "Explicação do uso do SAR (Radar de Abertura Sintética) de satélites europeus para mapear o interior das pirâmides egípcias.",
+      "hook": "EU FUI O PRIMEIRO BRASILEIRO A USAR GPR!",
+      "estrutura": {
+       "hook": "Apresentação impactante do GPR para captar a atenção.",
+       "desenvolvimento": "Breve comentário sobre o peer‑review e a aprovação do artigo, introduzindo o SAR como ferramenta.",
+       "principal": "Detalhe técnico do SAR: dois satélites a 670 km, como o radar penetra a pedra e revela vazios internos da pirâmide.",
+       "conclusao": "Convite para o público seguir o canal e acompanhar mais descobertas científicas sobre mistérios antigos."
+      },
+      "edicao": {
+       "cortes": "Cortar pausas longas (ex.: “Entendi.”) e acelerar trechos de preenchimento (“então eu usei muito”).",
+       "zooms": "Nenhum zoom; foco em cortes limpos para manter ritmo.",
+       "efeitos": "nenhum",
+       "legendas": "Legendas completas, fonte sem serifa, cor branca com sombra leve e fundo semi‑transparente para garantir legibilidade."
+      },
+      "titulos": [
+       "Como o SAR revelou vazios nas pirâmides egípcias",
+       "Radar europeu mapeia o interior das pirâmides – ciência real",
+       "Descubra o segredo do radar que escaneia as pirâmides"
+      ],
+      "descricao": "Neste corte, Daniel Lopez e Sérgio Sacani explicam como o Radar de Abertura Sintética de satélites europeus está mapeando o interior das pirâmides do Egito. Entenda a tecnologia por trás da descoberta e por que ela é tão importante.",
+      "tags": {
+       "principais": [
+        "pirâmides egito",
+        "SAR",
+        "radar de abertura sintética",
+        "Daniel Lopez",
+        "Sérgio Sacani"
+       ],
+       "secundarias": [
+        "ciência",
+        "arqueologia",
+        "tecnologia espacial",
+        "peer review",
+        "open source"
+       ],
+       "descoberta": [
+        "como mapear interior das pirâmides",
+        "radar satélite interior pirâmide"
+       ]
+      },
+      "hashtags": [
+       "#Pirâmides",
+       "#SAR",
+       "#Ciência",
+       "#Arqueologia",
+       "#RedCast"
+      ],
+      "plataformas": {
+       "youtube": "Formato vertical 9:16, 44 s, capa com imagem de satélite e texto “Radar nas pirâmides”.",
+       "tiktok": "Mesmo corte, incluir sticker de “🔍” no momento da explicação do SAR, legenda em destaque.",
+       "instagram": "Reels com mesma duração, usar “Cover” estático similar ao YouTube e inserir CTA “Deslize para saber mais”."
+      },
+      "capa": "Imagem de satélite mostrando o radar em ação sobre a pirâmide, com sobreposição de texto em negrito: “Radar revela o interior das pirâmides”."
+     },
+     "legenda_tiktok": "Como o SAR revelou vazios nas pirâmides egípcias\n\nNeste corte, Daniel Lopez e Sérgio Sacani explicam como o Radar de Abertura Sintética de satélites europeus está mapeando o interior das pirâmides do Egito. Entenda a tecnologia por trás da descoberta e por que ela é tão importante.\n\n#Pirâmides #SAR #Ciência #Arqueologia #RedCast\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "legenda_reels": "EU FUI O PRIMEIRO BRASILEIRO A USAR GPR!\n\nComo o SAR revelou vazios nas pirâmides egípcias\n\nNeste corte, Daniel Lopez e Sérgio Sacani explicam como o Radar de Abertura Sintética de satélites europeus está mapeando o interior das pirâmides do Egito. Entenda a tecnologia por trás da descoberta e por que ela é tão importante.\n\n#Pirâmides #SAR #Ciência #Arqueologia #RedCast\n\nCréditos: RedCast [Oficial] — \"DEBATE: DANIEL LOPEZ e SÉRGIO SACANI: PIRÂMIDES DO EGITO\"\nhttps://www.youtube.com/watch?v=D3PqA61LxRk",
+     "visuals": [],
+     "published_at": "2026-10-03 08:59:54"
     }
    ],
    "error": null

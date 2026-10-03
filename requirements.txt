@@ -6,3 +6,8 @@ requests
 google-api-python-client
 google-auth-oauthlib
 google-auth-httplib2
+ 
+# --- skills de video (.claude/skills) ---  
+opencv-python 
+auto-editor 
+scenedetect[opencv] 
