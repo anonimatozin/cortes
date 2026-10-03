@@ -53,14 +53,19 @@ def build_candidates(words, segments, rms, duration, target=None, cap=60):
     used = set()
     i = 0
     while i < len(segments) and len(cands) < cap:
-        start = segments[i]["start"]
-        end = start
+        segment = segments[i]
+        start = float(segment["start"])
+        end = float(segment["end"])
         j = i
         while j < len(segments) and end - start < target:
             j += 1
             if j < len(segments):
-                end = segments[j]["end"]
-        if end - start > duration:
+                end = float(segments[j]["end"])
+        end = min(end, float(duration))
+        if end <= start:
+            i += 1
+            continue
+        if start >= duration:
             break
         if MIN_CLIP_SEC <= end - start <= MAX_CLIP_SEC * 1.35:
             key = round(start / 4)
@@ -81,7 +86,8 @@ def build_candidates(words, segments, rms, duration, target=None, cap=60):
             s["text"] for s in segments if s["end"] > c["start"] and s["start"] < c["end"]
         ]
         c["text"] = " ".join(seg_text).strip()
-        lo, hi = int(c["start"] / WIN), min(int(c["end"] / WIN) + 1, len(rms))
+        lo = max(0, int(c["start"] / WIN))
+        hi = min(int(c["end"] / WIN) + 1, len(rms))
         window = rms[lo:hi] if hi > lo else np.zeros(1)
         c["energy"] = float(np.percentile(window, 90)) if len(window) else 0.0
         c["peak"] = float(window.max()) if len(window) else 0.0
@@ -108,11 +114,13 @@ def rank_candidates(cands, top=40):
     if not cands:
         return []
     energies = [c["energy"] for c in cands]
-    base = np.percentile(energies, 75) or 1.0
+    base = float(np.percentile(energies, 75)) or 1.0
+    if base <= 1e-8:
+        base = 1.0
     for c in cands:
         dur = max(1.0, c["end"] - c["start"])
         c["pre_score"] = round(
-            (c["energy"] / base) * 2.0
+            min(3.0, (c["energy"] / base) * 2.0)
             + c["excite"]
             + (2.0 if MIN_CLIP_SEC <= dur <= MAX_CLIP_SEC else 0.0)
             + (1.0 if len(c["text"]) > 120 else 0.0),

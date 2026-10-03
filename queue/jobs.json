@@ -2512,8 +2512,13 @@
       "cortes",
       "shorts"
      ],
-     "status": "ready",
-     "youtube": null,
+     "status": "published",
+     "youtube": {
+      "id": "NWuSySEZNGo",
+      "url": "https://youtube.com/shorts/NWuSySEZNGo",
+      "title": "Um Novo Rei no End Surge",
+      "privacy": "public"
+     },
      "tiktok": null,
      "reframe": null,
      "edit": {
@@ -2576,6 +2581,7 @@
      "legenda_tiktok": "Um Novo Rei no End Surge\n\nNeste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Minecraft #UnstableSMP #Wemmbu #EndKing #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "legenda_reels": "UM NOVO REI NO END ESTÁ ESPERANDO\n\nUm Novo Rei no End Surge\n\nNeste corte, descubra quem assumiu o trono no End e por que o narrador precisa da sua ajuda para enfrentar um exército misterioso. Uma trama que promete mudar o rumo do maior servidor de Minecraft.\n\n#Minecraft #UnstableSMP #Wemmbu #EndKing #Gaming\n\nCréditos: Wemmbu\nhttps://www.youtube.com/watch?v=5hG_nAYEC2g",
      "visuals": [],
+     "published_at": "2026-10-02 20:45:14",
      "errors": {
       "tiktok": "TikTok unaudited_client_can_only_post_to_private_accounts: Please review our integration guidelines at https://developers.tiktok.com/doc/content-sharing-guidelines/"
      }
@@ -2712,7 +2718,12 @@
       "shorts"
      ],
      "status": "published",
-     "youtube": null,
+     "youtube": {
+      "id": "kD7ZCJS0pLU",
+      "url": "https://youtube.com/shorts/kD7ZCJS0pLU",
+      "title": "Ele quer dominar o servidor",
+      "privacy": "public"
+     },
      "tiktok": null,
      "reframe": null,
      "edit": {

@@ -2,9 +2,10 @@ import base64
 import json
 import math
 import shutil
+import time
 from pathlib import Path
 
-from .config import CLIPS_DIR, GROQ_API_KEY, GROQ_MODEL, IMAGE_MODEL, IMAGE_PROVIDER, IMAGE_STYLE, LANGUAGE
+from .config import CLIPS_DIR, GROQ_API_KEY, GROQ_MODEL, IMAGE_MODEL, IMAGE_PROVIDER, IMAGE_STYLE, IMAGES_MAX, LANGUAGE
 from .select import _chat, _extract_json
 
 FPS = 30
@@ -24,17 +25,28 @@ PLAN_SCHEMA = """{
 
 
 def plan_visuals(text, duration, hook, max_n=2):
+    max_n = min(max_n, IMAGES_MAX)
+    if not text or duration < 12 or max_n <= 0:
+        return []
     if not GROQ_API_KEY:
-        return []
-    if duration < 12:
-        return []
+        # Mesmo sem a IA de seleção, ainda podemos criar uma ilustração baseada
+        # no assunto literal do trecho (a geração exige GEMINI_API_KEY).
+        return [{
+            "rel": round(max(2.0, min(duration - 5.0, duration * 0.42)), 2),
+            "prompt": _fallback_prompt(text, hook),
+            "pos": "right",
+            "dur": round(min(3.8, duration - 5.0), 2),
+        }]
     user = (
         f"Trecho de video ({duration:.0f}s) para virar um Short vertical.\n"
+        f"Gancho: {hook or '(sem gancho)'}\n"
         f"Trecho: {text[:1800]}\n\n"
-        "Escolha ate 2 momentos onde uma IMAGEM ilustraria o que esta sendo falado "
+        "Escolha momentos onde uma IMAGEM ilustraria literalmente o que esta sendo falado "
         "e prende a atencao. Cada um deve durar 2.5 a 4.5 segundos e comecar entre "
         "2s e " + f"{max(6.0, duration - 6):.0f}s. pos deve ser left, right ou top. "
-        "prompt em ingles, descricao concreta e visual, estilo: " + IMAGE_STYLE + ". Sem texto, sem letras, sem legenda na imagem."
+        "Evite o rosto da pessoa, a area das legendas e momentos de fala essencial. "
+        "Nao use mais de uma imagem para a mesma ideia. prompt em ingles, descricao concreta "
+        "e visual, estilo: " + IMAGE_STYLE + ". Sem texto, sem letras, sem legenda ou marca d'agua na imagem."
     )
     try:
         content = _chat({
@@ -52,6 +64,7 @@ def plan_visuals(text, duration, hook, max_n=2):
     except Exception:
         return []
     out = []
+    last_end = 0.0
     for v in data.get("visuals", [])[:max_n]:
         try:
             rel = float(v.get("rel", 0))
@@ -62,13 +75,31 @@ def plan_visuals(text, duration, hook, max_n=2):
         if pos not in ("left", "right", "top"):
             pos = "right"
         rel = min(max(rel, 1.5), max(2.0, duration - dur - 1.0))
+        if rel < last_end + 0.5:
+            rel = last_end + 0.5
+        if rel + dur > duration - 0.5:
+            continue
+        prompt = str(v.get("prompt", "")).strip()[:400]
+        if not prompt:
+            continue
         out.append({
             "rel": round(rel, 2),
-            "prompt": str(v.get("prompt", ""))[:400],
+            "prompt": prompt,
             "pos": pos,
             "dur": round(min(max(dur, 2.0), 5.0), 2),
         })
+        last_end = rel + dur
     return out
+
+
+def _fallback_prompt(text, hook=""):
+    subject = " ".join(str(text).split())[:360]
+    return (
+        "Editorial supporting illustration for a short video. Represent this concrete idea visually: "
+        f"{subject}. Key hook: {hook or 'the main moment'}. "
+        f"Style: {IMAGE_STYLE}. One clear subject, strong contrast, no people faces, "
+        "no text, no letters, no logos, no watermark, no split screen."
+    )
 
 
 def generate(prompt, out_path, size=(1024, 1024)):
@@ -86,18 +117,91 @@ def _gemini(prompt, out_path, size):
 
     if not GEMINI_API_KEY:
         raise RuntimeError("GEMINI_API_KEY vazia no .env (imagem de IA desativada)")
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{IMAGE_MODEL}:generateContent"
-    body = {"contents": [{"parts": [{"text": prompt + ". No text, no letters, no watermark."}]}]}
-    r = requests.post(url, params={"key": GEMINI_API_KEY}, json=body, timeout=180)
-    if r.status_code != 200:
-        raise RuntimeError(f"imagem falhou {r.status_code}: {r.text[:300]}")
-    parts = r.json()["candidates"][0]["content"]["parts"]
-    for p in parts:
-        if p.get("inlineData") or p.get("inline_data"):
-            data = (p.get("inlineData") or p.get("inline_data"))["data"]
-            out_path.write_bytes(base64.b64decode(data))
-            return out_path
-    raise RuntimeError(f"resposta sem imagem: {json.dumps(parts)[:300]}")
+    prompt = prompt + ". No text, no letters, no watermark. Generate an image only."
+    model = IMAGE_MODEL.removeprefix("models/")
+    errors = []
+    for endpoint in ("generate_content", "interactions"):
+        for attempt in range(4):
+            try:
+                if endpoint == "generate_content":
+                    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+                    body = {
+                        "contents": [{"parts": [{"text": prompt}]}],
+                        "generationConfig": {
+                            "responseModalities": ["IMAGE"],
+                            "imageConfig": {"aspectRatio": "1:1"},
+                        },
+                    }
+                    r = requests.post(url, params={"key": GEMINI_API_KEY}, json=body, timeout=180)
+                else:
+                    url = "https://generativelanguage.googleapis.com/v1beta/interactions"
+                    body = {
+                        "model": model,
+                        "input": prompt,
+                        "response_format": {
+                            "type": "image", "mime_type": "image/png",
+                            "aspect_ratio": "1:1", "image_size": "1K",
+                        },
+                    }
+                    r = requests.post(
+                        url,
+                        headers={"x-goog-api-key": GEMINI_API_KEY},
+                        json=body,
+                        timeout=180,
+                    )
+            except requests.RequestException as exc:
+                errors.append(f"{endpoint}: {exc}")
+                if attempt < 3:
+                    time.sleep(min(30, 2 ** attempt))
+                    continue
+                break
+
+            if r.status_code in (429, 500, 502, 503, 504):
+                errors.append(f"{endpoint}: HTTP {r.status_code} {r.text[:180]}")
+                if attempt < 3:
+                    time.sleep(min(30, 2 ** attempt))
+                    continue
+                break
+            if r.status_code in (400, 404, 405) and endpoint == "generate_content":
+                errors.append(f"generate_content: HTTP {r.status_code} {r.text[:180]}")
+                break
+            if r.status_code != 200:
+                raise RuntimeError(f"Gemini HTTP {r.status_code}: {r.text[:500]}")
+            try:
+                data = r.json()
+            except ValueError as exc:
+                raise RuntimeError(f"Gemini respondeu sem JSON: {r.text[:300]}") from exc
+            encoded = _find_image_data(data)
+            if encoded:
+                try:
+                    out_path.write_bytes(base64.b64decode(encoded))
+                except Exception as exc:
+                    raise RuntimeError(f"imagem Gemini inválida: {exc}") from exc
+                return out_path
+            errors.append(f"{endpoint}: resposta sem imagem {json.dumps(data)[:300]}")
+            break
+    raise RuntimeError("Gemini não gerou imagem após tentativas: " + " | ".join(errors[-4:]))
+
+
+def _find_image_data(value):
+    """Aceita os formatos inlineData/inline_data/output_image das APIs Gemini."""
+    if isinstance(value, dict):
+        for key in ("inlineData", "inline_data", "output_image", "outputImage"):
+            item = value.get(key)
+            if isinstance(item, dict) and item.get("data"):
+                return item["data"]
+        if value.get("mime_type", "").startswith("image/") and value.get("data"):
+            return value["data"]
+        for item in value.values():
+            found = _find_image_data(item)
+            if found:
+                return found
+    elif isinstance(value, list):
+        for item in value:
+            found = _find_image_data(item)
+            if found:
+                return found
+    return None
 
 
 def _ease_out(p):
@@ -154,7 +258,8 @@ def animate(img_path, out_dir, duration, pos, canvas_pad=1.18):
 
 
 def prepare(clip_index, clip_dir, visuals):
-    assets = CLIPS_DIR / "assets" / f"clip_{clip_index}"
+    clip_key = Path(clip_dir).stem.replace(" ", "_")[:100]
+    assets = CLIPS_DIR / "assets" / f"{clip_key}_{clip_index}"
     assets.mkdir(parents=True, exist_ok=True)
     out = []
     for i, v in enumerate(visuals, start=1):

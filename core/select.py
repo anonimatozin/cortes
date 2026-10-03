@@ -45,12 +45,19 @@ RESEARCH_RULES = (
 def _chat(payload, retries=5):
     last = None
     for attempt in range(retries):
-        r = requests.post(
-            "https://api.groq.com/openai/v1/chat/completions",
-            headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
-            json=payload,
-            timeout=180,
-        )
+        try:
+            r = requests.post(
+                "https://api.groq.com/openai/v1/chat/completions",
+                headers={"Authorization": f"Bearer {GROQ_API_KEY}"},
+                json=payload,
+                timeout=180,
+            )
+        except requests.RequestException as exc:
+            last = exc
+            if attempt + 1 < retries:
+                time.sleep(min(60, 6 * (2 ** attempt)))
+                continue
+            break
         if r.status_code in (429, 500, 502, 503, 504):
             last = RuntimeError(f"Groq {r.status_code}: {r.text[:150]}")
             time.sleep(min(60, 6 * (2 ** attempt)))

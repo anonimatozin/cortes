@@ -366,5 +366,25 @@
   "clip_index": 3,
   "privacy": "public",
   "uploaded_at": "2026-10-01 20:45:11"
+ },
+ {
+  "id": "kD7ZCJS0pLU",
+  "platform": "youtube",
+  "url": "https://youtube.com/shorts/kD7ZCJS0pLU",
+  "title": "Ele quer dominar o servidor",
+  "job": "1790893814694",
+  "clip_index": 3,
+  "privacy": "public",
+  "uploaded_at": "2026-10-02 19:45:13"
+ },
+ {
+  "id": "NWuSySEZNGo",
+  "platform": "youtube",
+  "url": "https://youtube.com/shorts/NWuSySEZNGo",
+  "title": "Um Novo Rei no End Surge",
+  "job": "1790893814694",
+  "clip_index": 1,
+  "privacy": "public",
+  "uploaded_at": "2026-10-02 20:45:14"
  }
 ]

@@ -8,7 +8,7 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     sys.stderr.reconfigure(encoding="utf-8", errors="replace")
 
-from core import analyze, art, captions, config, editor, fetch, face, render, research, select, shopee, store, transcribe
+from core import analyze, art, captions, config, editor, fetch, render, research, select, shopee, store, transcribe
 from core.config import CLIPS_DIR, SOURCE_DIR
 
 
@@ -24,7 +24,13 @@ def _dedupe_tags(tags):
 
 
 def compose_tiktok_caption(clip, limit=2100):
-    txt = f"{clip.get('title', '')}\n\n{clip.get('description', '')}".strip()
+    txt = (clip.get("legenda_tiktok") or
+           f"{clip.get('title', '')}\n\n{clip.get('description', '')}").strip()
+    hashtags = research.clean_hashtags(clip.get("hashtags") or ["#cortes"], config.HASHTAGS_MAX)
+    existing = {token.lower() for token in txt.split() if token.startswith("#")}
+    missing = [tag for tag in hashtags if tag.lower() not in existing]
+    if missing:
+        txt = f"{txt}\n\n{' '.join(missing)}".strip()
     if len(txt) > limit:
         txt = txt[:limit].rsplit(" ", 1)[0]
     return txt
@@ -79,12 +85,13 @@ def _gerar_divulgacao(clip, job):
         log(f"  [divulgacao] pulou: {exc}")
 
 
-def _youtube_meta(edit, ai, ctx, meta):
-    titulos = (edit or {}).get("titulos") or []
-    title = (titulos[0] if titulos else None) or ai.get("title") or ai.get("hook") or "corte"
+def _youtube_meta(edit, ai, ctx, meta, clip_text=""):
+    title = editor.best_title(
+        edit, ai, clip_text or (edit or {}).get("descricao") or ai.get("description", "")
+    )
     desc = ((edit or {}).get("descricao") or "").strip() or (ai.get("description") or "").strip()
     hashtags = research.clean_hashtags(
-        (edit or {}).get("hashtags") or ai.get("hashtags"), config.HASHTAGS_MAX
+        (edit or {}).get("hashtags") or ai.get("hashtags") or ["#cortes", "#shorts"], config.HASHTAGS_MAX
     )
     parts = [desc]
     if hashtags:
@@ -95,18 +102,15 @@ def _youtube_meta(edit, ai, ctx, meta):
     if promo:
         parts.append(promo)
     base = editor.all_tags(edit) or (ai.get("tags") or [])
-    tags = _dedupe_tags(base + [meta.get("channel") or ""] + ["cortes", "shorts"])
+    base = research.clean_tags(base + [meta.get("channel") or "", "cortes", "shorts"], 24)
+    tags = _dedupe_tags(base)
     return title, "\n\n".join(p for p in parts if p), hashtags, tags
 
 
 def _short_credit(ctx):
     if config.CREDITS_STYLE == "off":
         return ""
-    channel = (ctx.get("channel") or "").strip()
-    url = (ctx.get("url") or "").strip()
-    if not channel:
-        return ""
-    return f"Créditos: {channel}" + (f"\n{url}" if url else "")
+    return research.credit_block(ctx, "full").strip()
 
 
 def _platform_text(edit, ai, ctx, limit=1500, with_hook=False):
@@ -137,7 +141,7 @@ def _platform_text(edit, ai, ctx, limit=1500, with_hook=False):
 
 
 def _tiktok_text(edit, ai, ctx):
-    return _platform_text(edit, ai, ctx, limit=1400)
+    return _platform_text(edit, ai, ctx, limit=2100)
 
 
 def _reels_text(edit, ai, ctx):
@@ -209,6 +213,8 @@ def cmd_auth(args):
 
 
 def cmd_run(args):
+    from core import face
+
     job = store.find_job_by_url(args.url) or store.new_job(args.url)
     meta = job.get("meta") or {}
 
@@ -271,7 +277,7 @@ def cmd_run(args):
             sec = f" (+{', '.join(edit['tipos_secundarios'])})" if edit["tipos_secundarios"] else ""
             log(f"     [{i}] tipo={edit['tipo']}{sec} dinamismo={edit['dinamismo']}")
             log(f"         edicao: {edit['edicao']['cortes'][:110]}")
-        zoom, push, cap_size = editor.zoom_profile(edit.get("dinamismo"))
+        zoom, push, cap_size = editor.motion_profile(edit, c.get("text", ""))
         slug = (
             ai.get("hook")
             or             ai.get("title")
@@ -314,7 +320,7 @@ def cmd_run(args):
                 zoom=zoom, push=push, caption_size=cap_size,
             )
             log(f"     [{i}] {out.name}  {info['duration']}s  {info['size'] // 1024}KB")
-        title, description, hashtags, tags = _youtube_meta(edit, ai, ctx, meta)
+        title, description, hashtags, tags = _youtube_meta(edit, ai, ctx, meta, c.get("text", ""))
         clip = {
             "index": i,
             "path": info["path"],
@@ -476,6 +482,8 @@ def cmd_publish(args):
                         r = tiktok.upload_draft(clip["path"], on_progress=log)
                         res = {"id": r["publish_id"], "url": "", "title": clip["title"],
                                "caption": cap, "status": r.get("status", ""), "mode": "inbox"}
+                        log("  TikTok Upload enviou um rascunho para a caixa de entrada; "
+                            "ele só terá views depois de publicar no app.")
             except youtube.QuotaError as exc:
                 log(f"  {exc}")
                 log("cota real do YouTube atingida, parando aqui")
@@ -623,6 +631,8 @@ def cmd_list(args):
 
 
 def cmd_clip(args):
+    from core import face
+
     src = Path(args.source)
     words = json.loads((SOURCE_DIR / f"{src.stem}.transcript.json").read_text(encoding="utf-8"))["words"]
     out = CLIPS_DIR / args.out if args.out else render.clip_filename(1, src.stem)

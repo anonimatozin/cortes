@@ -9,7 +9,12 @@ JOBS_PATH = QUEUE_DIR / "jobs.json"
 
 def load_jobs():
     if JOBS_PATH.exists():
-        return json.loads(JOBS_PATH.read_text(encoding="utf-8"))
+        try:
+            data = json.loads(JOBS_PATH.read_text(encoding="utf-8"))
+            if isinstance(data, dict) and isinstance(data.get("jobs"), list):
+                return data
+        except (OSError, json.JSONDecodeError):
+            pass
     return {"jobs": []}
 
 

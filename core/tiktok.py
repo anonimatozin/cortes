@@ -10,7 +10,9 @@ from pathlib import Path
 import requests
 
 from .config import (TOKENS_DIR, TIKTOK_CLIENT_KEY, TIKTOK_CLIENT_SECRET,
-                     TIKTOK_MODE, TIKTOK_PRIVACY, TIKTOK_REDIRECT_URI)
+                     TIKTOK_MODE, TIKTOK_POLL_SECONDS, TIKTOK_POLL_TIMEOUT,
+                     TIKTOK_BRAND_CONTENT, TIKTOK_BRAND_ORGANIC, TIKTOK_IS_AIGC,
+                     TIKTOK_PRIVACY, TIKTOK_REDIRECT_URI)
 
 BASE = "https://open.tiktokapis.com"
 AUTHORIZE = "https://www.tiktok.com/v2/auth/authorize/"
@@ -203,17 +205,40 @@ def auth_with_code(code):
 
 
 def _post(url, payload, token):
-    r = requests.post(
-        url,
-        headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=UTF-8"},
-        json=payload,
-        timeout=120,
-    )
-    data = r.json()
-    err = (data.get("error") or {}).get("code")
-    if err and err != "ok":
-        raise RuntimeError(f"TikTok {err}: {(data.get('error') or {}).get('message','')}")
-    return data.get("data") or {}
+    last = None
+    for attempt in range(4):
+        try:
+            r = requests.post(
+                url,
+                headers={"Authorization": f"Bearer {token}", "Content-Type": "application/json; charset=UTF-8"},
+                json=payload,
+                timeout=120,
+            )
+            try:
+                data = r.json()
+            except ValueError as exc:
+                last = RuntimeError(f"TikTok respondeu HTTP {r.status_code} sem JSON: {r.text[:300]}")
+                if r.status_code >= 500 and attempt < 3:
+                    time.sleep(2 ** attempt)
+                    continue
+                raise last from exc
+            err = (data.get("error") or {}).get("code")
+            if (err and err != "ok") or r.status_code >= 400:
+                message = (data.get("error") or {}).get("message", "")
+                detail = f"TikTok {err or r.status_code}: {message}"
+                if r.status_code in (429, 500, 502, 503, 504) and attempt < 3:
+                    last = RuntimeError(detail)
+                    time.sleep(2 ** attempt)
+                    continue
+                raise RuntimeError(detail)
+            return data.get("data") or {}
+        except requests.RequestException as exc:
+            last = exc
+            if attempt < 3:
+                time.sleep(2 ** attempt)
+                continue
+            raise RuntimeError(f"TikTok rede indisponível: {exc}") from exc
+    raise last or RuntimeError("TikTok falhou sem detalhes")
 
 
 def can_direct():
@@ -221,7 +246,9 @@ def can_direct():
         scopes = _access_token().get("scopes") or ""
     except Exception:
         return False
-    return "video.publish" in scopes
+    if isinstance(scopes, list):
+        return "video.publish" in scopes
+    return "video.publish" in str(scopes).replace(",", " ").split()
 
 
 def upload_draft(path, on_progress=None):
@@ -238,6 +265,9 @@ def upload_direct(path, title, privacy_level=None, on_progress=None):
         "disable_comment": False,
         "disable_stitch": False,
         "video_cover_timestamp_ms": 1000,
+        "brand_content_toggle": TIKTOK_BRAND_CONTENT,
+        "brand_organic_toggle": TIKTOK_BRAND_ORGANIC,
+        "is_aigc": TIKTOK_IS_AIGC,
     }
     return _send(path, DIRECT_INIT_URL, post_info, on_progress=on_progress)
 
@@ -307,10 +337,31 @@ def _send(path, init_url, post_info, on_progress=None):
             if on_progress:
                 on_progress(f"  chunk {i + 1}/{chunks}")
 
-    status = fetch_status(publish_id, token)
+    status = wait_for_status(publish_id, token)
     return {"publish_id": publish_id, "status": status.get("status", ""), "id": publish_id}
 
 
 def fetch_status(publish_id, token=None):
     token = token or _access_token()["access_token"]
     return _post(STATUS_URL, {"publish_id": publish_id}, token)
+
+
+def wait_for_status(publish_id, token=None, timeout=None, interval=None):
+    """Aguarda o processamento sem confundir inbox pendente com publicação pública."""
+    token = token or _access_token()["access_token"]
+    timeout = timeout if timeout is not None else TIKTOK_POLL_TIMEOUT
+    interval = interval if interval is not None else TIKTOK_POLL_SECONDS
+    deadline = time.time() + timeout
+    last = {}
+    while time.time() < deadline:
+        last = fetch_status(publish_id, token)
+        status = str(last.get("status") or "").upper()
+        if status in {"PUBLISH_COMPLETE", "SEND_TO_USER_INBOX", "FAILED"}:
+            if status == "FAILED":
+                reason = last.get("fail_reason") or "motivo não informado"
+                raise RuntimeError(f"TikTok publicação falhou: {reason}")
+            return last
+        time.sleep(interval)
+    raise TimeoutError(
+        f"TikTok status não concluiu em {timeout}s: {last.get('status') or 'desconhecido'}"
+    )
