@@ -1,4 +1,5 @@
 import os
+import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -17,8 +18,13 @@ for d in (SOURCE_DIR, CLIPS_DIR, QUEUE_DIR, TOKENS_DIR, CRED_DIR, LOG_DIR, MODEL
 if not FONTS_DIR.exists():
     ref = Path(r"C:\Users\Administrator\Documents\Default Project\video-edit\fonts")
     if ref.exists():
-        import shutil
         shutil.copytree(ref, FONTS_DIR)
+
+if not shutil.which("ffmpeg"):
+    for _dir in (r"C:\Users\Administrator\AppData\Local\Microsoft\WinGet\Links",):
+        if (Path(_dir) / "ffmpeg.exe").exists():
+            os.environ["PATH"] = _dir + os.pathsep + os.environ.get("PATH", "")
+            break
 
 ENV_PATH = ROOT / ".env"
 

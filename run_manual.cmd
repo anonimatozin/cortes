@@ -1,5 +1,6 @@
 @echo off
-rem Manda um video pro bot. Edite a URL abaixo e rode:
+rem Manda videos pro bot (sequencia). Dispare com:
 rem   schtasks /run /tn CortesRunManual
 cd /d "C:\Users\Administrator\Documents\cortes"
-python -X utf8 cortes.py run https://youtu.be/URL_AQUI --publish > "logs\run_manual.log" 2>&1
+python -X utf8 cortes.py run https://youtu.be/7vqxsEBg1Cc --publish > "logs\run_manual.log" 2>&1
+python -X utf8 cortes.py run https://youtu.be/aVh0QMKKK6M --publish >> "logs\run_manual.log" 2>&1
