@@ -16,8 +16,8 @@ CATALOG_PATH = QUEUE_DIR / "shopee_catalog.txt"
 
 Q_PRODUCT = """
 query ($keyword: String, $page: Int, $limit: Int, $sortType: Int) {
-  productOffer(keyword: $keyword, page: $page, limit: $limit, sortType: $sortType) {
-    edges { node { id name productName price commissionRate productUrl url offerLink imageUrl image } }
+  productOfferV2(keyword: $keyword, page: $page, limit: $limit, sortType: $sortType) {
+    nodes { itemId productName price commissionRate productLink offerLink imageUrl shopName ratingStar sales }
     pageInfo { hasNextPage }
   }
 }
@@ -34,7 +34,7 @@ query ($keyword: String, $page: Int, $limit: Int, $sortType: Int) {
 
 Q_SHORT = """
 mutation ($originUrl: String!, $subIds: [String!]) {
-  generateShortLink(originUrl: $originUrl, subIds: $subIds) { shortLink }
+  generateShortLink(input: { originUrl: $originUrl, subIds: $subIds }) { shortLink }
 }
 """
 
@@ -96,7 +96,7 @@ def _norm_rate(v):
 
 def _norm_item(node, source):
     name = (node.get("productName") or node.get("name") or node.get("offerName") or "").strip()
-    link = (node.get("offerLink") or node.get("productUrl") or node.get("url") or "").strip()
+    link = (node.get("offerLink") or node.get("productLink") or node.get("productUrl") or node.get("url") or "").strip()
     price = node.get("price") or node.get("priceMin") or ""
     return {
         "name": name,
@@ -111,7 +111,7 @@ def _norm_item(node, source):
 def search(keyword, limit=10):
     if not on() or not keyword:
         return []
-    for query, key, source in ((Q_PRODUCT, "productOffer", "produto"), (Q_OFFER, "shopeeOfferV2", "oferta")):
+    for query, key, source in ((Q_PRODUCT, "productOfferV2", "produto"), (Q_OFFER, "shopeeOfferV2", "oferta")):
         try:
             data = _post(query, {"keyword": keyword, "page": 1, "limit": limit, "sortType": 2})
         except Exception:
