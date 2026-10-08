@@ -23,6 +23,22 @@ def _ff(path):
     return str(path).replace("\\", "/").replace(":", "\\:").replace("'", "\\'")
 
 
+def _med(vals):
+    s = sorted(vals)
+    n = len(s)
+    return (s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2.0)
+
+
+def _face_center(track, src_w, src_h, cw, ch):
+    mfx = _med([p[1] for p in track])
+    mfy = _med([p[2] for p in track])
+    cx = min(max(mfx * src_w - cw / 2, 0.0), src_w - cw)
+    cy = min(max(mfy * src_h - ch * 0.40, 0.0), src_h - ch)
+    fcx = min(max((mfx * src_w - cx) / cw, 0.0), 1.0)
+    fcy = min(max((mfy * src_h - cy) / ch, 0.0), 1.0)
+    return fcx, fcy
+
+
 def _lerp(points):
     if not points:
         return "0"
@@ -87,7 +103,7 @@ def _base_chain(src_w, src_h, reframe, duration, punch_sec=0.5, push=0.06, manua
             pts_x.append((float(t), min(max(tfx * src_w - cw / 2, 0.0), src_w - cw)))
             pts_y.append((float(t), min(max(tfy * src_h - ch * 0.40, 0.0), src_h - ch)))
         crop_xy = f":x='{_lerp(pts_x)}':y='{_lerp(pts_y)}'"
-        fcx, fcy = 0.5, 0.40
+        fcx, fcy = _face_center(track, src_w, src_h, cw, ch)
     else:
         cx = int(round(min(max(fx * src_w - cw / 2, 0), src_w - cw)))
         cy = int(round(min(max(fy * src_h - ch * 0.40, 0), src_h - ch)))

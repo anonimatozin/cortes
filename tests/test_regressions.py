@@ -7,7 +7,7 @@ from unittest.mock import Mock, patch
 
 import numpy as np
 
-from core import analyze, art, config, editor, research, select, store, tiktok
+from core import analyze, art, config, editor, face, render, research, select, store, tiktok
 from cortes import _parse_verify, compose_tiktok_caption
 
 
@@ -169,6 +169,36 @@ class RegressionTests(unittest.TestCase):
         ok = _parse_verify("Resultado: APROVADO | 0 falha(s), 2 aviso(s)\n", 0)
         self.assertTrue(ok["passed"])
         self.assertFalse(ok["falhas"])
+
+
+    def test_face_head_transform_and_deadband_freeze(self):
+        d = {"t": 1.0, "fx": 0.5, "fy": 0.70, "fw": 0.10, "fh": 0.20}
+        hd = face._head_det(d)
+        self.assertAlmostEqual(hd["fh"], 0.20 * face.HEAD_SCALE)
+        self.assertAlmostEqual(hd["fy"], 0.70 - face.HEAD_UP * 0.20)
+        tremendo = [[i * 0.5, 0.5 + (0.001 if i % 2 else -0.001),
+                     0.6 + (0.001 if i % 3 else -0.001), 0.2] for i in range(10)]
+        frozen = face._freeze_axes(tremendo)
+        self.assertEqual(len({p[1] for p in frozen}), 1)
+        self.assertEqual(len({p[2] for p in frozen}), 1)
+        andando = [[i * 0.5, 0.1 + i * 0.05, 0.6, 0.2] for i in range(10)]
+        movido = face._freeze_axes(andando)
+        self.assertGreater(max(p[1] for p in movido) - min(p[1] for p in movido), face.DEADBAND)
+
+    def test_face_center_after_clamp_keeps_head_inside_zoom_window(self):
+        track = [[0.0, 0.134, 0.640, 0.211], [21.0, 0.134, 0.640, 0.211], [42.0, 0.134, 0.640, 0.211]]
+        fcx, fcy = render._face_center(track, 1920, 1080, 504, 895)
+        cy = min(max(0.640 * 1080 - 895 * 0.40, 0.0), 1080 - 895)
+        self.assertAlmostEqual(cy, 185.0)
+        self.assertAlmostEqual(fcy, (0.640 * 1080 - cy) / 895, places=3)
+        self.assertNotAlmostEqual(fcy, 0.40, places=1)
+        kmax = 2.2
+        win_y = cy + (fcy - 0.40 / kmax) * 895
+        win_h = 895 / kmax
+        cabeca_topo = (0.640 - 0.5 * 0.211) * 1080
+        cabeca_base = (0.640 + 0.5 * 0.211) * 1080
+        self.assertGreaterEqual(cabeca_topo - win_y, 10)
+        self.assertGreaterEqual((win_y + win_h) - cabeca_base, 10)
 
 
 if __name__ == "__main__":

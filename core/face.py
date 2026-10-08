@@ -11,6 +11,9 @@ HAAR = MODELS_DIR / "haarcascade_frontalface_default.xml"
 
 SAMPLE_FPS = 3.0
 PROC_WIDTH = 480
+HEAD_SCALE = 1.22
+HEAD_UP = 0.23
+DEADBAND = 0.035
 
 
 def probe(path):
@@ -93,17 +96,34 @@ def focus_for_clip(source, start, end):
     if not dets:
         return {"fx": 0.5, "fy": 0.40, "fh": 0.26, "found": False, "samples": 0}
     duration = max(0.2, end - start)
+    hdets = [_head_det(d) for d in dets]
     out = {
-        "fx": float(np.median([d["fx"] for d in dets])),
-        "fy": float(np.median([d["fy"] for d in dets])),
-        "fh": float(np.median([d["fh"] for d in dets])),
+        "fx": float(np.median([d["fx"] for d in hdets])),
+        "fy": float(np.median([d["fy"] for d in hdets])),
+        "fh": float(np.median([d["fh"] for d in hdets])),
         "found": True,
         "samples": len(dets),
     }
-    track = _track(dets, start, duration)
+    track = _track(hdets, start, duration)
     if len(track) >= 4:
-        out["track"] = track
+        out["track"] = _freeze_axes(track)
     return out
+
+
+def _head_det(d):
+    fh = d["fh"]
+    return {"t": d["t"], "fx": d["fx"], "fy": d["fy"] - HEAD_UP * fh,
+            "fw": d["fw"] * HEAD_SCALE, "fh": fh * HEAD_SCALE}
+
+
+def _freeze_axes(track):
+    for idx in (1, 2):
+        vals = [p[idx] for p in track]
+        if max(vals) - min(vals) < DEADBAND:
+            m = float(np.median(vals))
+            for p in track:
+                p[idx] = m
+    return track
 
 
 def _track(dets, start, duration):
